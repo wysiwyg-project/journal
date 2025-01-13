@@ -1,0 +1,77 @@
+{{ define "main" }}
+{{ $section := .Site.GetPage "section" .Section }}
+<article class="post">
+
+	<p class="back">
+		<a href="{{ if eq .Lang "fr" }}/fr{{ end }}/journal">{{ i18n "section.journal" }}</a>
+	</p>
+
+	<header class="post__header page-title">
+	
+		<h1>
+			{{- .Title -}}
+		</h1>
+
+	
+
+	</header>
+
+	<div class="details">
+		<p class="lang">{{ .Lang }}</p>
+		<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+			{{ .Date.Format "02-01-2006" }}
+		</time>
+	</div>
+
+			
+			{{ if eq .Language.Lang "fr" }}
+		
+			  {{ with .Params.translation }}
+			  <div class="utils" id="i18n">
+				<p>
+			  Text also in english:
+				<a href="{{ . }}">{{ . }}</a>
+				</p>
+				</div>
+			{{ end }}
+			{{ else }}
+			
+			{{ with .Params.translation }}
+			<div class="utils" id="i18n">
+				<p>
+					Texte également disponible en français:
+				<a href="{{ . }}">{{ . }}</a>
+			</p>
+		</div>
+			{{ end }}
+			{{ end }}
+			
+
+			
+
+
+
+
+		
+
+
+	<div class="content post__content">
+		
+		{{ .Content
+			| replaceRE `<a ([^>]+)>` `<a $1 target="_blank">`
+			| replaceRE `<p><img alt="([^"]+)" src="([^"]+)" title="([^"]+)"></p>` 
+						`<figure><img alt="$1" src="$2" title="$3"><figcaption>$3</figcaption></figure>`
+			| replaceRE `<p><img src="([^"]+)" title="([^"]+)"></p>` 
+						`<figure><img src="$1" title="$2"><figcaption>$2</figcaption></figure>`
+			| replaceRE `<p><img alt="([^"]+)" src="([^"]+)"></p>` 
+						`<figure><img alt="$1" src="$2"></figure>`
+			| replaceRE `<p><img src="([^"]+)"></p>` 
+						`<figure><img src="$1"></figure>`
+			| safeHTML 
+		}}
+		
+	</section>
+
+
+</article>
+{{ end }}

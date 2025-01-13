@@ -1,0 +1,37 @@
+.static__content{
+}
+
+
+
+body[data-name*="bibliography"] {
+    .content {
+        p {
+            margin-bottom: var(--baseline);
+        }
+        h1, h2{
+            @include underline();
+        }
+    }
+
+   
+}
+
+
+body[data-name*="publications"] {
+    .content {
+        p {
+            margin-top: calc(var(--baseline)*1.5);
+            margin-left: 2ch;
+            &::before{
+                content: var(--arrow);
+                position: absolute;
+                left: 0ch;
+            }
+        }
+
+        ul{
+            margin-left: var(--indent);
+           
+        }
+    }
+}
