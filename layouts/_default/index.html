@@ -24,4 +24,20 @@
 	</div>
 
 
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      // Wait for the Netlify Identity widget to load
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            // Prompt login if the user is not logged in
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+
+
 {{ end }}
