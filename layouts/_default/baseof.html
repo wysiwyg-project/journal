@@ -15,8 +15,8 @@
 	 {{ $styles := resources.Get "scss/main.scss" | css.Sass }}
 	<link rel="stylesheet" href="{{ $styles.RelPermalink }}">	
 
-	{{ $js := resources.Get "js/main.js" }}   <!-- Récupérer le fichier main.js depuis le dossier 'assets/js' -->
-    <script src="{{ $js.RelPermalink }}"></script>
+	<!-- {{ $js := resources.Get "js/main.js" }}   
+    <script src="{{ $js.RelPermalink }}"></script> -->
 
 	<link rel="stylesheet" href="/fonts/ChicagoFLF/stylesheet.css">
 	<link rel="stylesheet" href="/fonts/FK_Grotesk-Neue/stylesheet.css">
@@ -48,7 +48,7 @@
 	
 	<div id="grid-paper" aria-hidden="true"><div id="grid-paper-inside"></div></div>
 	<div id="baseline-grid" aria-hidden="true"></div>
-	
+	{{ partial "script.html" . }}
 </body>
 
 </html>
