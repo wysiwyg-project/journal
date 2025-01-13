@@ -1,9 +1,6 @@
 backend:
-  name: github
-  repo: "wysiwyg-project/journal-dev"
-  branch: main
-  auth_type: oauth
-  client_id: "Iv23liVWyVtSCSrmYi8k"
+  name: identity  
+  auth_type: netlify  # Authentification via Netlify Identity
 media_folder: "static/uploads" 
 public_folder: "/uploads"
 collections:
