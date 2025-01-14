@@ -1,6 +1,6 @@
 .list-posts__item{
     margin-bottom: calc(var(--baseline)*2);
-
+    max-width: 52ch;
     .lang{ 
         @include lang();
         // padding-left: var(--indent);

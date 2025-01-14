@@ -1,5 +1,11 @@
 #list-team .list-team__item {
     margin-top: calc(var(--baseline)*3);
+    &:first-of-type{
+        margin-top: calc(var(--baseline)*2);
+    }
+
+
+
     h1{
         padding-left: var(--indent);
         padding-right: calc(var(--grid-unit)/2);
@@ -38,8 +44,9 @@
 
     ul {
         list-style: var(--list);
-        margin-left: 1.25ch;
+        margin-left: 1.5ch;
     }
 
+ 
 }
 

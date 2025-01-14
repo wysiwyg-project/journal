@@ -67,7 +67,7 @@
 
 $medium: "screen and (max-width: 960px)";
 $phone: "screen and (max-width: 640px)";
-
+$big: "screen and (min-width: 1900px)";
 
 
 @media #{$phone}{
