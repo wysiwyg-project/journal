@@ -8,7 +8,7 @@
     margin-right: calc(var(--icons-size)*-1);
     position: relative;
     left: calc(var(--icons-size)*-1);
-    top: calc(var(--icons-size) +  var(--margin));
+    top: calc(var(--icons-size)*3.5 +  var(--margin));
     z-index: 10;
 
 
@@ -28,7 +28,7 @@
         transition: top .5s;
 
         display: flex;
-        
+        opacity: 0;
     }
   
 
@@ -58,6 +58,8 @@
 
 #toggle-palette-checkbox:checked ~ #site-header #buttons-color li{
     top: 0px!important;
+    opacity: 1;
+
 }
 
 

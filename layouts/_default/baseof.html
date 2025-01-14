@@ -35,13 +35,15 @@
 
 	{{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
 
-	{{ partial "menu.html" . }}
-	{{ partial "aside-buttons.html" . }}
-			
+	<nav role="navigation" id="menu-phone">{{ partial "menu.html" . }}</nav>
 	
 	<main role="main">
 		{{ block "main" . }}{{ end }}
 	</main>
+
+	<nav role="navigation" id="menu">{{ partial "menu.html" . }}</nav>
+
+	{{ partial "aside-buttons.html" . }}
 	
 	<div id="grid-paper" aria-hidden="true"><div id="grid-paper-inside"></div></div>
 	<div id="baseline-grid" aria-hidden="true"></div>

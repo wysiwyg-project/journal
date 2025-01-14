@@ -10,17 +10,11 @@
             font-family: var(--chicago);
             font-weight: normal;
             font-size: var(--font-size-big);
-            
-            position: relative;
-            top: 0px;
-            margin-right: 0.75ch;
-           
+            margin-right: 0.75ch;           
         }
 
        
         #header-buttons{
-            position: relative;
-            top: 0px;
             display: flex;
             justify-content: flex-start;
             align-items: center;
@@ -76,10 +70,16 @@ body[data-grid="true"] #site-header #grid-switcher{
 
 
 @media #{$medium}{ 
-    #site-header #toggle-menu{
-        display: flex;
-        position: absolute;
-        right: var(--padding);
+    #site-header{
+        #toggle-menu{
+            display: flex;
+            position: absolute;
+            right: var(--padding);
+        }
+
+        h1{
+            margin-left: calc(var(--grid-unit) + var(--gap));
+        }
     }
 
 }
@@ -89,15 +89,13 @@ body[data-grid="true"] #site-header #grid-switcher{
     #site-header{
         h1{
             line-height: calc(var(--baseline)*1.5); 
-            top: 0;
+            margin-left: 0;
           
         }
 
-        #header-buttons{
-            top: 0px;
-        }
-
     }
+
+    #toggle-move{ display: none!important; }
    
 } 
 

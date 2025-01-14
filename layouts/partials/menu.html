@@ -1,4 +1,4 @@
-<nav role="navigation" id="menu" class="hidden">
+
 
     {{ $defaultLang := index .Site.Languages 0 }}
     {{ $lang := .Site.Language.Lang | lower }}
@@ -20,27 +20,9 @@
     {{ end }}
 
 
-</nav>
 
 
 
 
 
 
-
-
-
-
-{{/* WITHOUT MULTINLINGUAL: */}}
-
-{{/*
-<!-- <nav role="navigation">
-	{{ if .Site.Menus.main }}
-	<ul>
-		{{ range .Site.Menus.main }}
-		<li><a href="{{ .URL }}" title="{{ .Name }} page">{{ .Name }}</a></li>
-		{{ end }}
-	</ul>
-	{{ end }}
-</nav>  -->
-*/}}

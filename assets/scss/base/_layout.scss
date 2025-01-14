@@ -48,6 +48,11 @@ body{
     z-index: 100;
 }
 
+#menu-phone{ 
+    display: none; 
+    z-index: 160;
+}
+
 
 main{
     grid-column: 6/12;
@@ -71,12 +76,13 @@ main{
     body{
         --columns: 8;
         --grid-unit: calc(var(--width-grid)/8);
-        grid-template-columns: repeat(8, var(--grid-unit));
+        display: block;
     }
 
     main{
-        grid-column: 2/8;
-        margin-top: calc(var(--baseline)*3);
+        margin-left: calc(var(--padding) + var(--grid-unit) - var(--gap));
+        margin-right: calc(var(--padding) + var(--grid-unit) - var(--gap)*2);
+        margin-top: calc(var(--baseline)*5);
     }
 
 
@@ -91,14 +97,21 @@ main{
     }
 
 
-    #menu{
+    #menu-phone{
         background-color: var(--color-bg);
         top: 0px;
-        // left: 0px;
-        width: 100%;
-        height: 100%;
+        left: 0px;
+        width: 100vw;
+        height: 100vh;
+        display: block;
+        position: fixed;
     }
-  
+
+    #menu{
+        margin-left: calc(var(--padding) + var(--grid-unit) - var(--gap));
+        display: none;
+    }
+
 
   
 
@@ -124,5 +137,11 @@ main{
 
     main{
         margin-top: calc(var(--baseline)*5.25);
+        margin-left: 0;
+        margin-right: 0; 
+    }
+
+    #menu{
+        margin-left: 0;
     }
 }

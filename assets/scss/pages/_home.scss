@@ -38,3 +38,37 @@
     }
 }
 
+
+@media #{$medium}{
+    .page-home{
+
+        main{
+            min-height: 0px!important;
+            padding-bottom: 0px;
+        }
+
+
+        .baseline{
+            margin-left: 0;
+        }
+        .details{
+            margin-left: 0;
+            max-width: 24ch;
+        }
+
+        #fns{ 
+            position: relative;
+            top: 0px;
+            margin-left: 0px;
+            display: none;
+        }
+
+
+        #menu{
+            display: block;
+        }
+      
+    }
+
+  
+}
