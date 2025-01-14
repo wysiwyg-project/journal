@@ -8,7 +8,7 @@
     margin-right: calc(var(--icons-size)*-1);
     position: relative;
     left: calc(var(--icons-size)*-1);
-    top: calc(12px + var(--icons-size) +  var(--margin));
+    top: calc(var(--icons-size) +  var(--margin));
     z-index: 10;
 
 

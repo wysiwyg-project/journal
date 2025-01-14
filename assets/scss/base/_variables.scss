@@ -65,3 +65,18 @@
 [data-color="var(--color-bg-5)"]{ --color-bg: var(--color-bg-5); }
 
 
+$medium: "screen and (max-width: 960px)";
+$phone: "screen and (max-width: 640px)";
+
+
+
+@media #{$phone}{
+    :root{ 
+        --font-size-big: 28px;
+        --font-size: 16px;
+        --baseline: 22px;
+
+    }
+   
+
+}

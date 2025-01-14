@@ -13,6 +13,9 @@
     line-height: calc(var(--baseline)*2);
     transition: text-indent 0.2s linear 0s;
 
+    @media #{$phone}{  
+      line-height: calc(var(--baseline)*1.5); 
+    } 
 
 
    
@@ -37,62 +40,93 @@
      
     }
   }
+
+  li span {
+    transition: all 0.2s linear 0s;
+    
+    &:before {
+      content: "\f178";
+      // font-family: FontAwesome;
+      font-size: 15px;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      right: 0;
+      top: 0;
+      opacity: 0;
+      height: 100%;
+      width: 40px;
+      transition: all 0.2s linear 0s;
+    }
+    
+    &:hover {
+      text-indent: -20px;
+      
+      &:before {
+        opacity: 1;
+        text-indent: 0px;
+      }
+    }
+  }
+
+
 }
 
 
-span {
-  transition: all 0.2s linear 0s;
-  
-  &:before {
-    content: "\f178";
-    font-family: FontAwesome;
-    font-size: 15px;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    right: 0;
-    top: 0;
-    opacity: 0;
-    height: 100%;
-    width: 40px;
-    transition: all 0.2s linear 0s;
-  }
-  
-  &:hover {
-    text-indent: -20px;
+
+@media #{$medium}{
+
+  #menu{
+    top: -100vh;
+    // transition: top 1s;
+    // border-bottom: 2px solid var(--black);
+    padding-right: calc(var(--padding)*2);
+    ul{
     
-    &:before {
-      opacity: 1;
-      text-indent: 0px;
+      // padding-top: calc(var(--baseline)*5);
+      justify-content: center;
+      align-items: center;
+
+      li{ 
+        text-indent: 0px!important; 
+        margin-bottom: calc(var(--baseline)*0.5);
+      }
+      li:before{ display: none!important; }
     }
   }
+
+  #toggle-menu-checkbox:checked ~ #menu {
+    top: 0vh;
+  }
+  
+
 }
 
 
 
 // BUTTON MENU -----------------------------------------------------------
 
-#menu-toggle{  
-  
-    @include button(var(--color-bg), var(--black));
-    --button-size: calc(var(--button-size-original) + 2px);
 
-    display: flex;
+
+
+#toggle-menu{ 
+    margin-left: 1.5ch!important;
+ 
+    background-color: var(--black)!important;
+
     justify-content: center;
     align-items: center;
-  
-    display: none;
 
     --color: var(--color-bg);
-    --size: 14px;
+    --size-menu: 16px;
     --height: 2px;
     cursor: pointer;
     
     span {
       position: relative;
       display: block;
-      width: var(--size);
+      width: var(--size-menu);
       height: var(--height);
       background: var(--color);
       transition: all .2s ease-in-out;
@@ -102,7 +136,7 @@ span {
         left: 0px;
         background: var(--color);
         content: '';
-        width: var(--size);
+        width: var(--size-menu);
         height: var(--height);
         transition: all .2s ease-in-out;
       }
@@ -117,7 +151,7 @@ span {
     }
   }
   
-  #menu-toggle.menu-active {
+  #toggle-menu-checkbox:checked ~ #site-header #toggle-menu {
     --left: 3px;
     --top: 3px;
     span {
@@ -132,3 +166,5 @@ span {
       }
     }
   } 
+
+

@@ -20,8 +20,12 @@
     position: relative;
     top: 6px;
     margin-bottom: calc(var(--baseline)*3);
-}
 
+    @media #{$phone}{
+        line-height: calc(var(--baseline)*1.5);
+    }
+
+}
 
 
 

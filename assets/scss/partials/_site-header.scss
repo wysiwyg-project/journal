@@ -2,7 +2,7 @@
 
     display: flex;
     justify-content: flex-start;
-    z-index: 100;
+    align-items: center;
 
 
 
@@ -10,21 +10,26 @@
             font-family: var(--chicago);
             font-weight: normal;
             font-size: var(--font-size-big);
+            
             position: relative;
-            top: 15px;
+            top: 0px;
             margin-right: 0.75ch;
+           
         }
 
        
-        // a:hover{
-        //     color: var(--accent);
-         
-        // }
+        #header-buttons{
+            position: relative;
+            top: 0px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100%;
+        }
 
 
         .icon-title{
-            position: relative;
-            top: 12px;
+     
             --size: var(--icons-size);
             z-index: 100;
 
@@ -50,6 +55,8 @@
             }
         }
 
+        #toggle-menu{ display: none; }
+
 }
 
 
@@ -68,11 +75,29 @@ body[data-grid="true"] #site-header #grid-switcher{
 }
 
 
+@media #{$medium}{ 
+    #site-header #toggle-menu{
+        display: flex;
+        position: absolute;
+        right: var(--padding);
+    }
 
-
-
-@media #{$medium}{
-
-  
-   
 }
+
+@media #{$phone}{  
+
+    #site-header{
+        h1{
+            line-height: calc(var(--baseline)*1.5); 
+            top: 0;
+          
+        }
+
+        #header-buttons{
+            top: 0px;
+        }
+
+    }
+   
+} 
+
