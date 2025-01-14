@@ -4,9 +4,13 @@ layout: static
 type: static
 url: about
 ---
+
+
+
+
 The motto WYSIWYG, standing for “What You See Is What You Get”, was coined and quickly adopted in the very early 1980s in the field of desktop publishing (DTP) to describe systems allowing to visualize [on the screen a page](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal), j’ai essayé un changement
 
-* as it will ultimately be printed (Seybold, 2019). - It then came to describe every interactive graphic interfaces used to write, - “paint” or design – as featured on the most-popular Apple Macintosh computer. WYSIWYG interfaces and software gave designers and editors unprecedented control over layout, typography, - and visual elements in print media. Boosting the creativity and possibility to experiment, these tools resulted in a more intuitive, 
+* as it will ultimately be printed (Seybold, 2019). - It then came to describe every interactive graphic interfaces used to write, “paint” or design – as featured on the most-popular Apple Macintosh computer (1984). WYSIWYG interfaces and software gave designers and editors unprecedented control over layout, typography, - and visual elements in print media. Boosting the creativity and possibility to experiment, these tools resulted in a more intuitive, 
   visual-oriented and less-structured \*practice of design\* – therefore questioning the accuracy of the concept of “automation” when it comes to design software (Blauvelt, 2012, McVarish, 2017).
 
 ## Research stream 1: Economy and international networks of graphic design digital revolution
