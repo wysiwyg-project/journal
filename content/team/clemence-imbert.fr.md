@@ -1,8 +1,8 @@
 ---
 title: Clémence Imbert
-role: 'Assistant Professor, HEAD – Genève'
+role: Assistant Professor, HEAD – Genève
 weight: 1
+website: https://www.hesge.ch/head/annuaire/newuser62ea184a18ad3
 language: fr
 ---
-
-Clémence Imbert’s recent research on the graphic history of book covers includes detailed case-studies on computer-based graphics for SF and mysteries (Imbert 2022). She recently published on the seminal work of April Greiman for Design Quarterly 133 and the prominence of women at the crossroads of graphic design and computing from the 1970s to the 1990s (Imbert 2023a); as well as on gendered advertising for computers (Imbert 2023b). CI has experience in comparative work based on wide international corpus, both on- and offline. Her past research includes the study of exhibition archives at MoMA, Centre Pompidou and Stedelijk Museum for her PhD. thesis (2017). 
+Clémence Imbert est chargée de cours dans le département Communication visuelle de la HEAD – Genève. Ses recherches ont porté sur l’histoire des expositions de design graphique pour sa thèse de doctorat (*Œuvres ou documents ? Un siècle d’exposition du graphisme dans les musées d’art moderne de Paris, New York et Amsterdam, 1895-1995*, Université Paris 8, 2017) et sur l’histoire des couvertures de livres (*Les couvertures de livre. Une histoire graphique*, Actes Sud / Imprimerie Nationale éditions, 2022, Prix d’Académie 2023). Elle a récemment publié un essai sur l'enseignement de l'histoire du design graphique en école d'art (*Ce que l'histoire fait au graphisme*, HEAD Publishing, 2024).
