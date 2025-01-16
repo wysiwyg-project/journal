@@ -12,7 +12,7 @@ La période considérée s'étend du milieu des années 1980 avec l'introduction
 
 L'enquête historique sera articulée avec des questions théoriques contemporaines dans le cadre du développement de l'IA. WYSIWYG entend mettre en lumière des questions fondamentales de la théorie du design, telles que la relation entre la technologie et la création, et la frontière entre la maîtrise professionnelle et amateur des outils numériques "créatifs".
 
-Le projet se subdivise en 4 axes :
+Le projet s'organise en 4 axes :
 
 Axe de recherche 1 : Économie et réseaux internationaux de la révolution numérique du graphisme
 
@@ -26,4 +26,6 @@ Axe de recherche 3 : Expérimenter avec le numérique dans l'enseignement du gra
 
 Les écoles et les cursus de graphisme suisses et français ont-ils initié ou suivi la transition vers le numérique ? Comment les ordinateurs ont-ils été utilisés dans la pédagogie du graphisme, et peut-on tracer une évolution d'une formation expérimentale vers une formation plus professionnelle « prête à l'emploi » ? L'hypothèse de cet axe de recherche est que le numérique a été le catalyseur d'un renouveau pédagogique sans précédent, dans lequel l'ordinateur a été utilisé comme outil, médium et impulsion esthétique, dans le cadre d'une pédagogie hautement expérimentale. Cet axe de recherche s'appuiera principalement sur les archives de trois grandes écoles de graphisme : HGK (Bâle), ZHdK (Zurich) et Ensad (Paris), qui comprennent des travaux d'étudiantsdes programmes d'études, des brochures et des documents administratifs. L'analyse des archives sera complétée par des méthodes d'histoire orale. 
 
-Axe de recherche 4 : Au-delà du WYSIWYG
+Axe de recherche 4 : Au-delà du WYSIWYG. Publier pour le print et le web.
+
+Le programme de recherche WYSIWYG est ancré dans la pratique contemporaine du graphisme, avec un regard sur l'avenir de l'impression sur le web, du codage créatif et de l'automatisation du graphisme par l'IA. Dans le sillage de l'interrogation de Taylor Conrad « What has WYSIWYG done to us ? » (1996), cet axe de recherche explore la frontière floue entre WYSIWYG et non-WYSIWYG dans le cadre de l’édition en ligne, des applications mobiles et des services d'IA. Il se concentrera sur des processus créatifs hybrides spécifiques aux technologies web et à la publication multi-supports, y compris les pratiques web-to-print (utilisation de HTML et CSS pour créer des documents imprimés) et la publication web responsive ancrée dans le cadre de la culture libre et open source. D'autre part, le paradigme WYSIWYG est resté central dans les applications de conception à large audience telles que Canva (2010), qui étendent et renouvellent la division entre la conception graphique professionnelle et non professionnelle. Nous souhaitons également étudier l'avenir du WYSIWYG à la lumière des interfaces vocales et neurales émergentes.
