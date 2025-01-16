@@ -12,10 +12,12 @@ La période considérée s'étend du milieu des années 1980 avec l'introduction
 
 L'enquête historique sera articulée avec des questions théoriques contemporaines dans le cadre du développement de l'IA. WYSIWYG entend mettre en lumière des questions fondamentales de la théorie du design, telles que la relation entre la technologie et la création, et la frontière entre la maîtrise professionnelle et amateur des outils numériques "créatifs".
 
-
+Le projet se subdivise en 4 axes :
 
 Axe de recherche 1 : Économie et réseaux internationaux de la révolution numérique du graphisme
 
 Il s'agit de comprendre comment et quand les logiciels de graphisme américains ont été lancés, commercialisés et promus en Suisse et en France. Le projet se concentrera sur les logiciels les plus populaires : Aldus PageMaker (1985), Ready!Set!Go ! (1985), QuarkXPress (1987), Adobe Photoshop (1991) et InDesign (1999), ainsi que sur quelques marques d'ordinateurs utilisés par les professionnels du graphisme (Macintosh à partir de 1984, PC à partir de l'introduction de Windows en 1987, Amiga en 1987). Quels logiciels ont été utilisés en premier et pour quels types de travaux ? Quels ont été les acteurs locaux de la promotion de ces outils (traducteurs des logiciels, revues, instituts de formation, sociétés de conseil...) ? Comment ceux-ci s’appuient-ils sur les réseaux de l’ère de la photocomposition ? Du point de vue des graphistes indépendants, comment l'investissement coûteux dans un ordinateur et ses logiciels a-t-il été financé et justifié ? 
 
 Axe de recherche 2 : Une profession en transition
+
+Le projet entend cerner la manière dont les outils numériques ont modifié la pratique du graphisme entre 1980 et 2000, à la fois du point de vue des caractéristiques stylistiques des artefacts graphiques, mais aussi au travers de témoignages sur l'impact de l'informatisation sur les activités, les gestes, workflows et espaces de travail des graphistes. L'adoption des outils numériques de conception graphique s'articule avec les débats sur l’auctorialité et l'utilité publique qui animent ces décennies. Face à l’émergence d’une pratique non-professionnelle de l’édition et de la communication visuelle, nous étudions ainsi les démarches de certain-e-s graphistes suisses et français qui ont pu réaffirmer leur expertise par des projets auto-inités, expérimentaux et relevant d’une forme d’artisanat digital.
