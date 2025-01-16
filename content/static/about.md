@@ -4,11 +4,23 @@ layout: static
 type: static
 url: about
 ---
+WYISWYG is a 3-year interdisciplinary research project that aims at documenting, from a historical and theoretical perspective, the digital turn of graphic design practice. How and when did the computer become the main working device for graphic designers? And what are the long-term unexpected effects of these technologies on the practice of graphic design today?
+
+The project will produce data, timeline, critical analysis on the economy and distribution networks of WYSIWYG software (acronym of « What You See Is What You Get »: first-used in 1981 the expression designates a specific category of software whose graphic interface makes it possible to visualize a design on the screen as it will ultimately be printed). This includes word-processing systems, desktop publishing (DTP) software used for lay-out as well as software used for computer-based drawing and image-editing. WYSIWYG interfaces and software gave designers and editors unprecedented control over layout, typography, - and visual elements in print media. Boosting the creativity and possibility to experiment, these tools resulted in a more intuitive, visual-oriented and less-structured \*practice of design\*, and therefore questioning the accuracy of the concept of “automation” when it comes to design software.
+
+The period considered stretches from the mid-1980s with the introduction of the first personal computers equipped with graphic design software (in particular the Macintosh from Apple, Inc., 1984) to contemporary discussions regarding their massive generalization. The survey will concentrate on Switzerland and France, in a comparative perspective, and with a focus on the significant intertwining of both countries’ graphic design cultures in this period of great upheaval.
+
+The historical investigation will be articulated with contemporary theoretical questions in the framework of AI development. WYSIWYG intends to shed light on core issues in design theory, such as the relationship between technology and creation, and the border between professional and amateur mastering of “creative” digital tools.
 
 
 
 
-The motto WYSIWYG, standing for “What You See Is What You Get”, was coined and quickly adopted in the very early 1980s in the field of desktop publishing (DTP) to describe systems allowing to visualize [on the screen a page](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal), j’ai essayé un changement
+
+
+
+
+
+The motto WYSIWYG, standing for “What You See Is What You Get”, was coined and quickly adopted in the very early 1980s in the field of desktop publishing (DTP) to describe systems allowing to visualize [on the screen a page](<>), j’ai essayé un changement
 
 * as it will ultimately be printed (Seybold, 2019). - It then came to describe every interactive graphic interfaces used to write, “paint” or design – as featured on the most-popular Apple Macintosh computer (1984). WYSIWYG interfaces and software gave designers and editors unprecedented control over layout, typography, - and visual elements in print media. Boosting the creativity and possibility to experiment, these tools resulted in a more intuitive, 
   visual-oriented and less-structured \*practice of design\* – therefore questioning the accuracy of the concept of “automation” when it comes to design software (Blauvelt, 2012, McVarish, 2017).
