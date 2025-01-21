@@ -1,16 +1,9 @@
-.post__content{
+.post__content,
+[data-name*="about"] .content{
 
     p{
         margin-bottom: var(--baseline);
     }
-
-    // em{
-    //     font-family: "Geist Mono";
-    //     font-weight: normal;
-    //     font-style: normal;
-    // }
-
-
 }
 
 .page-title h1{

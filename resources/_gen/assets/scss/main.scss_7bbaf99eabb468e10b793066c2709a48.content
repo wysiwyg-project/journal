@@ -578,7 +578,8 @@ body[data-grid="true"] #site-header #grid-switcher {
 #buttons-color #color-5 {
   background-color: var(--color-bg-5); }
 
-.post__content p {
+.post__content p,
+[data-name*="about"] .content p {
   margin-bottom: var(--baseline); }
 
 .page-title h1 {
