@@ -1,6 +1,6 @@
 ---
 title: Sandra Bischler-Hartmann
-role: Post-doc, Basel Academy of Art and Design FHNW
+role: Research Assistant, Basel Academy of Art and Design FHNW
 website: https://www.fhnw.ch/de/personen/sandra-bischler
 weight: 2
 language: fr
