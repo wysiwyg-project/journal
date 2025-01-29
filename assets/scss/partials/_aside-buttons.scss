@@ -24,8 +24,20 @@
 
 
     button{
-        @include button(var(--color-bg), var(--black));
+        --size: var(--icons-size);
+        // @include button(var(--color-bg), var(--black));
+        border: 2px solid var(--black);
+        background-color: var(--black);
+            height: var(--size);
+            width: var(--size);
+            border-radius: var(--icons-radius);
         margin-bottom: 3px;
+        color: var(--color-bg);
+
+        svg{
+            width: calc(var(--button-size)*0.55);
+            fill: var(--color-bg);
+        }
 
         label{
             width: 100%;
@@ -34,6 +46,23 @@
             align-items: center;
             justify-content: center;
             &:hover{ cursor: pointer; }
+        }
+
+    
+        // &.active{
+        //     color: var(--color-bg);
+        //     &::before{
+        //         background-color: $color;
+        //         border-color: $color;
+        //     }
+        //     cursor: auto; 
+        // }
+        &:hover{
+            cursor: pointer;
+            background-color: var(--accent);
+            color: var(--black)!important;
+            svg{ fill: var(--black); }
+    
         }
     }
 

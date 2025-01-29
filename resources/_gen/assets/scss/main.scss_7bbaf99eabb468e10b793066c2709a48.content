@@ -445,34 +445,17 @@ body[data-grid="true"] #site-header #grid-switcher {
     border: none; }
 
 #aside-buttons button {
-  border: none;
-  background: none;
-  color: var(--color-bg);
-  position: relative;
-  height: var(--button-size);
-  min-width: var(--button-size);
-  border-radius: calc(var(--button-size)*0.5);
+  --size: var(--icons-size);
+  border: 2px solid var(--black);
   background-color: var(--black);
-  display: flex;
-  align-items: center;
-  margin-bottom: 3px; }
-  #aside-buttons button a {
-    padding: 0 1ch; }
+  height: var(--size);
+  width: var(--size);
+  border-radius: var(--icons-radius);
+  margin-bottom: 3px;
+  color: var(--color-bg); }
   #aside-buttons button svg {
-    width: calc(var(--button-size)*0.45);
+    width: calc(var(--button-size)*0.55);
     fill: var(--color-bg); }
-  #aside-buttons button.active {
-    color: var(--black);
-    cursor: auto; }
-    #aside-buttons button.active::before {
-      background-color: var(--color-bg);
-      border-color: var(--color-bg); }
-  #aside-buttons button:hover {
-    cursor: pointer;
-    background-color: var(--accent);
-    color: var(--black) !important; }
-    #aside-buttons button:hover svg {
-      fill: var(--black); }
   #aside-buttons button label {
     width: 100%;
     height: 100%;
@@ -481,6 +464,12 @@ body[data-grid="true"] #site-header #grid-switcher {
     justify-content: center; }
     #aside-buttons button label:hover {
       cursor: pointer; }
+  #aside-buttons button:hover {
+    cursor: pointer;
+    background-color: var(--accent);
+    color: var(--black) !important; }
+    #aside-buttons button:hover svg {
+      fill: var(--black); }
 
 #aside-buttons button.disable {
   opacity: 0.5;

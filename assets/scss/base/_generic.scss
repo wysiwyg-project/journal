@@ -96,48 +96,6 @@ a{
 }
 
 
-@mixin button($color, $bg){
-
-
-
-    border: none;
-    background: none;
-    color: $color;
-    position: relative;
-    height: var(--button-size);
-    min-width: var(--button-size);
-    border-radius: calc(var(--button-size)*0.5);
-    background-color: var(--black);
-
-    display: flex;
-    align-items: center;
-
-    a{ padding: 0 1ch; }
-
-
-    svg{
-        width: calc(var(--button-size)*0.45);
-        fill: $color;
-    }
-    &.active{
-        color: $bg;
-        &::before{
-            background-color: $color;
-            border-color: $color;
-        }
-        cursor: auto; 
-    }
-    &:hover{
-        cursor: pointer;
-        background-color: var(--accent);
-        color: var(--black)!important;
-        svg{ fill: var(--black); }
-
-    }
-  
-}
-
-
  .draggable{
     position: relative;
     top: 0px;
