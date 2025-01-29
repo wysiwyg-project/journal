@@ -1,9 +1,12 @@
 ---
 title: Caroll Maréchal
-role: 'Post-doc, EHESS'
+role: Post-doc, HEAD-Genève
 weight: 4
+website: carollmarechal.com
 language: fr
 ---
-
-
-Caroll Maréchal carries a Ph.D in Social science (EHESS, 2022), with a thesis dedicated to public collections of graphic design in France, which received the Prix de thèse of EHESS. She was a research fellow at Centre National des Arts Plastiques (Cnap), where she conducted a 2-year investigation of its graphic design collection, studying object’s trajectories, material preservation and digital description.  
+Caroll Maréchal est docteure en sciences sociales et graphiste. En décembre 2022, elle a soutenu, à l'École des hautes études en sciences sociales (EHESS), une thèse intitulée «Les collections de design graphique dans les institutions publiques en France. Histoire et pratiques», récompensée par le prix de thèse de l'EHESS en 2023. \
+Depuis 2023, elle enseigne à l'Université Rennes 2 où elle est chercheuse associée au laboratoire Pratiques et théories de l'art contemporain.  \
+De janvier 2018 à novembre 2019, elle a été chargée de recherche au Centre national des arts plastiques (Cnap) où elle a mené une enquête de deux ans sur sa collection de design graphique. \
+Elle a écrit plusieurs articles pour différentes revues telles que *Sociétés et Représentations*, *Les Cahiers du Mnam* ou *Polygraphes*.\
+Elle est également titulaire d'un DNSEP en communication graphique (HEAR, Strasbourg).
