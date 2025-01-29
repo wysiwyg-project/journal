@@ -81,19 +81,19 @@
 
     #contact-mail{
         border: 2px solid var(--black);
-        height: var(--button-size);
-        border-radius: calc(var(--button-size)*0.5);
+        height: calc(var(--button-size)*1.5);
+        border-radius: var(--icons-radius);
         padding: 2px 2ch;
-        // display: flex;
-        // align-items: center;
-        // justify-content: center;
+        align-items: center;
+        justify-content: center;
         background-color: var(--color-bg);
         position: absolute;
         margin-top: calc(var(--button-size)*-1);
         left: -24ch;
+       bottom: 3px;
         display: none;
     }
 
-    #mail-checkbox:checked ~ #contact-mail{ display: block; }
+    #mail-checkbox:checked ~ #contact-mail{ display: flex; }
 
 }
