@@ -1,8 +1,8 @@
 ---
 title: Sandra Bischler-Hartmann
-role: Research Assistant, Basel Academy of Art and Design FHNW
+role: Assistante de recherche, Basel Academy of Art and Design FHNW
 website: https://www.fhnw.ch/de/personen/sandra-bischler
 weight: 2
 language: fr
 ---
-Sandra Bischler-Hartmann studied Visual Communication and Art and Design Science (M.A., Folkwang University of the Arts in Essen, Germany). In her submitted PhD thesis she investigated graphic design education at the Basel School of Design during the “Swiss Style” era of the 1950s and 1960s. She was part of the SNSF research project “Swiss Graphic Design and Typography Revisited” (2016–2020), conducting research on the history of graphic design education in Switzerland. In 2021 she co-edited the book "Swiss Graphic Design Histories: Visual Arguments" (Scheidegger&Spiess). She works as a design history teacher and as an exhibition curator, most recently for the exhibition "Rid the Grid – Women in Swiss Graphic Design 1900–1980" at Basel Poster Collection (2024).
+Sandra Bischler-Hartmann a étudié la communication visuelle et les sciences de l'art et du design (M.A., Folkwang University of the Arts à Essen, Allemagne). Dans sa thèse de doctorat soumise, elle a étudié l'enseignement du graphisme à l'École de design de Bâle à l'époque du «Swiss Style», dans les années 1950 et 1960. Elle a fait partie du projet de recherche du SNSF «Swiss Graphic Design and Typography Revisited» (2016–2020), menant des recherches sur l'histoire de l'enseignement du graphisme en Suisse. En 2021, elle a codirigé le livre «Swiss Graphic Design Histories: Visual Arguments» (Scheidegger&Spiess). Elle travaille comme enseignante en histoire du design et comme commissaire d'exposition, plus récemment pour l'exposition «Rid the Grid – Women in Swiss Graphic Design 1900–1980» à Basel Poster Collection (2024).
