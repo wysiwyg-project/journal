@@ -363,3 +363,199 @@ Adobe: le créatif au pouvoir, *Strabic* \[online]. https://www.anthonymasure.co
 
 Masure, Anthony (2014).
 Graphisme et numérique. Entre certitudes et incertitudes, *Graphisme en France* n°29, 65-76.
+
+Masure,
+Anthony (2014). *Le design des programmes*.
+*Des façons de faire du numérique*.
+Thèse de doctorat. Paris : Université Paris 1 Panthéon-Sorbonne.
+
+Masure, Anthony (2020).
+Copier/Varier. Standards, critiques et contre-emploi des logiciels de création.
+*Multitudes*, 82, 93-100. 
+
+Masure, Anthony (2023). *Artificial Design:
+Creation Versus Machine Learning*. HEAD – Publishing. 
+
+Maudet, Nolwenn (2017). Muriel Cooper:
+Information Landscapes, *Back Office* #1 \[http://www.revue-backoffice.com/numeros/01-faire-avec/nolwenn-maudet-muriel-cooper-information-landscapes]
+
+Maudet, Nolwenn (2017). *Designing Design Tools*. Thèse de
+doctorat, Paris : Université Paris Saclay. Disponible à l’adresse :
+https://designing-design-tools.nolwennmaudet.com/
+
+Maudet, Nolwenn (2022).
+Une brève histoire des *templates*,
+entre autonomisation et contrôle des graphistes amateurs. In: Sacks, Kim et
+Guégan, Victor (ed.). Systèmes : logiques, graphies, matérialités, *Design Arts Médias* \[online]. https://journal.dampress.org/issues/systemes-logiques-graphies-materialites/une-breve-histoire-des-templates-entre-autonomisation-et-controle-des-graphistes-amateurs
+
+Maudet, Nolwenn (2018). Reinventing Graphic
+Design Software by Bridging the Gap between Graphical User Interface and
+Programming. *DRS’18. Proceedings of the
+22nd Design Research Society Conference*. 
+
+McVarish, Emily (2016). Periodical
+Archaeology. Digital Production, Critical Discourse and Textual Communities: *Emigre.
+Tijdschrift voor Mediageschiedenis,* 19, 2. 
+
+
+McVarish,
+Emily (2017). *Inflection Point*, Berkeley, *Emigre/Letterform Archive,* 
+
+Miller, J. Abbott (1996). Dimensional T*ypography:
+Case Studies on the Shape of Letters in Virtual Environments*. New
+York: Princeton Architectural Press.
+
+Mineur, Etienne (2007).
+Peut-on encore être graphiste au pays des *templates*?, *My-OS*, https://radicalweb.design/fr/links/peut-on-encore-etre-graphiste-au-pays-des-templates
+
+Mineur, Etienne (2019).
+10 ans en 640x480. *Back Office* #3
+http://www.revue-backoffice.com/numeros/03-ecrire-lecran/03_mineur
+
+Nooney, Laine (2023). *The Age of Apple II*.
+Chicago: University of Chicago Press.
+
+Owens, Sarah (2006). Electrifying the
+Alphabet. *Eye
+Magazine*, no. 62,
+vol. 16. https://www.eyemagazine.com/feature/article/electrifying-the-alphabet
+
+Owens, Sarah (2009). Visual continuity and
+innovation in editorial design practice. In: Guy Julier and Liz Moor
+(ed.). *Design and Creativity: Policy, Management and Practice.* Oxford:
+Berg. pp. 191–203.
+
+Owens, Sarah (2012). Design is Ordinary. Lay
+Graphic Communication and Its Relation to Professional Graphic Design Practice.
+PhD Dissertation. University of Reading.
+
+Owens, Sarah (2019). On the professional and
+everyday design of graphic artefacts. In: ed. Guy Julier et al. (ed.). *Design
+Culture: Objects and Approaches,* London: Bloomsbury, pp. 145–156.
+
+OSP \[Open Source
+Publishing] (2011). Open Source Publishing, Relearn*, f-u-t-u-r-e.org* \[online] http://f-u-t-u-r-e.org/r/02_OSP_Relearn_FR.md
+
+Paradis, Louise, Früh
+Roland and Rappo, François (2013). *30 Years of Swiss
+Typographic Discourse in the* Typografische Monatsblätter.
+Baden: Lars Müller.
+
+Parikka, Jussi (2012). *What is Media
+Archaeology?* New York: John Wiley&Sons.
+
+Pater, Ruben (2021). *CAPS LOCK. How
+Capitalism Took Hold on Graphic Design and How to Escape from it*.
+Amsterdam: Valiz.
+
+Pfeiffer, Andreas (1985). *Applications graphiques pour Macintosh*, Paris, Cedic/Nathan.
+
+Poynor, Rick (2012). *Transgression. Graphisme et postmodernisme*
+\[2003]. Paris: Pyramid.
+
+Quinton, Philippe (1994).
+*Le graphiste et l’ordinateur*, Paris: Syndicat National des graphistes.
+
+Reinfurt, David (2017). *Muriel Cooper*. Cambridge: MIT Press.
+
+Renner,
+Michael (1994). Gestalterischer Umgang mit dem Computer. In: Anton Stankowski
+and Karl Duschek (ed.). *Visuelle Kommunikation. Ein Design-Handbuch*, 2nd
+edition, Berlin: Reimer, pp. 354–78.
+
+
+
+
+
+
+Robertson, Frances (2013). *Print Culture:
+From Steam Press to Ebook*. London and New York: Routledge.
+
+Robial, Etienne (2016).
+Merci Monsieur Adobe !, Entretien avec Kevin Donnot et Elise Gay. *Back Office #1* http://www.revue-backoffice.com/numeros/01-faire-avec/etienne-robial-merci-monsieur-adobe
+
+Robial, Etienne (2022). *La
+Fabrique d’Etienne Robial. Entretiens avec Antoine Guillot*, Paris: B42, O2.
+
+Seybold, John, W (1984). *The World of Digital Typesetting*, 1984. Seybold Publications.
+
+Seybold, John W. and Dressler, Fritz (1989). *Publishing from the Desktop*. Seybold
+Publications.
+
+Seybold, Jonathan (2019). Seybold Publications
+and Seminars, *IEEE Annals of the history
+of computing*, 2019, vol. 41, 3, p. 8-23.
+
+Smith, Douglas K.  and Alexander, Robert C. (1999). *Fumbling
+the Future. How Xerox Invented, then Ignored, the First Personal Computer*.
+New York: iUniverse.
+
+Snelting, Femke (2008). *Awkward Gestures:
+Designing with Free Software* https://ospublish.constantvzw.org/blog/wp-content/uploads/awkward_gestures.pdf.
+
+Staples, Loretta (1995). What Happens When The
+Edges Dissolve? *Eye
+Magazine*, vol. 18,
+no. 5
+https://www.eyemagazine.com/opinion/article/what-happens-when-the-edges-dissolve
+
+
+
+
+
+
+Staples, Loretta (2000). Typography & the
+Screen. A Technological Chronology of Digital Typography, 1984-1997, *Design Issues*, 16, 3, 19-34. 
+
+Stein, Jesse Adams (2016). *Hot Metal:
+Material Culture and Tangible Labour*. Manchester: Manchester University
+Press.
+
+Stinson, Liz (2021). Processing: The Software
+that Shaped Creative Coding, *AIGA Eye on Design* \[online] https://eyeondesign.aiga.org/processing-the-software-that-shaped-creative-coding/
+
+Svensson, (2023). *The Colorful Charm of
+Amiga Utility Disk.* https://datagubbe.se/utildisks/
+
+Taylor, Conrad (19996) What has WYSIWYG done
+to us? *Seybold Report*, vol. 26,
+no. 2.
+
+*Technique et design
+graphique. Outils, médias, savoir (2015)*. Strasbourg: Haute Ecole des Arts du Rhin.
+
+Thierry, Benjamin (2013).
+*Donner à voir, permettre d’agir. L’invention de l’interactivité graphique et
+du concept d’utilisateur en informatique et en télécommunications en France
+(1961-1990)*. Ph.-D. dissertation, Paris: Sorbonne Université.
+
+*Typorama.* *Philippe Apeloig, Design Graphique*
+(exh. cat.). Paris: Musée des Arts Décoratifs.
+
+Ulrich, Ferdinand P. (2018). A Brief Overview
+of Developments in Digital Type Design. In: *Yearbook
+of Type, vol. 3*. Karlsruhe: Slanted. 
+
+
+
+
+
+
+von Arx, Peter (1993). *10 Years HFG,
+Department of Visual Communication, 25 Years Class for Film, Video and
+Audiovisual Projects*. Basel: Höhere Fachschule für Gestaltung Basel.
+
+
+Weingart, Wolfgang (1998). Wolfgang Weingart:
+Basel, the Computer, and its Consequences, Interview with Elizabeth Resnick, *Neugraphic* \[online] 
+http://www.neugraphic.com/weingart/weingart-text4.html
+
+Wild, Loraine (1997). The Macramé of
+Resistance, *Émigré*, no. 47 https://www.emigre.com/assets/file/pdfMagazine/Emigre47Macrame.pdf
+
+Wlassikoff, Michel
+(1998). Graphisme et informatique : rapide bilan d’une liaison durable. *Graphisme en France*, n°5.
+
+Wolf Kurt
+Konrad (2017). *Die Postscript Revolution, Eine Kulturgeschichte der
+Druckindustrie*. Zürich: Midas.
