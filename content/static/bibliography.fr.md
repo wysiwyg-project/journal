@@ -156,6 +156,5 @@ Greiman, April (2002
 \[2001]). *Réflexions créatives. Essai sur le graphisme à l’époque numérique*.
 Paris : Pyramid.
 
-
 Gugerli, David (2022 \[2018]). *How the World Got Into the Computer. The
 Emergence of Digital Reality*, Zürich: Chronos Verlag
