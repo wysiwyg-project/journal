@@ -69,7 +69,26 @@ a{
     drop-shadow(-2px 0 0 var(--img-border))
     drop-shadow(2px 0 0 var(--img-border));
 }
-            
+      
+
+@mixin radio-button(){
+     
+        &:not(:first-of-type){    margin-left: 3ch;  }
+        cursor: pointer;
+        &:hover{ color: white; }
+
+        &:before {
+            content: "";
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            outline: 2px solid currentColor; 
+            outline-offset: 2px;
+            margin-right: 1ch;
+          }
+    
+}
 
 @mixin button-text(){
     background: none;

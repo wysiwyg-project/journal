@@ -52,3 +52,36 @@
 
 }
 
+
+
+.list-posts{
+    input[type="radio"]{ display: none; }
+}
+
+#sort-articles{
+    display: flex;
+    margin-top: calc(var(--baseline)*-2);
+    margin-bottom: calc(var(--baseline)*3);
+
+    @media #{$phone}{  
+        margin-top: calc(var(--baseline)*-1); 
+        margin-bottom: calc(var(--baseline)*2);
+    }
+
+
+    label{
+        @include  radio-button();
+    }
+
+
+}
+
+#sort-fr:checked ~ #sort-articles label[for="sort-fr"]::before,
+#sort-en:checked ~ #sort-articles label[for="sort-en"]::before,
+#sort-all:checked ~ #sort-articles label[for="sort-all"]::before{ 
+    background-color: currentColor; 
+}
+
+
+#sort-fr:checked ~ .list-posts__container [data-lang="en"]{ display: none; }
+#sort-en:checked ~ .list-posts__container [data-lang="fr"]{ display: none; }
