@@ -116,16 +116,19 @@ a{
 
 
  .draggable{
-    position: relative;
-    top: 0px;
-    left: 0px;
+    cursor: auto!important;
 }
 
 #toggle-move-checkbox:checked ~ main .draggable:hover{
+
+    cursor: move!important;
+
+
     --drag: var(--accent);
     box-shadow: 0px 0px 0px 2px var(--drag);
+    // box-shadow: 0px 0px 15px 5px #4A4A4A;
 
-    cursor: move;
+  
 
     // &::before, &::after{
     //     content: "◼ ◼";
@@ -140,11 +143,11 @@ a{
     //     text-align-last: justify;
     // }
 
-    &::before{
-        top: -10px;
-    }
+    // &::before{
+    //     top: -10px;
+    // }
 
-    &::after{
-        bottom: -12px;
-    }
+    // &::after{
+    //     bottom: -12px;
+    // }
 }

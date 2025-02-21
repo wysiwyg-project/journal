@@ -82,18 +82,12 @@ a {
   color: currentColor; }
 
 .draggable {
-  position: relative;
-  top: 0px;
-  left: 0px; }
+  cursor: auto !important; }
 
 #toggle-move-checkbox:checked ~ main .draggable:hover {
+  cursor: move !important;
   --drag: var(--accent);
-  box-shadow: 0px 0px 0px 2px var(--drag);
-  cursor: move; }
-  #toggle-move-checkbox:checked ~ main .draggable:hover::before {
-    top: -10px; }
-  #toggle-move-checkbox:checked ~ main .draggable:hover::after {
-    bottom: -12px; }
+  box-shadow: 0px 0px 0px 2px var(--drag); }
 
 body {
   background-color: var(--color-bg);

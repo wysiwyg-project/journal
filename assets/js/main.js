@@ -7,11 +7,13 @@ document.addEventListener("DOMContentLoaded", function() {
     chargeLangLink(body);
     toggleColors(body);
     toggleGrid(body);
-    draggable(body);
+    addDraggable(body);
+    // draggable(body);
 
 
 
 });
+
 
 
 function chargeLangLink(body){

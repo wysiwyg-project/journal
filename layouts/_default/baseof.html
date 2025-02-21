@@ -20,6 +20,13 @@
 
 	<link rel="stylesheet" href="/fonts/ChicagoFLF/stylesheet.css">
 	<link rel="stylesheet" href="/fonts/FK_Grotesk-Neue/stylesheet.css">
+
+
+	{{ $interact := resources.Get "js/interact.min.js" }}
+	<script src="{{ $interact.RelPermalink }}"></script>
+
+
+	
 	
 </head>
 
@@ -41,7 +48,7 @@
 		{{ block "main" . }}{{ end }}
 	</main>
 
-	<nav role="navigation" id="menu">{{ partial "menu.html" . }}</nav>
+	<nav role="navigation" id="menu" class="draggable">{{ partial "menu.html" . }}</nav>
 
 	{{ partial "aside-buttons.html" . }}
 	

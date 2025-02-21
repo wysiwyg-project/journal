@@ -6,7 +6,7 @@
 	<section class="list-posts">
 
 
-		<header class="page-title {{ .Type }}__header">
+		<header class="page-title {{ .Type }}__header draggable">
 			<h1>{{ i18n "section.journal" }}</h1>
 		</header>
 
@@ -16,7 +16,7 @@
 		<input type="radio" id="sort-all" name="sort-article" value="all" checked />
 
 
-		<aside id="sort-articles">
+		<aside id="sort-articles" class="draggable">
 			<!-- <p>Sort</p> -->
 	
 				<label for="sort-en">English</label>
@@ -40,7 +40,7 @@
 		{{ $sortedPosts := sort $allPosts "Date" "desc" }}
 		<div class="list-posts__container">
 			{{ range $sortedPosts }}
-			<article class="list-posts__item" data-lang="{{ .Lang }}">
+			<article class="list-posts__item draggable" data-lang="{{ .Lang }}">
 				<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
 
 				<div class="details">

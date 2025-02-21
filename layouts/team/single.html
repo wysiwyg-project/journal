@@ -2,11 +2,11 @@
 
 <article class="page-member__container">
 
-	<p class="back">
+	<p class="back draggable">
 		<a href="{{ if eq .Lang "fr" }}/fr{{ end }}/team">{{ i18n "section.team" }}</a>
 	</p>
 
-	<header class="page-title page-member__header">
+	<header class="page-title page-member__header draggable">
 	  
 		<h1>{{- .Title -}}</h1>
 
@@ -18,12 +18,12 @@
 
 	</header>
 
-    <div class="content page-member__content">
+    <div class="content page-member__content draggable">
         {{ .Content | replaceRE `<a ([^>]+)>` `<a $1 target="_blank">` | safeHTML }}
 		</div>
 
 	{{ if .Params.website }}
-	<p class="website">{{ i18n "informations.website" | safeHTML }}: <a href="{{ .Params.website }}" target="_blank">{{ .Params.website }}</a></p>
+	<p class="website draggable">{{ i18n "informations.website" | safeHTML }}: <a href="{{ .Params.website }}" target="_blank">{{ .Params.website }}</a></p>
 	{{ end }}
 
 

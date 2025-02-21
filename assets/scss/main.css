@@ -101,7 +101,7 @@ a {
 #toggle-move-checkbox:checked ~ main .draggable:hover {
   --drag: var(--accent);
   box-shadow: 0px 0px 0px 2px var(--drag);
-  cursor: move;
+
 }
 #toggle-move-checkbox:checked ~ main .draggable:hover::before {
   top: -10px;

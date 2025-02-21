@@ -2,11 +2,11 @@
 {{ $section := .Site.GetPage "section" .Section }}
 <article class="post">
 
-	<p class="back">
+	<p class="back draggable">
 		<a href="{{ if eq .Lang "fr" }}/fr{{ end }}/journal">{{ i18n "section.journal" }}</a>
 	</p>
 
-	<header class="post__header page-title">
+	<header class="post__header page-title draggable">
 	
 		<h1>
 			{{- .Title -}}
@@ -16,7 +16,7 @@
 
 	</header>
 
-	<div class="details">
+	<div class="details draggable">
 		<p class="lang">{{ .Lang }}</p>
 		<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
 			{{ .Date.Format "02-01-2006" }}
