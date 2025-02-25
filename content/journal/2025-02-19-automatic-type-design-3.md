@@ -1,5 +1,5 @@
 ---
-title: WYSIWYG project at Automatic Design Type 3 - Nancy, 19 février 2025
+title: WYSIWYG project at Automatic Design Type 3 - Nancy, Feb. 19, 2025
 date: 2025-02-19T16:37:00.000Z
 language: en
 ---
