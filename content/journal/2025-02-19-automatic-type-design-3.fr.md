@@ -1,5 +1,5 @@
 ---
-title: Présentation à Automatic Type Design 3
+title: Présentation à Automatic Type Design 3 - Nancy, 19 février 2025
 date: 2025-02-19T16:35:00.000Z
 language: fr
 ---
