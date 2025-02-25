@@ -9,4 +9,4 @@ In her welcome address, Clémence Imbert recalled the debated origins of the ter
 
 The aims of the research project, the timetable and the list of tasks were then defined collectively. At midday, Joost Grootens presented his research work to students and teachers at HEAD - Geneva as part of the ‘Actualités de la Recherche’ seminar. The afternoon's discussions focused on the methodology of this research, in particular on how to approach interviews with witnesses from this period. The day ended with a screening of the documentary film *Graphic Means* (2017), followed by a video Q&A with its director, Briar Levit (Portland State University).
 
-![](/uploads/kick-off.jpg)
+![](/uploads/kick-off.jpg "From left to right : Joost Grootens, Léonore Conte, Caroll Maréchal, Julie Blanc, Clémence Imbert, Anthony Masure, Sandra Bischler-Hartmann, Michael Renner, Sarah Owens")
