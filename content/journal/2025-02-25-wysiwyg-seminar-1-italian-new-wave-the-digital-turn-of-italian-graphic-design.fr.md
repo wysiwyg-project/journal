@@ -1,6 +1,5 @@
 ---
-title: "WYSIWYG Seminar #1 Italian New Wave. Le tournant numérique du graphisme
-  italien"
+title: "WYSIWYG Seminar #1 Italian New Wave - Genève, 29 janvier 2025"
 date: 2025-02-25T14:25:00.000Z
 language: fr
 ---
