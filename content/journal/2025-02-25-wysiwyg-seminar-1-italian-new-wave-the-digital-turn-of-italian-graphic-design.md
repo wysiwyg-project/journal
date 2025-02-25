@@ -1,6 +1,5 @@
 ---
-title: "WYSIWYG Seminar #1 Italian New Wave : the digital turn of Italian
-  graphic design"
+title: "WYSIWYG Seminar #1 Italian New Wave, Geneva, Jan. 29, 2025"
 date: 2025-02-25T14:28:00.000Z
 language: en
 ---
