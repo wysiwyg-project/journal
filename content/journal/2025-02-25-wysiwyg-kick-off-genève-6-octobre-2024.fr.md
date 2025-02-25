@@ -9,4 +9,4 @@ Dans sa présentation d'accueil, Clémence Imbert a rappelé les origines débat
 
 Les buts du projet de recherche, le calendrier, et la liste des tâches ont ensuite pu être définis collectivement. A la mi-journée, Joost Grootens a présenté son travail de recherche devant les étudiant-es et enseignant-es de la HEAD - Genève dans le cadre du séminaire "Actualités de la Recherche". Les discussions de l'après-midi ont porté sur la méthodologie de cette recherche, en particulier sur la manière d'aborder les entretiens avec les témoins de cette période. La journée s'est achevée par la projection du film documentaire *Graphic Means,* suivi par un Q&A en visio avec sa réalisatrice, Briar Levit (Portland State University)
 
-![]()
+![](/uploads/kick-off.jpg "De gauche à droite : Joost Grootens, Léonore Conte, Caroll Maréchal, Julie Blanc, Clémence Imbert, Anthony Masure, Sandra Bischler-Hartmann, Michael Renner, Sarah Owens")
