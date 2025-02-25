@@ -1,5 +1,5 @@
 ---
-title: WYSIWYG Kick Off, Genève, 6 octobre 2024
+title: Lancement du projet WYSIWYG - Genève, 6 octobre 2024
 date: 2025-02-25T14:54:00.000Z
 language: fr
 ---
