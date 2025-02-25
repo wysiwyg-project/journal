@@ -1,6 +1,6 @@
 ---
-title: "WYSIWYG Seminar #1 Italian New Wave. The digital turn of Italian graphic
-  design."
+title: "WYSIWYG Seminar #1 Italian New Wave. Le tournant numérique du graphisme
+  italien"
 date: 2025-02-25T14:25:00.000Z
 language: fr
 ---
