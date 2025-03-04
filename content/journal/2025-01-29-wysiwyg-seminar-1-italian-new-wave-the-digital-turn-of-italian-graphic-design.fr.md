@@ -1,6 +1,6 @@
 ---
 title: "WYSIWYG Seminar #1 Italian New Wave - Genève, 29 janvier 2025"
-date: 2025-02-25T14:25:00.000Z
+date: 2025-01-29T14:25:00.000Z
 language: fr
 ---
 Le 29 janvier, à Genève, lors de la première séance du séminaire WYSIWYG, notre équipe a eu le plaisir d'accueillir Maddalena Dalla Mura (Università Iuav di Venezia) et Monica Pastore (Politecnico di Bari) pour discuter de leurs récentes recherches sur le tournant numérique du design graphique en Italie. 

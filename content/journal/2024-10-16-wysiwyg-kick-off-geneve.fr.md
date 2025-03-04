@@ -1,6 +1,6 @@
 ---
 title: Lancement du projet WYSIWYG - Genève, 6 octobre 2024
-date: 2024-10-16T14:54:00.000Z
+date: 2024-10-17T14:54:00.000Z
 language: fr
 ---
 Le 16 octobre 2024, l'équipe de recherche et son comité scientifique se sont réunis à Genève pour le lancement du projet de recherche WYSIWYG. Cette journée a permis à toutes les parties prenantes de faire connaissance physiquement, et poursuivre les échanges virtuels démarrés au cours des mois passés, avant et après l'obtention du financement SNSF et du recrutement de 4 chercheuses post-doctorantes. 

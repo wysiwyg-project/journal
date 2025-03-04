@@ -9,6 +9,7 @@ Nous avons proposé une présentation générale du projet, avec un accent parti
 
 Le Web remet fondamentalement en question la notion de WYSIWYG, en exigeant que la conception graphique s'adapte à des fenêtres d'affichage de tailles inconnues et à des appareils aux caractéristiques imprévisibles. L'utilisation des langages web (et donc du code) pour répondre à cette diversité d'affichage en programmant des règles stylistiques redistribue les compétences des designers graphiques et donne lieu à de nouvelles pratiques. Dans le même temps, le contexte de l'édition multisupport introduit de nouvelles pratiques dans le design imprimé, où les technologies web sont utilisées pour programmer des mises en page imprimées, remettant en cause la notion de WYSIWYG.
 
-La conférence est accessible [en ligne] (https://vimeo.com/1058181662) :
+La conférence est accessible [en ligne](https://vimeo.com/1058181662#t=56m10s) (à partir de 56m10s):
 
 {{< vimeo 1058181662 >}}
+

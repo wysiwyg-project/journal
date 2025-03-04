@@ -9,6 +9,6 @@ The talk was a general presentation of the project, with a particular focus on t
 
 The Web fundamentally challenges the notion of WYSIWYG, requiring graphic design to adapt to display windows of unknown sizes and devices with unpredictable characteristics. The use of web languages (and therefore code) to address this diversity of displays by programming stylistic rules redistributes the skills of graphic designers and gives rise to new practices. At the same time, the context of multi-format publishing introduces new practices in print design, where web technologies are employed to program printed layouts, challenging the notion of WYSIWYG.
 
-The talk is accessible [online](https://vimeo.com/1058181662):
+The talk is accessible [online](https://vimeo.com/1058181662#t=56m10s) (from 56m10s):
 
 {{< vimeo 1058181662 >}}

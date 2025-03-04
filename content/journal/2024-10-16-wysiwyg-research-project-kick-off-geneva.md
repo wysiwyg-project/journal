@@ -1,6 +1,6 @@
 ---
 title: WYSIWYG Research project Kick-Off, Geneva, Oct. 16, 2024
-date: 2024-10-17T10:31:00.000Z
+date: 2024-10-16T10:31:00.000Z
 language: en
 ---
 On 16 October 2024, the research team and its scientific committee met in Geneva for the kick off of WYSIWYG research project. The event provided an opportunity for all those involved to get to know each other in person, and to continue the virtual exchanges that have been taking place over the past few months, both before and after the SNSF-funding application and the recruitment of 4 post-doctoral researchers. 
