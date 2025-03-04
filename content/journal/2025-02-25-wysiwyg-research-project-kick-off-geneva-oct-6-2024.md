@@ -1,9 +1,9 @@
 ---
-title: WYSIWYG Research project Kick-Off, Geneva, Oct. 6, 2024
-date: 2025-02-25T15:00:00.000Z
+title: WYSIWYG Research project Kick-Off, Geneva, Oct. 16, 2024
+date: 2024-10-17T10:31:00.000Z
 language: en
 ---
-On 6 October 2024, the research team and its scientific committee met in Geneva for the kick off of WYSIWYG research project. The event provided an opportunity for all those involved to get to know each other in person, and to continue the virtual exchanges that have been taking place over the past few months, both before and after the SNSF-funding application and the recruitment of 4 post-doctoral researchers. 
+On 16 October 2024, the research team and its scientific committee met in Geneva for the kick off of WYSIWYG research project. The event provided an opportunity for all those involved to get to know each other in person, and to continue the virtual exchanges that have been taking place over the past few months, both before and after the SNSF-funding application and the recruitment of 4 post-doctoral researchers. 
 
 In her welcome address, Clémence Imbert recalled the debated origins of the term WYSIWYG. In use at Xerox PARC, at the time of the design of the Xerox Alto and then the Xerox Star, it conquered publishing and digital composition circles after the first Seybold Seminar on Publishing Systems in 1981. A reference to a line by the comedian Flip Wilson that we would describe today as a meme, the formula is undoubtedly rooted in American culture. WYSIWYG is, more than a technical reality, a concept, related to promotional rhetoric, which has served to spread the personal computer and in particular desktop publishing (DTP) applications to a growing number of users, among others graphic design professionals. 
 
