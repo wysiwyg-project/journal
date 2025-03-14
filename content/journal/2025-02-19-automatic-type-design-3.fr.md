@@ -2,8 +2,9 @@
 title: Présentation à Automatic Type Design 3 - Nancy, 19 février 2025
 date: 2025-02-19T16:35:00.000Z
 language: fr
+translation: https://wysiwyg.ch/journal/2025-02-19-automatic-type-design-3/
 ---
-Le 19 septembre 2025, les chercheuses Clémence Imbert et Julie Blanc ont présenté un premier aperçu du projet à la conférence [Automatic Design Type 3] (https://automatic-type-design.anrt-nancy.fr/colloques/automatic-type-design-3) à l'ANRT (Atelier National de Recherche Typographique) à Nancy, France.
+Le 19 septembre 2025, les chercheuses Clémence Imbert et Julie Blanc ont présenté un premier aperçu du projet à la conférence [Automatic Design Type 3](https://automatic-type-design.anrt-nancy.fr/colloques/automatic-type-design-3) à l'ANRT (Atelier National de Recherche Typographique) à Nancy, France.
 
 Nous avons proposé une présentation générale du projet, avec un accent particulier sur l'héritage du paradigme WYSIWYG (commun à la conception de caractères et aux logiciels de conception graphique) et une réflexion sur sa pertinence dans les pratiques contemporaines et futures de publication sur le Web.
 
@@ -13,3 +14,8 @@ La conférence est accessible [en ligne](https://vimeo.com/1058181662#t=56m10s) 
 
 {{< vimeo 1058181662 >}}
 
+
+
+![](/uploads/54382876695_940332f6ae_k_web.jpg "De gauche à droite: Clémence Imbert, Julie Blanc, Thomas Huot-Marchand / ©&nbsp;ENSAD&nbsp;Nancy")
+
+![](/uploads/54382843395_976c7318a5_k_web.jpg "© ENSAD Nancy")
