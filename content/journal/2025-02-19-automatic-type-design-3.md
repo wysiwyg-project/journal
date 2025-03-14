@@ -17,3 +17,5 @@ The talk is accessible [online](https://vimeo.com/1058181662#t=56m10s) (from 56m
 
 
 ![From left to right: Clémence Imbert, Julie Blanc, Thomas Huot-Marchand / © ENSAD Nancy](/uploads/54382876695_940332f6ae_k_web.jpg "From left to right: Clémence Imbert, Thomas Huot-Marchand / © ENSAD Nancy")
+
+![](/uploads/54382843395_976c7318a5_k_web.jpg "© ENSAD Nancy")
