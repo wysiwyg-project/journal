@@ -2,7 +2,7 @@ baseURL = "https://wysiwyg.netlify.app/"
 languageCode = "en-us"
 defaultContentLanguage = 'en'
 title = "WYSIWYG"
-baseline = "An Investigation in the updake of graphic design software in Switzerland and France, 1880 - today"
+baseline = "An Investigation in the uptake of graphic design software in Switzerland and France, 1880 - today"
 
 [params]
 # -- Socials -----------------------------
