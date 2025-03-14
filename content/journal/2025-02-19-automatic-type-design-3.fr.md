@@ -16,6 +16,6 @@ La conférence est accessible [en ligne](https://vimeo.com/1058181662#t=56m10s) 
 
 
 
-![](/uploads/54382876695_940332f6ae_k_web.jpg "De gauche à droite: Clémence Imbert, Julie Blanc, Thomas Huot-Marchand / ©&nbsp;ENSAD&nbsp;Nancy")
+![](/uploads/54382876695_940332f6ae_k_web.jpg "De gauche à droite: Clémence Imbert, Julie Blanc, Thomas Huot-Marchand / © ENSAD Nancy")
 
 ![](/uploads/54382843395_976c7318a5_k_web.jpg "© ENSAD Nancy")
