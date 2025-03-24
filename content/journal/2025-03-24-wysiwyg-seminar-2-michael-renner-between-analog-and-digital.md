@@ -1,5 +1,5 @@
 ---
-title: "WYSIWYG Seminar #2 - Michael Renner : Between Analog and Digital"
+title: "WYSIWYG Seminar #2 - Michael Renner : Between Analogue and Digital"
 date: 2025-03-24T18:08:00.000Z
 language: en
 ---
