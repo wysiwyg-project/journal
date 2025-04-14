@@ -84,10 +84,14 @@ a {
 .draggable {
   cursor: auto !important; }
 
-#toggle-move-checkbox:checked ~ main .draggable:hover {
-  cursor: move !important;
+[data-draggable="true"] main .draggable {
   --drag: var(--accent);
   box-shadow: 0px 0px 0px 2px var(--drag); }
+
+#toggle-move-checkbox:checked ~ main .draggable:hover {
+  cursor: move !important;
+  outline: 2px dashed var(--accent);
+  outline-offset: 5px; }
 
 body {
   background-color: var(--color-bg);

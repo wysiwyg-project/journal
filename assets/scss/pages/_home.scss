@@ -24,9 +24,6 @@
     #logos{
         margin-top: calc(var(--baseline)*0.5);
         margin-left:  calc(var(--grid-unit) + var(--gap));
-        // @media screen and (max-width: 1270px){
-        //     margin-left: 0px;
-        // }
         position: absolute;
         bottom: 30px;
         

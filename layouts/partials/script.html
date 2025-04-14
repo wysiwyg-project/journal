@@ -117,9 +117,12 @@ const toggleMoveCheckbox = document.getElementById('toggle-move-checkbox');
 
 // Activer/désactiver le drag en fonction de l'état de la case à cocher
 function isDraggable() {
+    const isChecked = toggleMoveCheckbox.checked;
+  document.body.setAttribute('data-draggable', isChecked);
   return toggleMoveCheckbox.checked;
 }
 
+toggleMoveCheckbox.addEventListener('change', isDraggable);
 
 interact('.draggable')
   .draggable({

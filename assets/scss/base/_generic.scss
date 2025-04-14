@@ -119,35 +119,19 @@ a{
     cursor: auto!important;
 }
 
+[data-draggable="true"] main .draggable{
+    --drag: var(--accent);
+    box-shadow: 0px 0px 0px 2px var(--drag);
+ 
+
+}
+
 #toggle-move-checkbox:checked ~ main .draggable:hover{
 
     cursor: move!important;
+    outline: 2px dashed var(--accent);
+    outline-offset: 5px;
+    // --drag: black;
+    // box-shadow: 0px 0px 0px 2px var(--drag);
 
-
-    --drag: var(--accent);
-    box-shadow: 0px 0px 0px 2px var(--drag);
-    // box-shadow: 0px 0px 15px 5px #4A4A4A;
-
-  
-
-    // &::before, &::after{
-    //     content: "◼ ◼";
-    //     display: block;
-    //     width: calc(100% + 20px);
-    //     position: absolute;
-    //     left: -10px;
-      
-    //     color: var(--drag);
-    //     font-size: 20px;
-    //     line-height: 20px;
-    //     text-align-last: justify;
-    // }
-
-    // &::before{
-    //     top: -10px;
-    // }
-
-    // &::after{
-    //     bottom: -12px;
-    // }
 }
