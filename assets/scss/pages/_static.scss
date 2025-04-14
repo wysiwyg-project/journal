@@ -35,3 +35,39 @@ body[data-name*="publications"] {
         }
     }
 }
+
+
+
+.page-static{
+
+    #logos{
+        margin-top: calc(var(--baseline)*4);
+        display: none;
+    }
+
+    #logo-fns{
+        width: 200px;
+        margin-top: calc(var(--baseline)*1);
+        img{
+            mix-blend-mode: multiply;
+        }
+    }
+    #logo-head{
+        width: calc(var(--grid-unit) + var(--gap));
+        @media screen and (max-width: 1270px){
+            margin-right: calc(var(--grid-unit)/4);
+        }
+        img{
+            width: 80px;
+            mix-blend-mode: multiply;
+        }
+    }
+}
+
+
+.page-static[data-name="about"]{
+    #logos{
+        margin-top: calc(var(--baseline)*4);
+        display: block;
+    }
+}

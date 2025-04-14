@@ -670,17 +670,27 @@ body[data-grid="true"] #site-header #grid-switcher {
   margin-top: calc(var(--baseline)*1);
   max-width: 30ch; }
 
-.page-home #fns {
+.page-home #logos {
   margin-top: calc(var(--baseline)*0.5);
   margin-left: calc(var(--grid-unit) + var(--gap));
   position: absolute;
-  bottom: 4px; }
-  .page-home #fns p {
-    display: none; }
+  bottom: 30px;
+  display: flex; }
 
 .page-home #logo-fns {
-  width: 200px; }
+  width: 200px;
+  position: relative;
+  top: -2px; }
   .page-home #logo-fns img {
+    mix-blend-mode: multiply; }
+
+.page-home #logo-head {
+  width: calc(var(--grid-unit) + var(--gap)); }
+  @media screen and (max-width: 1270px) {
+    .page-home #logo-head {
+      margin-right: calc(var(--grid-unit)/4); } }
+  .page-home #logo-head img {
+    width: 80px;
     mix-blend-mode: multiply; }
 
 @media screen and (max-width: 960px) {
@@ -692,11 +702,11 @@ body[data-grid="true"] #site-header #grid-switcher {
   .page-home .details {
     margin-left: 0;
     max-width: 24ch; }
-  .page-home #fns {
+  .page-home #logos {
+    display: none;
     position: relative;
     top: 0px;
-    margin-left: 0px;
-    display: none; }
+    margin-left: 0px; }
   .page-home #menu {
     display: block; } }
 
@@ -850,6 +860,29 @@ body[data-name*="publications"] .content p {
 
 body[data-name*="publications"] .content ul {
   margin-left: var(--indent); }
+
+.page-static #logos {
+  margin-top: calc(var(--baseline)*4);
+  display: none; }
+
+.page-static #logo-fns {
+  width: 200px;
+  margin-top: calc(var(--baseline)*1); }
+  .page-static #logo-fns img {
+    mix-blend-mode: multiply; }
+
+.page-static #logo-head {
+  width: calc(var(--grid-unit) + var(--gap)); }
+  @media screen and (max-width: 1270px) {
+    .page-static #logo-head {
+      margin-right: calc(var(--grid-unit)/4); } }
+  .page-static #logo-head img {
+    width: 80px;
+    mix-blend-mode: multiply; }
+
+.page-static[data-name="about"] #logos {
+  margin-top: calc(var(--baseline)*4);
+  display: block; }
 
 #list-team .list-team__item {
   margin-top: calc(var(--baseline)*3); }
