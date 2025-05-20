@@ -18,9 +18,12 @@
         left: calc(var(--grid-unit)*-2 - var(--padding));
         margin-top: calc(var(--baseline)*1.5 - 5px);
         display: flex;
+        aspect-ratio: 3/2;
         
         img{
             width: 100%;
+            height: 100%;
+            object-fit: cover;
             @include img-border();
         }
     }
