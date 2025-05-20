@@ -1,1 +1,1 @@
-// Nothing here, see partials/script.html
+// Nothing here, see layouts/partials/script.html
