@@ -5,12 +5,11 @@
   {{ $small := $img.Resize "480x" }}
   {{ $medium := $img.Resize "768x" }}
   {{ $large := $img.Resize "1024x" }}
-  {{ $xlarge := $img.Resize "1440x" }}
 
   <figure>
   <img
     src="{{ $medium.RelPermalink }}"
-    srcset="{{ $small.RelPermalink }} 480w, {{ $medium.RelPermalink }} 768w, {{ $large.RelPermalink }} 1024w, {{ $xlarge.RelPermalink }} 1440w"
+    srcset="{{ $small.RelPermalink }} 480w, {{ $medium.RelPermalink }} 768w, {{ $large.RelPermalink }} 1024w"
     sizes="(max-width: 768px) 100vw, 768px"
     loading="lazy"
     decoding="async"
