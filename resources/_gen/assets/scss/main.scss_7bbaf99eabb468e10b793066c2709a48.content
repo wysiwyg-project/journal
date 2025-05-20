@@ -87,6 +87,8 @@ a {
 [data-draggable="true"] main .draggable {
   --drag: var(--accent);
   box-shadow: 0px 0px 0px 2px var(--drag); }
+  [data-draggable="true"] main .draggable img {
+    --img-border: var(--accent)!important; }
 
 #toggle-move-checkbox:checked ~ main .draggable:hover {
   cursor: move !important;
@@ -806,44 +808,6 @@ body[data-grid="true"] #site-header #grid-switcher {
       font-size: var(--font-size-arrow);
       position: absolute;
       left: 0; }
-
-.list-posts input[type="radio"] {
-  display: none; }
-
-#sort-articles {
-  display: flex;
-  margin-top: calc(var(--baseline)*-2);
-  margin-bottom: calc(var(--baseline)*3); }
-  @media screen and (max-width: 640px) {
-    #sort-articles {
-      margin-top: calc(var(--baseline)*-1);
-      margin-bottom: calc(var(--baseline)*2); } }
-  #sort-articles label {
-    cursor: pointer; }
-    #sort-articles label:not(:first-of-type) {
-      margin-left: 3ch; }
-    #sort-articles label:hover {
-      color: white; }
-    #sort-articles label:before {
-      content: "";
-      display: inline-block;
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      outline: 2px solid currentColor;
-      outline-offset: 2px;
-      margin-right: 1ch; }
-
-#sort-fr:checked ~ #sort-articles label[for="sort-fr"]::before,
-#sort-en:checked ~ #sort-articles label[for="sort-en"]::before,
-#sort-all:checked ~ #sort-articles label[for="sort-all"]::before {
-  background-color: currentColor; }
-
-#sort-fr:checked ~ .list-posts__container [data-lang="en"] {
-  display: none; }
-
-#sort-en:checked ~ .list-posts__container [data-lang="fr"] {
-  display: none; }
 
 .post .page-title h1 {
   margin-bottom: calc(var(--baseline)*1);

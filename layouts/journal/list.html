@@ -11,33 +11,9 @@
 		</header>
 
 
-		<input type="radio" id="sort-en" name="sort-article" value="en"/>
-		<input type="radio" id="sort-fr" name="sort-article" value="fr" />
-		<input type="radio" id="sort-all" name="sort-article" value="all" checked />
-
-
-		<aside id="sort-articles" class="draggable">
-			<!-- <p>Sort</p> -->
-	
-				<label for="sort-en">English</label>
-	
-	
-				<label for="sort-fr">Français</label>
-	
-				<label for="sort-all">All</label>
 		
-		</aside>
 
-
-
-		{{ $allPosts := slice }}
-		{{ range site.Home.AllTranslations }}
-			{{ with .Site.GetPage "section" "journal" }}
-				{{ $allPosts = $allPosts | append .Pages }}
-			{{ end }}
-		{{ end }}
-
-		{{ $sortedPosts := sort $allPosts "Date" "desc" }}
+		{{ $sortedPosts := sort .Pages "Date" "desc" }}
 		<div class="list-posts__container">
 			{{ range $sortedPosts }}
 			<article class="list-posts__item draggable" data-lang="{{ .Lang }}">
