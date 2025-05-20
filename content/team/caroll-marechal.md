@@ -2,7 +2,7 @@
 title: Caroll Maréchal
 role: Post-doc, HEAD-Geneva
 weight: 4
-website: carollmarechal.com
+website: https://carollmarechal.com/
 language: en
 ---
 Caroll Maréchal is a PhD in Social Sciences and a graphic designer. In December 2022, she defended a dissertation at the École des hautes études en sciences sociales (EHESS) entitled “Graphic design collections in public institutions in France. History and practices”, rewarded by the [EHESS PhD thesis prize in 2023](https://www.ehess.fr/fr/portrait/rencontre-avec-caroll-mar%C3%A9chal-laur%C3%A9ate-prix-th%C3%A8se-2022-lehess). \
