@@ -122,7 +122,7 @@ a{
 [data-draggable="true"] main .draggable{
     --drag: var(--accent);
     box-shadow: 0px 0px 0px 2px var(--drag);
- 
+   
 
 }
 
@@ -133,5 +133,9 @@ a{
     outline-offset: 5px;
     // --drag: black;
     // box-shadow: 0px 0px 0px 2px var(--drag);
+
+    img{
+        --img-border: var(--accent)!important;
+    }
 
 }

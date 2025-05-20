@@ -7,9 +7,22 @@
         max-width: 22ch;
         position: relative;
         top: 6px;
-        margin-top: calc(var(--baseline)*2);
+        margin-top: calc(var(--baseline)*3);
         @media #{$phone}{  line-height: calc(var(--baseline)*1.5); } 
         
+    }
+
+    figure{
+        width: calc(var(--grid-unit)*3 + 3px);
+        position: absolute;
+        left: calc(var(--grid-unit)*-2 - var(--padding));
+        margin-top: calc(var(--baseline)*1.5 - 5px);
+        display: flex;
+        
+        img{
+            width: 100%;
+            @include img-border();
+        }
     }
 
 
@@ -60,16 +73,30 @@
         main{
             min-height: 0px!important;
             padding-bottom: 0px;
+            display: flex;
+            flex-direction: column;
             // background-color: red;
         }
+
+      
 
 
         .baseline{
             margin-left: 0;
+            order: 1;
+            margin-top: 0;
         }
         .details{
             margin-left: 0;
-            max-width: 24ch;
+            // max-width: 30ch;
+            order: 2;
+        }
+
+        figure{
+            position: relative;
+            left: 0;
+            order: 3;
+            width: calc(100% - var(--grid-unit) - 3px);
         }
 
         #logos{ 
@@ -78,11 +105,15 @@
             top: 0px;
             margin-left: 0px;
             // background-color: red;
+            order: 4
         }
 
 
         #menu{
+            position: relative;
+            top: 0px;
             display: block;
+        
         }
       
     }
