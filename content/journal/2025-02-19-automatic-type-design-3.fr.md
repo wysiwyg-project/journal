@@ -3,6 +3,7 @@ title: Présentation à Automatic Type Design 3 - Nancy, 19 février 2025
 date: 2025-02-19T16:35:00.000Z
 language: fr
 translation: https://wysiwyg.ch/journal/2025-02-19-automatic-type-design-3/
+imgcover: '/uploads/54382876695_940332f6ae_k_web.jpg'
 ---
 Le 19 septembre 2025, les chercheuses Clémence Imbert et Julie Blanc ont présenté un premier aperçu du projet à la conférence [Automatic Design Type 3](https://automatic-type-design.anrt-nancy.fr/colloques/automatic-type-design-3) à l'ANRT (Atelier National de Recherche Typographique) à Nancy, France.
 

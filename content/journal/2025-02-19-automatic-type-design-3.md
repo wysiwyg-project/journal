@@ -3,6 +3,7 @@ title: WYSIWYG project at Automatic Type Design 3 - Nancy, Feb. 19, 2025
 date: 2025-02-19T16:37:00.000Z
 language: en
 translation: https://wysiwyg.ch/fr/journal/2025-02-19-automatic-type-design-3/
+imgcover: '/uploads/54382876695_940332f6ae_k_web.jpg'
 ---
 On September 19, 2025, researchers Clémence Imbert and Julie Blanc presented an initial overview of the project at [Automatic Design Type 3](https://automatic-type-design.anrt-nancy.fr/colloques/automatic-type-design-3) at ANRT (Atelier National de Recherche Typographique) in Nancy, France.
 

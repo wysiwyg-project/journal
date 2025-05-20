@@ -1,5 +1,5 @@
 .list-posts__item{
-    margin-bottom: calc(var(--baseline)*2);
+    margin-bottom: calc(var(--baseline)*3);
     max-width: 52ch;
     .lang{ 
         @include lang();
@@ -11,9 +11,24 @@
         padding-left: 2ch;
     }
 
+    figure{
+        width: calc(100% - var(--indent));
+        aspect-ratio: 16/9;
+        margin-top: var(--baseline);
+        margin-bottom: calc(var(--baseline)*0.5);
+        @include img-border();
+        // margin-left: var(--indent);
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
     .details{
         display: flex;
-        margin-top: calc(var(--baseline)*0.5);
+        margin-top: calc(var(--baseline)*0.25);
+        margin-bottom: calc(var(--baseline)*0.25);
         margin-left: var(--indent);
     }
 

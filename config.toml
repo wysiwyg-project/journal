@@ -59,3 +59,36 @@ enableGitInfo = true
   expiryDate = ['expirydate', 'unpublishdate']
   lastmod = [':git', 'lastmod', 'modified', 'date', 'publishdate', 'pubdate', 'published']
   publishDate = ['publishdate', 'pubdate', 'published', 'date']
+
+
+
+
+
+[module]
+  [[module.mounts]]
+  source = "content"
+  target = "content"
+
+  [[module.mounts]]
+  source = "static"
+  target = "static"
+
+  [[module.mounts]]
+  source = "static/uploads"
+  target = "assets/uploads"
+
+  [[module.mounts]]
+  source = "layouts"
+  target = "layouts"
+  
+  [[module.mounts]]
+  source = "assets"
+  target = "assets"
+
+  [[module.mounts]]
+  source = "i18n"
+  target = "i18n"
+
+  [[module.mounts]]
+  source = "archetypes"
+  target = "archetypes"

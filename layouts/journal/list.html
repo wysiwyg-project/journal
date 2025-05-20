@@ -49,9 +49,12 @@
 						{{ .Date.Format "02-01-2006" }}
 					</time>
 				</div>
-				
+
+				{{ with .Params.imgcover }}
+					{{ partial "imgcover.html" . }}
+				{{ end }}
+
 				<div class="summary">
-					<!-- {{ .Summary }} -->
 					{{ .Content | truncate 400 }}
 				</div>
 				<button><a href="{{ .Permalink }}">{{ i18n "buttons.read_more" }}</a></button>
