@@ -1,6 +1,7 @@
 ---
 title: "WYSIWYG Seminar #1 Italian New Wave - Geneva, Jan. 29, 2025"
 date: 2025-01-29T14:28:00.000Z
+cover: /uploads/convertino-mario_mister-fantasy-digital-lettering_1983-84.jpg
 language: en
 ---
 On 29 January, for the first session of WYSIWYG seminar in Geneva, we had the pleasure of welcoming Maddalena Dalla Mura (Università Iuav di Venezia) and Monica Pastore (Politecnico di Bari) to discuss their recent research on the digital turn of graphic design in Italy. 
@@ -12,3 +13,7 @@ Monica Pastore defended her doctoral thesis in 2021 under the title *Linguaggi i
 They both state that Italian graphic designers in the 1980s and 1990s were slow to realize the importance of the personal computer and desktop publishing (DTP). Maddalena dalla Mura depicts a profession more preoccupied with debates about the social role of graphic design (the concept of public utility, also present in France) and the definition of a professional identity. On the other hand, the field of new technologies is not absent from the debates: but in the form of research into computer-generated images and audiovisual production, with television in Italy constituting a privileged and lucrative outlet. Digital composition and layout tools only became widespread in the 1990s, at the same time as the web. They were used in particular for the communication media of the Italian clubbing scene.
 
 Discussions focused on the methodology for researching early digital practices (magazines, archives, interviews) and on the specific features of the Italian case.
+
+
+
+Caption of cover image : Mario Convertino, Mister Fantasy, digital lettering for screen, 1983-84
