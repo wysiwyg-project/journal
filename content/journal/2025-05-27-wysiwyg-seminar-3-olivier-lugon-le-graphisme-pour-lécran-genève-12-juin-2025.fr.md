@@ -5,7 +5,6 @@ date: 2025-05-27T11:37:00.000Z
 cover: /uploads/bibliovision_projecteur.jpg
 language: fr
 ---
-
 Le 12 juin prochain, de 17h à 19h se tiendra la 3e séance du séminaire WYSIWYG. 
 
 Nous accueillerons le prof. Olivier Lugon de l'UNIL et son équipe pour une présentation du projet de recherche FNS « Le graphisme pour l’écran », mené à l’Université de Lausanne (section d’Histoire et esthétique du cinéma, 2024-2028). Ce projet examine le premier
@@ -20,3 +19,7 @@ imaginer, bien avant l’essor du numérique, des publications faites expressém
 HEAD - Genève, Avenue de Châtelaine 5, salle E.2.20
 
 Pour suivre en visio via Teams : cliquer [ici](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjFmYzhhYTItNDY0YS00MjQ2LWIyZjMtZTQyZTU1M2Q1M2Fi%40thread.v2/0?context=%7b%22Tid%22%3a%22a372f724-c0b2-4ea0-abfb-0eb8c6f84e40%22%2c%22Oid%22%3a%22f90de1ce-7e5f-4614-a1ec-f1dfcf1d999d%22%7d)
+
+[](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjFmYzhhYTItNDY0YS00MjQ2LWIyZjMtZTQyZTU1M2Q1M2Fi%40thread.v2/0?context=%7b%22Tid%22%3a%22a372f724-c0b2-4ea0-abfb-0eb8c6f84e40%22%2c%22Oid%22%3a%22f90de1ce-7e5f-4614-a1ec-f1dfcf1d999d%22%7d)
+
+[](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjFmYzhhYTItNDY0YS00MjQ2LWIyZjMtZTQyZTU1M2Q1M2Fi%40thread.v2/0?context=%7b%22Tid%22%3a%22a372f724-c0b2-4ea0-abfb-0eb8c6f84e40%22%2c%22Oid%22%3a%22f90de1ce-7e5f-4614-a1ec-f1dfcf1d999d%22%7d)Illustration : Projecteur et livres de diapositives pour la Bibliovision, Editions Rencontre, Lausanne, 1963 (BCU, Lausanne)
