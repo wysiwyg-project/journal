@@ -1,8 +1,8 @@
 ---
-title: "WYSIWYG Seminar #2 : Michael Renner, Between Analogue and Digital"
+title: "WYSIWYG Seminar #2 Michael Renner, Between Analogue and Digital"
 date: 2025-03-25T10:32:00.000Z
 language: en
-imgcover: '/uploads/40-copie.jpeg'
+imgcover: /uploads/40-copie.jpeg
 ---
 On the 25th of March 2025, WYSIWYG Seminar #2 was addressed by Michael Renner, Head of the Institute Digital Communication Environments at the Basel School of Design – FHNW, and member of WYSIWYG Advisory Committee. In a room filled with students of the HGK Basel, Michael had gathered printed material of several decades, including the portfolio he had brought with him to the United States in the early 1980s after graudating from the Basel School of Design. His first job was at Apple Creative Services, where he produced works on the first pre-versions of Illustrator. The work he did at The Understanding Business, the agency of Richard Saul Wurman, on a user-friendly yellow pages for the Pacific Bell Company received specific praise and attention. Part of these phonebooks were produced on Macintosh using DTP tools, leaving designers time for research on the drawings of pictograms. Back in Basel in the early 1990s, Michael Renner continued to develop computer-based work  in the framework of his teaching at HGK, including posters and interactive media projects. Some of them have been highlighted in the Fall of 2024 in the exhibition ["Unleashed"](https://www.tinguely.ch/en/exhibitions/exhibitions/2024/unleashed.html) at Museum Tinguely in Basel. Participants also had the opportunity to test a 1984 Macintosh which was kept at HGK for decades and was successfully restarted. Video of this event will soon be made available. 
 
