@@ -1,5 +1,5 @@
 ---
-title: WYSIWYG Research project Kick-Off, Geneva, Oct. 16, 2024
+title: WYSIWYG Research project Kick-Off - Geneva, Oct. 16, 2024
 date: 2024-10-16T10:31:00.000Z
 language: en
 ---
