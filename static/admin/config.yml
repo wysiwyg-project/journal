@@ -15,7 +15,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Cover image", name: "cover", widget: "image", required: false }
+      - { label: "Cover image", name: "imgcover", widget: "image", required: false }
       - { label: 'Content', name: 'body', widget: 'markdown' }
       - { label: "Language", name: "language", widget: "hidden", default: "en" }
       - { label: "URL of translation in french", name: "translation", widget: "string", required: false }
@@ -30,7 +30,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Cover image", name: "cover", widget: "image", required: false }
+      - { label: "Cover image", name: "imgcover", widget: "image", required: false }
       - { label: 'Content', name: 'body', widget: 'markdown' }
       - { label: "Language", name: "language", widget: "hidden", default: "fr" }
       - { label: "URL of translation in english", name: "translation", widget: "string", required: false }
