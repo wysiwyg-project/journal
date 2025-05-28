@@ -1,7 +1,7 @@
 ---
 title: "WYSIWYG Seminar #3 Olivier Lugon, Le graphisme pour l'écran - Genève, 12
   juin 2025"
-date: 2025-05-27T11:37:00.000Z
+date: 2025-05-28T15:54:00.000Z
 cover: /uploads/bibliovision_projecteur.jpg
 language: fr
 ---
