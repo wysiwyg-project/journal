@@ -2,6 +2,7 @@
 title: Journée d'études "Entre artisanat et dématérialisation" -  Lausanne, 9 mai 2025
 date: 2025-05-07T19:46:00.000Z
 cover: /uploads/1-mhljeker.png
+imgcover: /uploads/1-mhljeker.png
 language: fr
 ---
 Le 9 mai 2025, Clémence Imbert a donné une conférence
