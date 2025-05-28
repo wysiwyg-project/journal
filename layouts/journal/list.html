@@ -26,9 +26,11 @@
 					</time>
 				</div>
 
+				<a href="{{ .Permalink }}">
 				{{ with .Params.imgcover }}
 					{{ partial "imgcover.html" . }}
 				{{ end }}
+				</a>
 
 				<div class="summary">
 					{{ .Content | truncate 400 }}

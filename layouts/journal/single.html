@@ -51,7 +51,11 @@
 
 
 
-
+		{{ with .Params.imgcover }}
+		<div class="figure-cover">
+			{{ partial "imgcover.html" . }}
+		</div>
+		{{ end }}
 		
 
 

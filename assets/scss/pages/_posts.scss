@@ -5,6 +5,21 @@
         // color: red;
     }
 
+    .figure-cover figure{
+        width: 100%;
+        aspect-ratio: 16/9;
+        margin-top: var(--baseline);
+        margin-bottom: calc(var(--baseline)*-1);
+        // margin-bottom: calc(var(--baseline)*0.5);
+        @include img-border();
+        // margin-left: var(--indent);
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
     .details {
         display: flex;
     }
