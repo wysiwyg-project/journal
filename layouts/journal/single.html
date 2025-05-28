@@ -50,12 +50,15 @@
 			
 
 
-
-		{{ with .Params.imgcover }}
-		<div class="figure-cover">
-			{{ partial "imgcover.html" . }}
-		</div>
-		{{ end }}
+			{{ with .Params.imgcover }}
+			<div class="figure-cover">
+			  {{ partial "imgcover.html" . }}
+			  {{ with $.Params.caption }}
+				<p class="caption">{{ . }}</p>
+			  {{ end }}
+			</div>
+		  {{ end }}
+		  
 		
 
 
