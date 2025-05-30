@@ -17,11 +17,16 @@
         margin-top: var(--baseline);
         margin-bottom: calc(var(--baseline)*0.5);
         @include img-border();
+        display: flex;
 
         // on grid
         position: relative;
         left: 1px;
 
+        @media #{$phone}{
+            width: 100vw;
+            left: calc(var(--padding)*-1);
+        }
 
         img{
             width: 100%;

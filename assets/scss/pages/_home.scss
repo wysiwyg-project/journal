@@ -28,7 +28,7 @@
 
         @media #{$phone}{
             line-height: calc(var(--baseline)*1.5);
-            margin-top: calc(var(--baseline)*-1);
+            margin-top: 0px;
         }
         
 
