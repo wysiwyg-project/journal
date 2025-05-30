@@ -17,7 +17,12 @@
         margin-top: var(--baseline);
         margin-bottom: calc(var(--baseline)*0.5);
         @include img-border();
-        // margin-left: var(--indent);
+
+        // on grid
+        position: relative;
+        left: 1px;
+
+
         img{
             width: 100%;
             height: 100%;

@@ -63,7 +63,7 @@ a{
 
 @mixin img-border(){
     --img-border: var(--black);
-    filter:
+    filter: 
     drop-shadow(0 -2px 0 var(--img-border))
     drop-shadow(0 2px 0 var(--img-border))
     drop-shadow(-2px 0 0 var(--img-border))

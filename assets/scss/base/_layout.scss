@@ -15,16 +15,24 @@ body{
    
     --indent: calc(var(--grid-unit)/2 + var(--gap)/2);
 
-    display: grid;
-    grid-template-columns: repeat(12, var(--grid-unit));
-    grid-template-rows: 1fr;
-    grid-gap: var(--gap);
-    width: calc(var(--max-width) - var(--padding)*2);
+    
     margin: var(--padding) auto;
-
+    width: calc(var(--max-width) - var(--padding)*2);
+    max-width: 100vw;
+    overflow-x: hidden;
 
 
 }
+
+body:not(.page-home){
+    @media #{$desktop}{ 
+        display: grid;
+        grid-template-columns: repeat(12, var(--grid-unit));
+        grid-template-rows: 1fr;
+        grid-gap: var(--gap);
+    }
+}
+
 
 
 
@@ -32,6 +40,8 @@ body{
 
 #site-header{
     position: fixed; 
+    top: 0px;
+    // on grid
     top: 3px;
     left: 0px;
     padding-left: var(--top);
@@ -106,7 +116,7 @@ main{
         background-color: var(--color-bg);
         width: 100%;
         height: calc(var(--baseline)*2.5 + 3px);
-
+        top: 0px;
         border-bottom: 2px solid var(--black);
         padding: calc(var(--padding)/3) var(--padding);
         h1{ font-size: 28px!important; }

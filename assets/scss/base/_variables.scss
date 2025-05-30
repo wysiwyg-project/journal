@@ -65,6 +65,7 @@
 
 
 $medium: "screen and (max-width: 960px)";
+$desktop: "screen and (min-width: 960px)";
 $phone: "screen and (max-width: 640px)";
 $big: "screen and (min-width: 1900px)";
 
@@ -76,6 +77,4 @@ $big: "screen and (min-width: 1900px)";
         --baseline: 22px;
 
     }
-   
-
 }
