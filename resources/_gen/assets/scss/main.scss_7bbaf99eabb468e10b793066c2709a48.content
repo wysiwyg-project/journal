@@ -21,11 +21,11 @@
   --button-margin: 2px;
   --icons-size: calc(var(--baseline)*1.25);
   --icons-radius: 5px;
-  --color-bg-1: #31a8f7;
+  --color-bg-1: #4bb4f9;
   --color-bg-2: rgb(198, 196, 197);
   --color-bg-3: #edcc48;
-  --color-bg-4: #00df68;
-  --color-bg-5: #ff5518;
+  --color-bg-4: #18e678;
+  --color-bg-5: #fd6b35;
   --color-h: 14px;
   --black: #1a1a1a;
   --accent: #ea4b32;
