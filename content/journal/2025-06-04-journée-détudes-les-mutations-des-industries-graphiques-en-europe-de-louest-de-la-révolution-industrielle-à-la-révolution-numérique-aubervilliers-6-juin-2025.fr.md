@@ -3,7 +3,7 @@ title: "Journée d'études \"Les mutations des industries graphiques en Europe d
   l'Ouest : de la révolution industrielle à la révolution numérique\" -
   Aubervilliers, 6 juin 2025"
 date: 2025-06-01T08:00:00.000Z
-imgcover: /uploads/20250409_121630.jpg
+imgcover: /uploads/20250409_121630-copie.jpeg
 language: fr
 ---
 Le 6 juin 2025 se tiendra au Campus Condorcet une journée d'études consacrées aux mutations des industries graphiques en Europe de l'Ouest, co-organisée par Marie-Cécile Bouju (Université Paris 8, IDHE.S), Sylvain Lesage (Université de Lille, IRHIS) et Florian Moine (Université Paris 1 Panthéon Sorbonne CHS).  Le programme complet peut-être consulté [ici](https://www.idhes.cnrs.fr/les-mutations-des-industries-graphiques/)
