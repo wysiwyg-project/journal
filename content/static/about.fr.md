@@ -29,3 +29,8 @@ Les écoles et les cursus de graphisme suisses et français ont-ils initié ou s
 ## **Axe de recherche 4**&#8239;**: Au-delà du WYSIWYG. Publier pour le print et le web.**
 
 Le programme de recherche WYSIWYG est ancré dans la pratique contemporaine du graphisme, avec un regard sur l'avenir de l'impression sur le web, du codage créatif et de l'automatisation du graphisme par l'IA. Dans le sillage de l'interrogation de Taylor Conrad «&#8239;What has WYSIWYG done to us&#8239;?&#8239;» (1996), cet axe de recherche explore la frontière floue entre WYSIWYG et non-WYSIWYG dans le cadre de l’édition en ligne, des applications mobiles et des services d'IA. Il se concentrera sur des processus créatifs hybrides spécifiques aux technologies web et à la publication multi-supports, y compris les pratiques web-to-print (utilisation de HTML et CSS pour créer des documents imprimés) et la publication web responsive ancrée dans le cadre de la culture libre et open source. D'autre part, le paradigme WYSIWYG est resté central dans les applications de conception à large audience telles que Canva (2010), qui étendent et renouvellent la division entre la conception graphique professionnelle et non professionnelle. Nous souhaitons également étudier l'avenir du WYSIWYG à la lumière des interfaces vocales et neurales émergentes.
+
+---
+
+Conception et développement web: Julie Blanc
+

@@ -29,3 +29,8 @@ Graphic design’s digital turn has been visible in the evolution of graphic des
 ## Research stream 4: Beyond WYSIWYG: publishing for print and web
 
 WYSIWYG research program is rooted in contemporary graphic design practice with an eye on the future of web-to-print, creative coding, and automation of graphic design through AI. In the wake of Taylor Conrad’s interrogation “What has WYSIWYG done to us?” (1996), this RS explores the blurry boundary between WYSIWYG and non-WYSIWYG in the framework of online communication, web publishing, mobile apps and AI services. It will focus on specific hybrid creative processes in relationship to web technologies and multisupport publishing including web-to-print practices (use of HTML and CSS to create printed documents) and responsive web publication rooted into the framework of free and open source culture. On the other side, WYSIWYG paradigm has remained central in wide-audience design apps such as Canva (2010), that extend and renew the division between professional and non-professional graphic design. We also wish to investigate the future of WYSIWYG in the light of emerging vocal and neural interfaces.
+
+---
+
+Web design and development: Julie Blanc
+

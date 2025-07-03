@@ -642,6 +642,11 @@ body[data-grid="true"] #site-header #grid-switcher {
       border: 2px solid var(--black); }
   .content figure + figure {
     margin-top: calc(var(--baseline)*-0.5); }
+  .content hr {
+    border: none;
+    border-top: 2px solid var(--black);
+    margin-top: calc(var(--baseline)*2);
+    margin-bottom: calc(var(--baseline)*0.75); }
 
 .back {
   background: none;
