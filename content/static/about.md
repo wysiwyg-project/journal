@@ -4,7 +4,7 @@ layout: static
 type: static
 url: about
 ---
-WYISWYG is a 3-year interdisciplinary research project that aims at documenting, from a historical and theoretical perspective, the digital turn of graphic design practice. How and when did the computer become the main working device for graphic designers? And what are the long-term unexpected effects of these technologies on the practice of graphic design today?
+WYSIWYG is a 3-year interdisciplinary research project that aims at documenting, from a historical and theoretical perspective, the digital turn of graphic design practice. How and when did the computer become the main working device for graphic designers? And what are the long-term unexpected effects of these technologies on the practice of graphic design today?
 
 The project will produce data, timeline, critical analysis on the economy and distribution networks of WYSIWYG software (acronym of « What You See Is What You Get »: first-used in 1981 the expression designates a specific category of software whose graphic interface makes it possible to visualize a design on the screen as it will ultimately be printed). This includes word-processing systems, desktop publishing (DTP) software used for lay-out as well as software used for computer-based drawing and image-editing. WYSIWYG interfaces and software gave designers and editors unprecedented control over layout, typography, - and visual elements in print media. Boosting the creativity and possibility to experiment, these tools resulted in a more intuitive, visual-oriented and less-structured \*practice of design\*, and therefore questioning the accuracy of the concept of “automation” when it comes to design software.
 
@@ -30,7 +30,6 @@ Graphic design’s digital turn has been visible in the evolution of graphic des
 
 WYSIWYG research program is rooted in contemporary graphic design practice with an eye on the future of web-to-print, creative coding, and automation of graphic design through AI. In the wake of Taylor Conrad’s interrogation “What has WYSIWYG done to us?” (1996), this RS explores the blurry boundary between WYSIWYG and non-WYSIWYG in the framework of online communication, web publishing, mobile apps and AI services. It will focus on specific hybrid creative processes in relationship to web technologies and multisupport publishing including web-to-print practices (use of HTML and CSS to create printed documents) and responsive web publication rooted into the framework of free and open source culture. On the other side, WYSIWYG paradigm has remained central in wide-audience design apps such as Canva (2010), that extend and renew the division between professional and non-professional graphic design. We also wish to investigate the future of WYSIWYG in the light of emerging vocal and neural interfaces.
 
----
+- - -
 
 Web design and development: Julie Blanc
-
