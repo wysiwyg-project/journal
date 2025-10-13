@@ -4,7 +4,7 @@ layout: static
 type: static
 url: about
 ---
-WYISWYG est un projet de recherche interdisciplinaire de trois ans qui vise à documenter, d'un point de vue historique et théorique, le tournant numérique de la pratique du design graphique. Comment et quand l'ordinateur est-il devenu le principal outil de travail des graphistes&#8239;? Et&nbsp;quels sont les effets à long terme de ces technologies sur la pratique du&nbsp;graphisme aujourd'hui&#8239;?
+WYSIWYG est un projet de recherche interdisciplinaire de trois ans qui vise à documenter, d'un point de vue historique et théorique, le tournant numérique de la pratique du design graphique. Comment et quand l'ordinateur est-il devenu le principal outil de travail des graphistes&#8239;? Et&nbsp;quels sont les effets à long terme de ces technologies sur la pratique du&nbsp;graphisme aujourd'hui&#8239;?
 
 Le projet produira des données, une chronologie, une analyse critique sur l'économie et les réseaux de distribution des logiciels WYSIWYG (acronyme de «&#8239;What You See Is What You Get&#8239;»&#8239;: utilisée pour la première fois en 1981, l'expression désigne une catégorie spécifique de logiciels dont l'interface graphique permet de visualiser à l'écran un dessin tel qu'il sera finalement imprimé). Cette catégorie comprend les systèmes de traitement de texte, les logiciels de publication assistée par ordinateur (PAO) utilisés pour la mise en page ainsi que les logiciels utilisés pour le&nbsp;dessin et l'édition d'images sur ordinateur. Les interfaces et les logiciels WYSIWYG ont donné aux concepteurs et aux éditeurs un contrôle sans précédent sur la mise en page, la typographie et les éléments visuels dans les médias imprimés. En stimulant la créativité et la possibilité d'expérimenter, ces outils ont donné lieu à une pratique du design plus intuitive, plus visuelle et moins structurée, remettant ainsi en question l'exactitude du concept d'«&#8239;automatisation&#8239;» lorsqu'il s'agit de logiciels graphique.
 
@@ -30,7 +30,6 @@ Les écoles et les cursus de graphisme suisses et français ont-ils initié ou s
 
 Le programme de recherche WYSIWYG est ancré dans la pratique contemporaine du graphisme, avec un regard sur l'avenir de l'impression sur le web, du codage créatif et de l'automatisation du graphisme par l'IA. Dans le sillage de l'interrogation de Taylor Conrad «&#8239;What has WYSIWYG done to us&#8239;?&#8239;» (1996), cet axe de recherche explore la frontière floue entre WYSIWYG et non-WYSIWYG dans le cadre de l’édition en ligne, des applications mobiles et des services d'IA. Il se concentrera sur des processus créatifs hybrides spécifiques aux technologies web et à la publication multi-supports, y compris les pratiques web-to-print (utilisation de HTML et CSS pour créer des documents imprimés) et la publication web responsive ancrée dans le cadre de la culture libre et open source. D'autre part, le paradigme WYSIWYG est resté central dans les applications de conception à large audience telles que Canva (2010), qui étendent et renouvellent la division entre la conception graphique professionnelle et non professionnelle. Nous souhaitons également étudier l'avenir du WYSIWYG à la lumière des interfaces vocales et neurales émergentes.
 
----
+- - -
 
 Conception et développement web: Julie Blanc
-
