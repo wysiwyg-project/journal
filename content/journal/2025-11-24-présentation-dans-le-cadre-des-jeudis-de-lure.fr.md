@@ -1,6 +1,6 @@
 ---
-title: Présentation dans le cadre des Jeudis de Lure — jeudi 4 décembre à partir
-  de 19h, Césure, Paris
+title: Présentation dans le cadre des Jeudis de Lure — jeudi 4 décembre 2025 à
+  partir de 19h, Césure, Paris
 date: 2025-11-24T16:15:00.000+01:00
 imgcover: /uploads/capture-d’écran-2025-11-24-à-10.52.39.png
 caption: "Atelier de Philippe Gerbaud et Christophe Jacquet dit Toffe, ca. 1987. "
