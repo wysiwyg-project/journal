@@ -5,6 +5,7 @@ date: 2025-11-24T16:15:00.000+01:00
 imgcover: /uploads/capture-d’écran-2025-11-24-à-10.52.39.png
 caption: "Atelier de Philippe Gerbaud et Christophe Jacquet dit Toffe, ca. 1987. "
 language: fr
+translation: https://wysiwyg.netlify.app/journal/2025-11-24-lecture-as-part-of-the-jeudis-de-lure--thursday-december-4-2025-from-7-00-p-m-c%C3%A9sure-paris/
 ---
 ***Récit(s) de « fouilles numériques » et autres icônes.*** 
 
