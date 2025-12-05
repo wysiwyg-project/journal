@@ -5,7 +5,7 @@ date: 2025-11-24T16:38:00.000+01:00
 imgcover: /uploads/capture-d’écran-2025-11-24-à-10.52.39.png
 caption: Workspace of Philippe Gerbaud and Christophe Jacquet known as Toffe, ca. 1987.
 language: en
-translation: https://wysiwyg.netlify.app/fr/journal/2025-11-24-pr%C3%A9sentation-dans-le-cadre-des-jeudis-de-lure/
+translation: https://wysiwyg.ch/fr/journal/2025-11-24-pr%C3%A9sentation-dans-le-cadre-des-jeudis-de-lure/
 ---
 ***Narrative(s) of “Digital Excavations” and Other Icons***
 
