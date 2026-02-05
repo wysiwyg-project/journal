@@ -4,12 +4,14 @@ layout: static
 type: static
 url: bibliography
 ---
-Publications du projet WYSIWYG\
+**Publications du projet WYSIWYG**\
+\
 Bischler-Hartmann, Sandra. (2025). Of Pencils and Pixels. The Early Years of Computer-Based Graphic Design Teaching at the Basel School of Design (1984–1990). *AIS/Design*, no.12, pp. 15-40. 
 
 
 
 **Bibliographie générale** \
+\
 André, Jacques (dir.) (2016). *Histoire de l’écriture typographique.
 Le XXe siècle, tome II/II: de 1950 à 2000.* Paris:
 Atelier Perrousseaux.
