@@ -1,5 +1,6 @@
 ---
-title: Conférence à l'Institut supérieur des arts et du design de Toulouse
+title: Conférence à l'Institut supérieur des arts et du design - Toulouse, 7
+  novembre 2025
 date: 2025-11-07T10:00:00.000+01:00
 imgcover: /uploads/capture-d’écran-2026-02-05-à-09.46.13.png
 language: fr
