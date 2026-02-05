@@ -4,6 +4,12 @@ layout: static
 type: static
 url: bibliography
 ---
+Publications du projet WYSIWYG\
+Bischler-Hartmann, Sandra. (2025). Of Pencils and Pixels. The Early Years of Computer-Based Graphic Design Teaching at the Basel School of Design (1984–1990). *AIS/Design*, no.12, pp. 15-40. 
+
+
+
+**Bibliographie générale** \
 André, Jacques (dir.) (2016). *Histoire de l’écriture typographique.
 Le XXe siècle, tome II/II: de 1950 à 2000.* Paris:
 Atelier Perrousseaux.
@@ -183,7 +189,6 @@ Donald and Wacjman, Judy (ed.). *The Social Shaping of Technology* \[2nd ed], Bu
 Holt, Mark et
 Muir, Hamish (2005). *8vo: On the Outside*, Baden, Lars Müller.
 
-
 Holtz-Bonneau, Françoise
 (1986). *L’image et l’ordinateur. Essai sur l’imagerie informatique*.
 Paris: Aubier.
@@ -273,7 +278,6 @@ Ringier. https://www.typotheque.com/articles/typeface-as-programme
 
 LGRU  \[Libre Graphic Research Unit] (2012). *Considering
 Your Tools*. http://reader.lgru.net/pages/about/]
-
 
 Lialina, Olia (2021). *The Turing Complete
 User. Resisting Alienation in Human-Computer Interaction*. Heidelberg,
@@ -397,7 +401,6 @@ McVarish, Emily (2016). Periodical
 Archaeology. Digital Production, Critical Discourse and Textual Communities: *Emigre.
 Tijdschrift voor Mediageschiedenis,* 19, 2. 
 
-
 McVarish,
 Emily (2017). *Inflection Point*, Berkeley, *Emigre/Letterform Archive,* 
 
@@ -463,11 +466,6 @@ Michael (1994). Gestalterischer Umgang mit dem Computer. In: Anton Stankowski
 and Karl Duschek (ed.). *Visuelle Kommunikation. Ein Design-Handbuch*, 2nd
 edition, Berlin: Reimer, pp. 354–78.
 
-
-
-
-
-
 Robertson, Frances (2013). *Print Culture:
 From Steam Press to Ebook*. London and New York: Routledge.
 
@@ -498,11 +496,6 @@ Edges Dissolve? *Eye
 Magazine*, vol. 18,
 no. 5
 https://www.eyemagazine.com/opinion/article/what-happens-when-the-edges-dissolve
-
-
-
-
-
 
 Staples, Loretta (2000). Typography & the
 Screen. A Technological Chronology of Digital Typography, 1984-1997, *Design Issues*, 16, 3, 19-34. 
@@ -536,15 +529,9 @@ Ulrich, Ferdinand P. (2018). A Brief Overview
 of Developments in Digital Type Design. In: *Yearbook
 of Type, vol. 3*. Karlsruhe: Slanted. 
 
-
-
-
-
-
 von Arx, Peter (1993). *10 Years HFG,
 Department of Visual Communication, 25 Years Class for Film, Video and
 Audiovisual Projects*. Basel: Höhere Fachschule für Gestaltung Basel.
-
 
 Weingart, Wolfgang (1998). Wolfgang Weingart:
 Basel, the Computer, and its Consequences, Interview with Elizabeth Resnick, *Neugraphic* \[online] 
