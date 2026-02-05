@@ -8,8 +8,7 @@ Le 30 juin 2025, Léonore Conte et Caroll Maréchal ont mené un entretien avec 
 
 —
 
-
-M/M (Paris) est un studio de design graphique français fondé en 1992 par Michael Amzalag (né en 1968 à Paris) et Mathias Augustyniak (né en 1967 à Cavaillon). 
+[M/M (Paris)](http://www.mmparis.com/) est un studio de design graphique français fondé en 1992 par Michael Amzalag (né en 1968 à Paris) et Mathias Augustyniak (né en 1967 à Cavaillon). 
 
 Dès 1986, Michael acquiert un Macintosh Apple et éprouve l’outil, en réalisant notamment un fanzine en autodidacte, *Paris me tue*. En 1989, alors qu’ils étudient tous deux à l’École nationale supérieure des arts décoratifs (Ensad) de Paris, ils mettent en commun leurs compétences, le dessin pour Mathias, les techniques de manipulation d’images pour Michael (notamment avec le copieur Canon CLC-500), et expérimentent autour d’objets graphiques mêlant analogique et digital. 
 
