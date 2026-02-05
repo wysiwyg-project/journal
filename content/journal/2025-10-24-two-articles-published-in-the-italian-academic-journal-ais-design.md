@@ -1,7 +1,7 @@
 ---
 title: Two articles published in the Italian academic journal AIS/Design
 date: 2025-10-24T07:00:00.000+02:00
-imgcover: https://www.aisdesign.org/ser/public/journals/1/cover_issue_25_it_IT.jpg
+imgcover: /uploads/capture-d’écran-2026-02-05-à-09.11.18.png
 language: en
 ---
 Two of our articles have been published in the Italian academic journal *AIS/Design.* \
