@@ -9,4 +9,4 @@ Le 22 septembre 2025, Caroll Maréchal s'est rendue aux Archives nationales fran
 \
 —
 
-L'Ensad a mis en place un laboratoire informatique dès 1982 avec l'aide du Ministère de la Culture. Si l'histoire de ce laboratoire est notamment connu pour son engagement dans l'animation et les expérimentations 3D, le dépouillement d'archives permettra de mieux comprendre son impact sur la formation des graphistes à l'intérieur et à l'extérieur de l'école.
+L'Ensad a mis en place un laboratoire informatique dès 1982 avec l'aide du Ministère de la Culture. Si l'histoire de ce laboratoire est notamment connu pour son engagement dans l'animation et les expérimentations 3D, le dépouillement d'archives permettra de mieux comprendre son impact sur la formation des graphistes à l'intérieur et à l'extérieur de l'école, ainsi que l'implication de l'État, via le Ministère de la Culture, dans le déploiements des outils informatiques dans les écoles d'art.
