@@ -6,7 +6,8 @@ url: bibliography
 ---
 **Publications du projet WYSIWYG**\
 \
-Bischler-Hartmann, Sandra. (2025). Of Pencils and Pixels. The Early Years of Computer-Based Graphic Design Teaching at the Basel School of Design (1984–1990). *AIS/Design*, no.12, pp. 15-40. \
+Bischler-Hartmann, Sandra. (2025). Of Pencils and Pixels. The Early Years of Computer-Based Graphic Design Teaching at the Basel School of Design (1984–1990). *AIS/Design*, no.12, pp. 15-40.\
+<https://www.aisdesign.org/ser/index.php/SeR/article/view/322/302> \
 \
 Conte, Léonore and Maréchal, Caroll. (2025). “The Prodigious Decades” (1980s–1990s). From Resistance to Renewal — How French Graphic Design Magazines Framed the Rise of Computing. *AIS/Design*, no.12, pp. 41-56.
 
