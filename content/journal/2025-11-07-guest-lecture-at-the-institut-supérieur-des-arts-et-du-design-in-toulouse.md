@@ -1,5 +1,6 @@
 ---
-title: Guest Lecture at the Institut supérieur des arts et du design in Toulouse
+title: "Guest Lecture at the Institut supérieur des arts et du design -
+  Toulouse, Nov. 7, 2025 "
 date: 2025-11-07T10:00:00.000+01:00
 imgcover: /uploads/capture-d’écran-2026-02-05-à-09.46.13.png
 language: en
