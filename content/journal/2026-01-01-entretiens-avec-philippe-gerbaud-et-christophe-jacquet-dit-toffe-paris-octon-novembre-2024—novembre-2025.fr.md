@@ -1,6 +1,6 @@
 ---
-title: Entretiens avec Philippe Gerbaud et Christophe Jacquet dit Toffe, Paris /
-  Octon, novembre 2024—novembre 2025
+title: Entretiens avec Philippe Gerbaud et Christophe Jacquet dit Toffe — Paris
+  / Octon, novembre 2024—novembre 2025
 date: 2026-01-01T10:00:00.000+01:00
 imgcover: /uploads/toffe-gerbaud.jpg
 language: fr
