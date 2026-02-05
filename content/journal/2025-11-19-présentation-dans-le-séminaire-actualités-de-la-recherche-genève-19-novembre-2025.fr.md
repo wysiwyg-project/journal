@@ -2,6 +2,7 @@
 title: Présentation dans le séminaire Actualités de la Recherche - Genève, 19
   novembre 2025
 date: 2025-11-19T12:00:00.000+01:00
+imgcover: /uploads/capture-d’écran-2026-02-05-à-10.15.17.png
 language: fr
 ---
 Le 19 novembre 2025, Léonore Conte et Caroll Maréchal ont présenté une partie de leurs recherches effectuées pour le projet WYSIWYG dans le cadre du séminaire Actualités de la Recherche, co-organisé par Anthony Masure (HEAD - Genève) et Giovanna Zapperi (UNIGE). 
