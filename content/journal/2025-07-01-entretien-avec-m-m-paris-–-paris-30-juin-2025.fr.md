@@ -17,4 +17,4 @@ Cette première commande leur ouvre les portes de la Fnac avec qui ils collabore
 
 Avec ces modes de production, qui allègent les processus et leur permettent de produire plus rapidement et spontanément, ils interrogent la captation et la transcription du réel. Ils associent alors éléments réalisés à la main (dessin, écriture, etc.) et à l’ordinateur (photographie, bitmap, etc.), et s’éloignent de l’esthétique digitale et informatique américaine (April Greiman). 
 
-Leur usage précoce de l’ordinateur pour la conception graphique leur permettra d’être rapidement compétitifs et de s’imposer parmi la nouvelle génération de graphistes des années 1990 malgré une réticence affirmée au sein de la communauté graphique française
+Leur usage précoce de l’ordinateur pour la conception graphique leur permettra d’être rapidement compétitifs et de s’imposer parmi la nouvelle génération de graphistes des années 1990 malgré une réticence affirmée au sein de la communauté graphique française.
