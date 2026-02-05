@@ -1,7 +1,7 @@
 ---
 title: Seminar presentation “Actualités de la Recherche” - Geneva, Nov. 19, 2025
 date: 2025-11-19T12:00:00.000+01:00
-imgcover: /uploads/capture-d’écran-2026-02-05-à-10.15.17.png
+imgcover: /uploads/mac.jpg
 language: en
 ---
 On November 19, 2025, Léonore Conte and Caroll Maréchal presented part of the research conducted for the WYSIWYG project as part of the *Actualités de la Recherche* seminar, co-organized by Anthony Masure (HEAD – Geneva) and Giovanna Zapperi (University of Geneva).
