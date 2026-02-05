@@ -1,5 +1,5 @@
 ---
-title: Interviews with Philippe Gerbaud and Christophe Jacquet known as Toffe,
+title: Interviews with Philippe Gerbaud and Christophe Jacquet known as Toffe —
   Paris / Octon, Nov. 2024—Nov 2025
 date: 2026-01-01T10:00:00.000+01:00
 imgcover: /uploads/toffe-gerbaud.jpg
