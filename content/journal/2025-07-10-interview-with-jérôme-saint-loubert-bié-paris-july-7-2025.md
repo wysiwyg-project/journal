@@ -1,5 +1,5 @@
 ---
-title: Interview with Jérôme Saint-Loubert Bié, Paris, July 7, 2025
+title: Interview with Jérôme Saint-Loubert Bié — Paris, July 7, 2025
 date: 2025-07-10T10:00:00.000+02:00
 imgcover: /uploads/jslb.jpg
 language: en
