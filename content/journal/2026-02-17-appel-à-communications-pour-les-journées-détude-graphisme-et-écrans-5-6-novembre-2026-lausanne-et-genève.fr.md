@@ -2,8 +2,8 @@
 title: "Appel à communications pour les journées d'étude \"Graphisme et écrans\"
   (5-6 novembre 2026, Lausanne et Genève) "
 date: 2026-02-17T10:50:00.000+01:00
-imgcover: /uploads/capture-d’écran-2026-02-17-à-10.54.51.jpg
-caption: Interface du logiciel Letrapage (Macworld, novembre 1986)
+imgcover: ""
+caption: ""
 language: fr
 ---
 **Graphisme et écrans : mutations du design graphique dans la seconde moitié du XXe siècle**
