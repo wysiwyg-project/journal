@@ -1,3 +1,6 @@
+@use "../base/variables" as *;
+@use "../base/generic" as *;
+
 .list-posts__item{
     margin-bottom: calc(var(--baseline)*3);
     max-width: 52ch;
@@ -12,7 +15,7 @@
     }
 
     figure{
-        width: calc(100% - var(--indent));
+        width: 100%;
         aspect-ratio: 16/9;
         margin-top: var(--baseline);
         margin-bottom: calc(var(--baseline)*0.5);
@@ -40,15 +43,19 @@
         margin-top: calc(var(--baseline)*0.25);
         margin-bottom: calc(var(--baseline)*0.25);
         margin-left: var(--indent);
+
+    
     }
 
     .summary{
-        // display: none;
+          strong{
+            font-weight: normal;
+        }
     }
 
     button{
       @include button-text();
-      margin-top: calc(var(--baseline)*0.5);
+      margin-top: calc(var(--baseline)*1);
       margin-left: var(--indent);
       &:hover{
         color: var(--accent);

@@ -1,3 +1,5 @@
+@use "../base/generic" as *;
+
 #list-team .list-team__item {
     margin-top: calc(var(--baseline)*3);
     &:first-of-type{

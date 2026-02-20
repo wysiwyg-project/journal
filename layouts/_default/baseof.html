@@ -11,9 +11,10 @@
 	<!-- {{/* NOTE: the Site's title, and if there is a page title, that is set too */}} -->
 	<title>{{ block "title" . }} {{ i18n "site.title" }} {{ with .Params.Title }} | {{ . }}{{ end }}{{ end }}</title>
 
-	 <!-- Compilation SCSS en CSS avec Hugo Pipes -->
-	 {{ $styles := resources.Get "scss/main.scss" | css.Sass }}
-	<link rel="stylesheet" href="{{ $styles.RelPermalink }}">	
+	<!-- Compilation SCSS en CSS avec Hugo Pipes (Dart Sass) -->
+	{{ $options := dict "transpiler" "dartsass" }}
+	{{ $styles := resources.Get "scss/main.scss" | css.Sass $options }}
+	<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
 
 	<!-- {{ $js := resources.Get "js/main.js" }}   
     <script src="{{ $js.RelPermalink }}"></script> -->

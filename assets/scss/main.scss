@@ -1,27 +1,21 @@
 @charset "UTF-8";
 
+@use "base/variables" as *;
+@use "base/generic" as *;
+@use "base/layout";
+@use "components/grids";
 
-@import "fonts/ChicagoFLF/stylesheet.css";
-@import "fonts/Muli/stylesheet.css";
-@import "fonts/Catamaran/stylesheet.css";
-@import "fonts/Akkurat/stylesheet.css";
+@use "partials/site-header";
+@use "partials/site-menu";
+@use "partials/aside-buttons";
 
-@import "base/variables";
-@import "base/generic";
-@import "base/layout";
-@import "components/grids";
+@use "components/buttons-color";
+@use "components/text";
+@use "components/back";
 
-@import "partials/site-header";
-@import "partials/site-menu";
-@import "partials/aside-buttons";
-
-@import "components/buttons-color";
-@import "components/text";
-@import "components/back";
-
-@import "pages/home";
-@import "pages/list-posts";
-@import "pages/posts";
-@import "pages/static";
-@import "pages/list-team";
-@import "pages/team";
+@use "pages/home";
+@use "pages/list-posts";
+@use "pages/posts";
+@use "pages/static";
+@use "pages/list-team";
+@use "pages/team";

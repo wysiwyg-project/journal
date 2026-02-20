@@ -1,3 +1,6 @@
+@use "../base/variables" as *;
+@use "../base/generic" as *;
+
 .post__content,
 [data-name*="about"] .content{
 

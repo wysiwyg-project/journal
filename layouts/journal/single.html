@@ -24,30 +24,7 @@
 	</div>
 
 			
-			{{ if eq .Language.Lang "fr" }}
-		
-			  {{ with .Params.translation }}
-			  <div class="utils" id="i18n">
-				<p>
-			  Text also in english:
-				<a href="{{ . }}">{{ . }}</a>
-				</p>
-				</div>
-			{{ end }}
-			{{ else }}
-			
-			{{ with .Params.translation }}
-			<div class="utils" id="i18n">
-				<p>
-					Texte également disponible en français:
-				<a href="{{ . }}">{{ . }}</a>
-			</p>
-		</div>
-			{{ end }}
-			{{ end }}
-			
 
-			
 
 
 			{{ with .Params.imgcover }}
@@ -78,6 +55,30 @@
 		}}
 		
 	</section>
+
+
+			{{ if eq .Language.Lang "fr" }}
+		
+			  {{ with .Params.translation }}
+			  <div class="utils" id="i18n">
+				<p>
+			  Text also in english:
+				<a href="{{ . }}">{{ . }}</a>
+				</p>
+				</div>
+			{{ end }}
+			{{ else }}
+			
+			{{ with .Params.translation }}
+			<div class="utils" id="i18n">
+				<p>
+					Texte également disponible en français:
+				<a href="{{ . }}">{{ . }}</a>
+			</p>
+		</div>
+			{{ end }}
+			{{ end }}
+			 
 
 
 </article>
