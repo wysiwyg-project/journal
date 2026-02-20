@@ -6,9 +6,9 @@ imgcover: ""
 caption: ""
 language: fr
 ---
-**Graphisme et écrans : mutations du design graphique dans la seconde moitié du XXe siècle**
-
 Appel à communications pour deux journées d’étude organisées à l'Université de Lausanne et à la HEAD – Genève, 5-6 novembre 2026
+
+**Graphisme et écrans : mutations du design graphique dans la seconde moitié du XXe siècle**
 
 Tel qu’il s’est développé au cours du XXe siècle, le graphisme s’est essentiellement défini comme un art du papier. Qu’il mette en jeu l’illustration, la mise en page typographique ou photographique, son produit final était au premier chef la page imprimée, dont l’élaboration même reposait sur les outils de l’impression – l’encre et la feuille de papier. Dans les dernières décennies du siècle cependant, un déplacement majeur du papier vers l’écran est venu transformer en profondeur les supports, les objets, les pratiques et les outils du métier, voire l’idée même de la communication graphique. 
 
@@ -27,7 +27,5 @@ Au croisement des deux projets, deux journées d’étude organisées conjointem
 ·       Comment enfin ces mutations ont-elles été accueillies dans les filières de formation aux métiers du graphisme ? Comment ont-elles fait apparaître de nouveaux domaines d’enseignement, tel celui de la « communication visuelle », ou questionné les frontières instituées entre les disciplines dans les écoles d’arts appliqués ? Comment y ont-elles fait entrer des appareillages et des savoir-faire techniques non seulement nouveaux, mais également voués au renouvellement constant ?
 
 ·       A partir de quelles traces matérielles est-il possible de (re-)voir aujourd’hui le graphisme animé, interactif ou numérique d’hier ? Quelles archives mobiliser pour faire l’histoire des processus créatifs sur et pour l’écran ?
-
- 
 
 Les propositions de communication (en français ou en anglais, d’une page environ, accompagnée d’une courte notice biographique) sont à envoyer à Olivier Lugon ([olivier.lugon@unil.ch](mailto:olivier.lugon@unil.ch)) et Clémence Imbert ([clemence.imbert@hesge.ch](mailto:clemence.imbert@hesge.ch)) avant le 10 avril 2026.
