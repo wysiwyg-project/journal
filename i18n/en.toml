@@ -50,5 +50,5 @@ projects = "Recent projects"
 # informations
 [informations]
 date = "Published on"
-translation = "Text also in english:"
+also_in = "Text also in english:"
 website = "Website"
