@@ -16,7 +16,7 @@
         }
 
        
-        #header-buttons{
+        #header-tools{
             display: flex;
             justify-content: flex-start;
             align-items: center;
@@ -24,7 +24,7 @@
         }
 
 
-        .icon-title{
+        .btn-icon{
      
             --size: var(--icons-size);
             z-index: 100;
@@ -52,7 +52,9 @@
             }
         }
 
-        #toggle-menu{ display: none; }
+        #toggle-menu{ 
+            
+        }
 
 }
 

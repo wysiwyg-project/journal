@@ -321,13 +321,13 @@ body[data-grid=true] #grid-paper {
   font-size: var(--font-size-big);
   margin-right: 0.75ch;
 }
-#site-header #header-buttons {
+#site-header #header-tools {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   height: 100%;
 }
-#site-header .icon-title {
+#site-header .btn-icon {
   --size: var(--icons-size);
   z-index: 100;
   margin-left: 0.5ch;
@@ -341,17 +341,13 @@ body[data-grid=true] #grid-paper {
   justify-content: center;
   cursor: pointer;
 }
-#site-header .icon-title svg {
+#site-header .btn-icon svg {
   width: 75%;
   fill: var(--black);
 }
-#site-header .icon-title:hover {
+#site-header .btn-icon:hover {
   background-color: var(--accent);
 }
-#site-header #toggle-menu {
-  display: none;
-}
-
 #toggle-move-checkbox:checked ~ #site-header #toggle-move,
 body[data-grid=true] #site-header #grid-switcher {
   background-color: var(--black);
@@ -528,7 +524,11 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   transform: rotate(-45deg) translate(var(--left), calc(var(--left) * -1));
 }
 
-#aside-buttons button {
+#header-links {
+  display: flex;
+  flex-grow: 1;
+}
+#header-links button {
   margin-left: var(--button-margin);
   font-weight: 600;
   font-size: 14px;
@@ -536,7 +536,7 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   justify-content: center;
   align-items: center;
 }
-#aside-buttons button > a {
+#header-links button > a {
   color: currentColor;
   width: 100%;
   height: 100%;
@@ -545,7 +545,7 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   align-items: center;
   border: none;
 }
-#aside-buttons button {
+#header-links button {
   --size: var(--icons-size);
   border: 2px solid var(--black);
   background-color: var(--black);
@@ -555,45 +555,45 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   margin-bottom: 3px;
   color: var(--color-bg);
 }
-#aside-buttons button svg {
+#header-links button svg {
   width: calc(var(--button-size) * 0.55);
   fill: var(--color-bg);
 }
-#aside-buttons button label {
+#header-links button label {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#aside-buttons button label:hover {
+#header-links button label:hover {
   cursor: pointer;
 }
-#aside-buttons button:hover {
+#header-links button:hover {
   cursor: pointer;
   background-color: var(--accent);
   color: var(--black) !important;
 }
-#aside-buttons button:hover svg {
+#header-links button:hover svg {
   fill: var(--black);
 }
-#aside-buttons button.disable {
+#header-links button.disable {
   opacity: 0.5;
   cursor: auto !important;
 }
-#aside-buttons button.disable label {
+#header-links button.disable label {
   cursor: auto !important;
 }
-#aside-buttons button.disable a {
+#header-links button.disable a {
   cursor: auto !important;
 }
-#aside-buttons button.disable:hover {
+#header-links button.disable:hover {
   background-color: var(--black);
 }
-#aside-buttons button.disable:hover a {
+#header-links button.disable:hover a {
   color: var(--color-bg);
 }
-#aside-buttons #contact-mail {
+#header-links #contact-mail {
   border: 2px solid var(--black);
   height: calc(var(--button-size) * 1.5);
   border-radius: var(--icons-radius);
@@ -607,11 +607,11 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   bottom: 3px;
   display: none;
 }
-#aside-buttons #mail-checkbox:checked ~ #contact-mail {
+#header-links #mail-checkbox:checked ~ #contact-mail {
   display: flex;
 }
 
-#buttons-color {
+#palette-list {
   --margin: 6px;
   list-style-type: none;
   margin-right: calc(var(--icons-size) * -1);
@@ -620,7 +620,7 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   top: calc(var(--icons-size) * 3.5 + var(--margin));
   z-index: 10;
 }
-#buttons-color li {
+#palette-list li {
   border: 2px solid var(--black);
   width: var(--icons-size);
   height: var(--icons-size);
@@ -632,22 +632,22 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   display: flex;
   opacity: 0;
 }
-#buttons-color li:nth-of-type(1) {
+#palette-list li:nth-of-type(1) {
   top: calc((var(--icons-size) + var(--margin)) * -1);
 }
-#buttons-color li:nth-of-type(2) {
+#palette-list li:nth-of-type(2) {
   top: calc((var(--icons-size) + var(--margin)) * -2);
 }
-#buttons-color li:nth-of-type(3) {
+#palette-list li:nth-of-type(3) {
   top: calc((var(--icons-size) + var(--margin)) * -3);
 }
-#buttons-color li:nth-of-type(4) {
+#palette-list li:nth-of-type(4) {
   top: calc((var(--icons-size) + var(--margin)) * -4);
 }
-#buttons-color li:nth-of-type(5) {
+#palette-list li:nth-of-type(5) {
   top: calc((var(--icons-size) + var(--margin)) * -5);
 }
-#buttons-color button {
+#palette-list button {
   width: 100%;
   height: 100%;
   background: none;
@@ -656,7 +656,7 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   cursor: pointer;
 }
 
-#toggle-palette-checkbox:checked ~ #site-header #buttons-color li {
+#toggle-palette-checkbox:checked ~ #site-header #palette-list li {
   top: 0px !important;
   opacity: 1;
 }
@@ -680,23 +680,23 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   height: 0;
 }
 
-#buttons-color #color-1 {
+#palette-list #color-1 {
   background-color: var(--color-bg-1);
 }
 
-#buttons-color #color-2 {
+#palette-list #color-2 {
   background-color: var(--color-bg-2);
 }
 
-#buttons-color #color-3 {
+#palette-list #color-3 {
   background-color: var(--color-bg-3);
 }
 
-#buttons-color #color-4 {
+#palette-list #color-4 {
   background-color: var(--color-bg-4);
 }
 
-#buttons-color #color-5 {
+#palette-list #color-5 {
   background-color: var(--color-bg-5);
 }
 

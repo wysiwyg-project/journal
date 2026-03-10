@@ -349,10 +349,6 @@ body[data-grid=true] #grid-paper {
 #site-header .icon-title:hover {
   background-color: var(--accent);
 }
-#site-header #toggle-menu {
-  display: none;
-}
-
 #toggle-move-checkbox:checked ~ #site-header #toggle-move,
 body[data-grid=true] #site-header #grid-switcher {
   background-color: var(--black);
@@ -529,7 +525,11 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   transform: rotate(-45deg) translate(var(--left), calc(var(--left) * -1));
 }
 
-#aside-buttons button {
+.group-buttons {
+  display: flex;
+  flex-grow: 1;
+}
+.group-buttons button {
   margin-left: var(--button-margin);
   font-weight: 600;
   font-size: 14px;
@@ -537,7 +537,7 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   justify-content: center;
   align-items: center;
 }
-#aside-buttons button > a {
+.group-buttons button > a {
   color: currentColor;
   width: 100%;
   height: 100%;
@@ -546,7 +546,7 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   align-items: center;
   border: none;
 }
-#aside-buttons button {
+.group-buttons button {
   --size: var(--icons-size);
   border: 2px solid var(--black);
   background-color: var(--black);
@@ -556,45 +556,45 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   margin-bottom: 3px;
   color: var(--color-bg);
 }
-#aside-buttons button svg {
+.group-buttons button svg {
   width: calc(var(--button-size) * 0.55);
   fill: var(--color-bg);
 }
-#aside-buttons button label {
+.group-buttons button label {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#aside-buttons button label:hover {
+.group-buttons button label:hover {
   cursor: pointer;
 }
-#aside-buttons button:hover {
+.group-buttons button:hover {
   cursor: pointer;
   background-color: var(--accent);
   color: var(--black) !important;
 }
-#aside-buttons button:hover svg {
+.group-buttons button:hover svg {
   fill: var(--black);
 }
-#aside-buttons button.disable {
+.group-buttons button.disable {
   opacity: 0.5;
   cursor: auto !important;
 }
-#aside-buttons button.disable label {
+.group-buttons button.disable label {
   cursor: auto !important;
 }
-#aside-buttons button.disable a {
+.group-buttons button.disable a {
   cursor: auto !important;
 }
-#aside-buttons button.disable:hover {
+.group-buttons button.disable:hover {
   background-color: var(--black);
 }
-#aside-buttons button.disable:hover a {
+.group-buttons button.disable:hover a {
   color: var(--color-bg);
 }
-#aside-buttons #contact-mail {
+.group-buttons #contact-mail {
   border: 2px solid var(--black);
   height: calc(var(--button-size) * 1.5);
   border-radius: var(--icons-radius);
@@ -608,7 +608,7 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   bottom: 3px;
   display: none;
 }
-#aside-buttons #mail-checkbox:checked ~ #contact-mail {
+.group-buttons #mail-checkbox:checked ~ #contact-mail {
   display: flex;
 }
 
