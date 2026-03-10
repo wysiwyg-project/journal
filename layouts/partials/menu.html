@@ -5,7 +5,7 @@
     {{ $currentPage := . }}  
 
     {{ if .Site.Menus.main }}
-    <ul>
+    <ul class="ul-nav">
         {{ range .Site.Menus.main }}
         {{ $key := .Name | lower }}
         {{ $currentPermalink := $currentPage.Permalink }}  
@@ -18,6 +18,12 @@
         {{ end }}
     </ul>
     {{ end }}
+
+
+    <ul class="ul-contact">
+        <li><span>Instagram</span> <a href="https://www.instagram.com/wysiwygproject/" target="_blank">@wysiwygproject</a></button>
+		<li><span>Contact</span> clemence.imbert@hesge.ch</li>
+    </ul>
 
 
 
