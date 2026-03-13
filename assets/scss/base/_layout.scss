@@ -60,7 +60,7 @@ body:not(.page-home){
 
 }
 
-#menu{
+#menu-home{
     position: fixed; 
     width: calc(var(--grid-unit)*5 + var(--gap)*4);
     height: calc(var(--baseline)*10);
@@ -122,7 +122,7 @@ main{
 
 
 
-    #menu{
+    #menu-home{
         margin-left: calc(var(--padding) + var(--grid-unit) - var(--gap));
         display: none;
     }
@@ -156,7 +156,7 @@ main{
         margin-right: 0; 
     }
 
-    #menu{
+    #menu-home{
         margin-left: 0;
     }
 }

@@ -1,6 +1,6 @@
 @use "../base/variables" as *;
 
-#menu {
+#menu-home {
   ul {
     height: 100%;
     width: 100%;
@@ -17,15 +17,15 @@
 
 
     &:hover {
-      text-indent: 1.5ch;
+      // text-indent: 1.5ch;
       color: var(--accent);
 
-      &::before {
-        position: absolute;
-        left: -34px;
-        content: var(--arrow) " ";
-        font-size: var(--font-size-arrow);
-      }
+      // &::before {
+      //   position: absolute;
+      //   left: -34px;
+      //   content: var(--arrow) " ";
+      //   font-size: var(--font-size-arrow);
+      // }
     }
 
     &.active {

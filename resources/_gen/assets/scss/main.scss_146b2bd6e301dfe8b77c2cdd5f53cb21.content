@@ -152,7 +152,7 @@ body {
   }
 }
 
-#menu {
+#menu-home {
   position: fixed;
   width: calc(var(--grid-unit) * 5 + var(--gap) * 4);
   height: calc(var(--baseline) * 10);
@@ -160,7 +160,7 @@ body {
   z-index: 100;
 }
 @media screen and (min-width: 1900px) {
-  #menu {
+  #menu-home {
     left: calc(var(--grid-unit) * 1 + var(--gap) + var(--padding));
     padding-bottom: var(--baseline);
     width: calc(var(--grid-unit) * 3 + var(--gap) * 2);
@@ -209,7 +209,7 @@ main {
   #site-header h1 {
     font-size: 28px !important;
   }
-  #menu {
+  #menu-home {
     margin-left: calc(var(--padding) + var(--grid-unit) - var(--gap));
     display: none;
   }
@@ -232,7 +232,7 @@ main {
     margin-left: 0;
     margin-right: 0;
   }
-  #menu {
+  #menu-home {
     margin-left: 0;
   }
 }
@@ -462,7 +462,7 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
     display: none !important;
   }
 }
-#menu ul {
+#menu-home ul {
   height: 100%;
   width: 100%;
   list-style: none;
@@ -470,34 +470,27 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   flex-direction: column;
   justify-content: end;
 }
-#menu li {
+#menu-home li {
   font-size: var(--font-size-big);
   line-height: calc(var(--baseline) * 2);
   transition: text-indent 0.2s linear 0s;
 }
-#menu li:hover {
-  text-indent: 1.5ch;
+#menu-home li:hover {
   color: var(--accent);
 }
-#menu li:hover::before {
-  position: absolute;
-  left: -34px;
-  content: var(--arrow) " ";
-  font-size: var(--font-size-arrow);
-}
-#menu li.active {
+#menu-home li.active {
   text-indent: 34px;
 }
-#menu li.active::before {
+#menu-home li.active::before {
   position: absolute;
   left: -34px;
   content: var(--arrow) " ";
   font-size: var(--font-size-arrow);
 }
-#menu li span {
+#menu-home li span {
   transition: all 0.2s linear 0s;
 }
-#menu li span:before {
+#menu-home li span:before {
   content: "\f178";
   font-size: 15px;
   position: absolute;
@@ -511,10 +504,10 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   width: 40px;
   transition: all 0.2s linear 0s;
 }
-#menu li span:hover {
+#menu-home li span:hover {
   text-indent: -20px;
 }
-#menu li span:hover:before {
+#menu-home li span:hover:before {
   opacity: 1;
   text-indent: 0px;
 }
