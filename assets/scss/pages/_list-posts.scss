@@ -27,8 +27,8 @@
         left: 1px;
 
         @media #{$phone}{
-            width: 100vw;
-            left: calc(var(--padding)*-1);
+            // width: 100vw;
+            // left: calc(var(--padding)*-1);
         }
 
         img{

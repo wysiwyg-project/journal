@@ -200,12 +200,11 @@ body[data-grid="true"] #site-header #grid-switcher{
         h1{
             line-height: calc(var(--baseline)*1.5); 
             margin-left: 0;
-          
         }
 
     }
 
-    #toggle-move{ display: none!important; }
+    #header-tools{ display: none!important; }
    
 } 
 

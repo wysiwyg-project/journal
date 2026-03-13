@@ -561,6 +561,7 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   }
   #menu-panel .ul-nav {
     margin-top: calc(var(--baseline) * -1.5);
+    background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
