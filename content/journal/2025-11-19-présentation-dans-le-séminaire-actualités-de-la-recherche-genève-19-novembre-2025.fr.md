@@ -2,6 +2,7 @@
 title: Présentation dans le séminaire Actualités de la Recherche - Genève, 19
   novembre 2025
 date: 2025-11-19T12:00:00.000+01:00
+event: 2025-11-19T12:00:00.000+01:00
 imgcover: /uploads/mac.jpg
 language: fr
 ---

@@ -4,6 +4,7 @@
     
 
     --padding: 24px;
+    --max-content: 640px;
  
  
 
@@ -24,6 +25,7 @@
     --font-size-arrow: 24px;
     --font-size-big: 38px;
     --font-size-small: 13px;
+    --font-size-medium: 24px;
 
 
     --button-size-original: 34px;
@@ -68,13 +70,13 @@
 [data-color="var(--color-bg-5)"]{ --color-bg: var(--color-bg-5); }
 
 
-$medium: "screen and (max-width: 960px)";
-$desktop: "screen and (min-width: 960px)";
-$phone: "screen and (max-width: 640px)";
-$big: "screen and (min-width: 1900px)";
+$medium: 960px;
+$desktop: 960px;
+$phone: 640px;
+$big: 1900px;
 
 
-@media #{$phone}{
+@media screen and (max-width: $phone){
     :root{ 
         --font-size-big: 28px;
         --font-size: 16px;

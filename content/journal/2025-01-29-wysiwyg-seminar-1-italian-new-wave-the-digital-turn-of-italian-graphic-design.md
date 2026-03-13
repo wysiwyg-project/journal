@@ -1,6 +1,7 @@
 ---
 title: "WYSIWYG Seminar #1 Italian New Wave - Geneva, Jan. 29, 2025"
 date: 2025-01-29T14:28:00.000Z
+event: 2025-01-29T14:28:00.000Z
 cover: /uploads/convertino-mario_mister-fantasy-digital-lettering_1983-84.jpg
 language: en
 ---

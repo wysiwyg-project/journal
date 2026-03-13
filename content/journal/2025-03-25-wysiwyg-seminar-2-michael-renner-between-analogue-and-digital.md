@@ -2,6 +2,7 @@
 title: "WYSIWYG Seminar #2 Michael Renner, Between Analogue and Digital - Basel,
   March 25"
 date: 2025-03-25T10:32:00.000Z
+event: 2025-03-25T10:32:00.000Z
 language: en
 imgcover: /uploads/40-copie.jpeg
 ---

@@ -15,14 +15,16 @@
 		<div class="list-posts__container">
 			{{ range $sortedPosts }}
 			<article class="list-posts__item draggable" data-lang="{{ .Lang }}">
+				{{ $event := .Params.event }}
+				<time class="date-event" datetime="{{ $event }}">
+						{{ dateFormat "02.01.2006" $event }}
+					</time>
+
 				<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
 
-				<div class="details">
+				<!-- <div class="details">
 					<p class="lang">{{ .Lang }}</p>
-					<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-						{{ .Date.Format "02-01-2006" }}
-					</time>
-				</div>
+				</div> -->
 
 				<a href="{{ .Permalink }}">
 				{{ with .Params.imgcover }}

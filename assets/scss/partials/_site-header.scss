@@ -179,7 +179,7 @@ body[data-grid="true"] #site-header #grid-switcher{
 
 
 
-@media #{$medium}{ 
+@media screen and (max-width: $medium){ 
     #site-header{
         #toggle-menu{
             display: flex;
@@ -194,7 +194,7 @@ body[data-grid="true"] #site-header #grid-switcher{
 
 }
 
-@media #{$phone}{  
+@media screen and (max-width: $phone){  
 
     #site-header{
         h1{

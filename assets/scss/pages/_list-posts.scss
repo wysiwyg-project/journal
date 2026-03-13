@@ -2,23 +2,19 @@
 @use "../base/generic" as *;
 
 .list-posts__item{
-    margin-bottom: calc(var(--baseline)*3);
+    margin-bottom: calc(var(--baseline)*4);
     max-width: 52ch;
     .lang{ 
         @include lang();
         // padding-left: var(--indent);
     }
-
-    time{
-        // padding-left: var(--indent);
-        padding-left: 2ch;
-    }
+  
 
     figure{
         width: 100%;
         aspect-ratio: 16/9;
-        margin-top: var(--baseline);
-        margin-bottom: calc(var(--baseline)*0.5);
+    
+        margin-bottom: calc(var(--baseline)*1.5);
         @include img-border();
         display: flex;
 
@@ -26,7 +22,7 @@
         position: relative;
         left: 1px;
 
-        @media #{$phone}{
+        @media screen and (max-width: $phone){
             // width: 100vw;
             // left: calc(var(--padding)*-1);
         }
@@ -38,14 +34,7 @@
         }
     }
 
-    .details{
-        display: flex;
-        margin-top: calc(var(--baseline)*0.25);
-        margin-bottom: calc(var(--baseline)*0.25);
-        margin-left: var(--indent);
 
-    
-    }
 
     .summary{
           strong{
@@ -56,7 +45,7 @@
     button{
       @include button-text();
       margin-top: calc(var(--baseline)*1);
-      margin-left: var(--indent);
+    //   margin-left: var(--indent);
       &:hover{
         color: var(--accent);
       }
@@ -67,20 +56,21 @@
         }
     }
 
-    h1{
-        font-size: var(--font-size);
 
-        font-weight: var(--weight);
-        @include link();
-        padding-left: var(--indent);
-
-        &::before{
-            content: var(--arrow);
-            font-size: var(--font-size-arrow);
-            position: absolute;
-            left: 0;
-        }
+    h1, .date-event{
+        font-size: var(--font-size-medium);
+        line-height: calc(var(--baseline)*1.25);
+        font-weight: var(--weight); 
     }
 
+    h1{
+        @include link();
+        margin-bottom: calc(var(--baseline)*1.5);
+    }
+
+    .date-event{
+        position: absolute;
+        left: -12ch;
+    }
 }
 

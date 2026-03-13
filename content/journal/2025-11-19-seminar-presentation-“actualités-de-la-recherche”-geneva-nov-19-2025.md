@@ -1,6 +1,7 @@
 ---
 title: Seminar presentation “Actualités de la Recherche” - Geneva, Nov. 19, 2025
 date: 2025-11-19T12:00:00.000+01:00
+event: 2025-11-19T12:00:00.000+01:00
 imgcover: /uploads/mac.jpg
 language: en
 ---

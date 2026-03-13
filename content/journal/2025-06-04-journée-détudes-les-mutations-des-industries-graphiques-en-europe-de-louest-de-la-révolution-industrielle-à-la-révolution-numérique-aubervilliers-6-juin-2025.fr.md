@@ -2,6 +2,7 @@
 title: Journée d'études "Les mutations des industries graphiques" -
   Aubervilliers, 6 juin 2025
 date: 2025-06-01T08:00:00.000Z
+event: 2025-06-01T08:00:00.000Z
 imgcover: /uploads/capture-d’écran-2025-06-04-à-20.55.29.png
 language: fr
 ---

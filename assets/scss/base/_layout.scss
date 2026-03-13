@@ -27,7 +27,7 @@ body{
 }
 
 body:not(.page-home){
-    @media #{$desktop}{ 
+    @media screen and (min-width: $desktop){ 
         display: grid;
         grid-template-columns: repeat(12, var(--grid-unit));
         grid-template-rows: 1fr;
@@ -52,7 +52,7 @@ body:not(.page-home){
     // width: calc(var(--grid-unit)*5 + var(--gap)*4);
     height: calc(var(--baseline)*3);
     z-index: 200;
-    @media #{$big}{ 
+    @media screen and (min-width: $big){ 
         top: calc(var(--baseline)*1 + 3px);
         left:  calc(var(--grid-unit)*1 + var(--gap)); 
         width: calc(var(--grid-unit)*3 + var(--gap)*2);
@@ -66,7 +66,8 @@ body:not(.page-home){
     height: calc(var(--baseline)*10);
     top: calc(100vh - var(--top) - var(--baseline)*10);
     z-index: 100;
-    @media #{$big}{ 
+    #ul-contact{ display: none; }
+    @media screen and (min-width: $big){ 
         left:  calc(var(--grid-unit)*1 + var(--gap) + var(--padding)); 
         padding-bottom: var(--baseline);
         width: calc(var(--grid-unit)*3 + var(--gap)*2);
@@ -80,7 +81,7 @@ main{
     min-height: calc(100vh - var(--top)*2);
     max-width: 740px;
     position: relative;
-    @media #{$big}{ 
+    @media screen and (min-width: $big){ 
         padding-top: var(--baseline);
     }
 }
@@ -95,7 +96,7 @@ main{
 
 
 
-@media #{$medium}{
+@media screen and (max-width: $medium){
 
     body{
         --columns: 8;
@@ -133,7 +134,7 @@ main{
    
 }
 
-@media #{$phone}{
+@media screen and (max-width: $phone){
 
     body{
         --columns: 6;

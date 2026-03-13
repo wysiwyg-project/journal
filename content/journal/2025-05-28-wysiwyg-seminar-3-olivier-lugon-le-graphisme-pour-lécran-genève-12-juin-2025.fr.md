@@ -2,6 +2,7 @@
 title: "WYSIWYG Seminar #3 Olivier Lugon, Le graphisme pour l'écran - Genève, 12
   juin 2025"
 date: 2025-05-20T16:36:00.000Z
+event: 2025-05-20T16:36:00.000Z
 imgcover: /uploads/bibliovision_projecteur.jpg
 language: fr
 caption: "Projecteur et livres de diapositives pour la Bibliovision, Editions Rencontre, Lausanne, 1963 (BCU, Lausanne)"

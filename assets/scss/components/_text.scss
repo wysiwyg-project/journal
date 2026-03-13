@@ -11,13 +11,14 @@
 
 .page-title h1{
     font-size: var(--font-size-big);
-    line-height: calc(var(--baseline)*2);
+    line-height: calc(var(--baseline)*1.75);
     font-weight: var(--weight);
     position: relative;
     top: 6px;
     margin-bottom: calc(var(--baseline)*3);
+    margin-top: calc(var(--baseline)*3);
 
-    @media #{$phone}{
+    @media screen and (max-width: $phone){
         line-height: calc(var(--baseline)*1.5);
         margin-bottom: calc(var(--baseline)*2);
     }

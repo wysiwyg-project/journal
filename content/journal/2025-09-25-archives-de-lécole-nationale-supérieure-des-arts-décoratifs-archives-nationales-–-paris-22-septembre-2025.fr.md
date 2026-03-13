@@ -2,6 +2,7 @@
 title: Archives de l'École nationale supérieure des arts décoratifs, Archives
   nationales – Paris, 22 septembre 2025
 date: 2025-09-25T10:00:00.000+02:00
+event: 2025-09-25T10:00:00.000+02:00
 imgcover: /uploads/lapalette.jpg
 language: fr
 ---
