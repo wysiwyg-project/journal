@@ -57,20 +57,27 @@
     }
 
 
-    h1, .date-event{
-        font-size: var(--font-size-medium);
-        line-height: calc(var(--baseline)*1.25);
-        font-weight: var(--weight); 
-    }
+
 
     h1{
+          font-size: var(--font-size-medium);
+        line-height: calc(var(--baseline)*1.25);
+        font-weight: var(--weight); 
         @include link();
         margin-bottom: calc(var(--baseline)*1.5);
     }
 
-    .date-event{
+    .details{
         position: absolute;
-        left: -12ch;
+        left: -23ch;
+        width: 18ch;
+        padding-top: 5px;
+
+        //   font-size: var(--font-size-medium);
+        // line-height: calc(var(--baseline)*1.25);
+        font-weight: var(--weight); 
+        
+        text-align: right;
     }
 }
 

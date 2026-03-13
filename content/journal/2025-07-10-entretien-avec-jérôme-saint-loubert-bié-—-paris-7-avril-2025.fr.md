@@ -1,7 +1,8 @@
 ---
 title: Entretien avec Jérôme Saint-Loubert Bié — Paris, 7 avril 2025
 date: 2025-07-10T10:00:00.000+02:00
-event: 2025-07-10T10:00:00.000+02:00
+event: 2025-04-07T10:00:00.000+02:00
+place: "Paris, France"
 imgcover: /uploads/jslb.jpg
 language: fr
 ---

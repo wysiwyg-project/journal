@@ -5,6 +5,8 @@ date: 2025-11-19T12:00:00.000+01:00
 event: 2025-11-19T12:00:00.000+01:00
 imgcover: /uploads/mac.jpg
 language: fr
+place: "Genève, Suisse"
+
 ---
 Le 19 novembre 2025, Léonore Conte et Caroll Maréchal ont présenté une partie de leurs recherches effectuées pour le projet WYSIWYG dans le cadre du séminaire Actualités de la Recherche, co-organisé par Anthony Masure (HEAD - Genève) et Giovanna Zapperi (UNIGE). 
 

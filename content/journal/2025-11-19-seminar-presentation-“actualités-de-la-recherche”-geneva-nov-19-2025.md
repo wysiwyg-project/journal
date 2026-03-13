@@ -4,6 +4,8 @@ date: 2025-11-19T12:00:00.000+01:00
 event: 2025-11-19T12:00:00.000+01:00
 imgcover: /uploads/mac.jpg
 language: en
+place: "Geneva, Switzerland"
+
 ---
 On November 19, 2025, Léonore Conte and Caroll Maréchal presented part of the research conducted for the WYSIWYG project as part of the *Actualités de la Recherche* seminar, co-organized by Anthony Masure (HEAD – Geneva) and Giovanna Zapperi (University of Geneva).
 

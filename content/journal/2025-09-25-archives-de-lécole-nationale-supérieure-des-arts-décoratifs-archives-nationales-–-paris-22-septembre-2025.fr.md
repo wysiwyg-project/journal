@@ -2,8 +2,9 @@
 title: Archives de l'École nationale supérieure des arts décoratifs, Archives
   nationales – Paris, 22 septembre 2025
 date: 2025-09-25T10:00:00.000+02:00
-event: 2025-09-25T10:00:00.000+02:00
+event: 2025-09-22T10:00:00.000+02:00
 imgcover: /uploads/lapalette.jpg
+place: "Paris, France"
 language: fr
 ---
 Le 22 septembre 2025, Caroll Maréchal s'est rendue aux Archives nationales françaises pour consulter une partie des archives de l'École nationale supérieure des arts décoratifs (Ensad). \

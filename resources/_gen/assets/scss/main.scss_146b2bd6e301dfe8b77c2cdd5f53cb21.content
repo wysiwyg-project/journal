@@ -1050,12 +1050,10 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   content: "+";
   padding-right: 0.5ch;
 }
-.list-posts__item h1, .list-posts__item .date-event {
+.list-posts__item h1 {
   font-size: var(--font-size-medium);
   line-height: calc(var(--baseline) * 1.25);
   font-weight: var(--weight);
-}
-.list-posts__item h1 {
   text-decoration: underline;
   text-underline-offset: 2px;
   text-decoration-thickness: 2px;
@@ -1067,9 +1065,13 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
 .list-posts__item h1 {
   margin-bottom: calc(var(--baseline) * 1.5);
 }
-.list-posts__item .date-event {
+.list-posts__item .details {
   position: absolute;
-  left: -12ch;
+  left: -23ch;
+  width: 18ch;
+  padding-top: 5px;
+  font-weight: var(--weight);
+  text-align: right;
 }
 
 .post {
@@ -1118,9 +1120,14 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
 .post .details {
   position: absolute;
   left: -12ch;
-  top: 7px;
   margin-top: calc(var(--baseline) * 0.5);
   font-size: var(--font-size-medium);
+  position: absolute;
+  left: -23ch;
+  width: 18ch;
+  line-height: calc(var(--baseline) * 1.25);
+  font-weight: var(--weight);
+  text-align: right;
 }
 .post .lang::before {
   content: "[";

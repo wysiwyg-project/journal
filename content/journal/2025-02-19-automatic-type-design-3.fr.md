@@ -2,6 +2,7 @@
 title: Présentation à Automatic Type Design 3 - Nancy, 19 février 2025
 date: 2025-02-19T16:35:00.000Z
 event: 2025-02-19T16:35:00.000Z
+place: "Nancy, France"
 language: fr
 translation: https://wysiwyg.ch/journal/2025-02-19-automatic-type-design-3/
 imgcover: '/uploads/54382876695_940332f6ae_k_web.jpg'

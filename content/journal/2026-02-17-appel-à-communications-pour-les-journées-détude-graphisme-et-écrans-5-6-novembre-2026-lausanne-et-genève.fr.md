@@ -7,6 +7,7 @@ imgcover: ""
 caption: ""
 language: fr
 ---
+
 Appel à communications pour deux journées d’étude organisées à l'Université de Lausanne et à la HEAD – Genève, 5-6 novembre 2026
 
 **Graphisme et écrans : mutations du design graphique dans la seconde moitié du XXe siècle**
