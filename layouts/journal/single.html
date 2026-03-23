@@ -17,10 +17,12 @@
 	</header>
 
 	<div class="details draggable">
-		<p class="lang">{{ .Lang }}</p>
+		<!-- <p class="lang">{{ .Lang }}</p> -->
 		<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
 			{{ .Date.Format "02-01-2006" }}
 		</time>
+							{{ with .Params.place }}<p class="place">{{ . }}</p>{{ end }}
+
 	</div>
 
 			

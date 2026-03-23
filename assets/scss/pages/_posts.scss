@@ -2,6 +2,8 @@
 @use "../base/generic" as *;
 
 .post {
+    max-width: var(--max-content);
+    position: relative;
     .page-title h1 {
         margin-bottom: calc(var(--baseline)*1);
         max-width: 24ch;
@@ -10,6 +12,7 @@
 
     .figure-cover{
         margin-bottom: calc(var(--baseline)*-1);
+         max-width: var(--max-content);
         figure{
             width: 100%;
             aspect-ratio: 16/9;
@@ -17,7 +20,7 @@
             @include img-border();
             display: flex;
             position: relative;
-            @media #{$phone}{
+            @media screen and (max-width: $phone){
                 width: 100vw;
                 left: calc(var(--padding)*-1);
             }
@@ -47,9 +50,22 @@
     }
 
 
-    .details {
-        display: flex;
-    }
+
+         @media screen and (min-width: $desktop){ 
+
+            .details {
+            position: absolute;
+                left: -12ch;
+                margin-top: calc(var(--baseline)*0.5);
+                font-size: var(--font-size-medium);
+                position: absolute;
+                left: -23ch;
+                width: 18ch;
+                line-height: calc(var(--baseline)*1.25);
+                font-weight: var(--weight); 
+                text-align: right;
+            }
+        }
 
     .lang {
         @include lang();
@@ -57,9 +73,9 @@
     }
 
     .utils {
-        margin-top: var(--baseline);
-        padding-left: calc(var(--grid-unit) + var(--gap));
-        @media #{$phone} {
+        margin-top: calc(var(--baseline)*3);
+        // padding-left: calc(var(--grid-unit) + var(--gap));
+        @media screen and (max-width: $phone) {
             padding-left: 0px;
         }
 
@@ -69,8 +85,7 @@
             &::before {
                 content: var(--arrow);
                 position: absolute;
-                left: calc(var(--grid-unit) + var(--gap));
-                @media #{$phone} { left: 0px; }
+                left: 0px;
             }
         }
 
@@ -82,6 +97,10 @@
 
        
 
+    }
+
+    figure, img{
+        width: 100%;
     }
 
 

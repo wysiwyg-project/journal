@@ -135,12 +135,12 @@ body {
 
 #site-header {
   position: fixed;
+  width: 100%;
   top: 0px;
-  top: 3px;
   left: 0px;
   padding-left: var(--top);
-  padding-top: var(--top);
-  width: calc(var(--grid-unit) * 5 + var(--gap) * 4);
+  padding-right: var(--top);
+  padding-top: calc(var(--top) + 3px);
   height: calc(var(--baseline) * 3);
   z-index: 200;
 }
@@ -165,11 +165,6 @@ body {
     padding-bottom: var(--baseline);
     width: calc(var(--grid-unit) * 3 + var(--gap) * 2);
   }
-}
-
-#menu-phone {
-  display: none;
-  z-index: 160;
 }
 
 main {
@@ -213,15 +208,6 @@ main {
   }
   #site-header h1 {
     font-size: 28px !important;
-  }
-  #menu-phone {
-    background-color: var(--color-bg);
-    top: 0px;
-    left: 0px;
-    width: 100vw;
-    height: 100vh;
-    display: block;
-    position: fixed;
   }
   #menu {
     margin-left: calc(var(--padding) + var(--grid-unit) - var(--gap));
@@ -315,6 +301,7 @@ body[data-grid=true] #grid-paper {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  width: 100%;
 }
 #site-header h1 {
   font-family: var(--chicago);
@@ -322,13 +309,13 @@ body[data-grid=true] #grid-paper {
   font-size: var(--font-size-big);
   margin-right: 0.75ch;
 }
-#site-header #header-buttons {
+#site-header #header-tools {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   height: 100%;
 }
-#site-header .icon-title {
+#site-header .btn-icon {
   --size: var(--icons-size);
   z-index: 100;
   margin-left: 0.5ch;
@@ -342,17 +329,13 @@ body[data-grid=true] #grid-paper {
   justify-content: center;
   cursor: pointer;
 }
-#site-header .icon-title svg {
+#site-header .btn-icon svg {
   width: 75%;
   fill: var(--black);
 }
-#site-header .icon-title:hover {
+#site-header .btn-icon:hover {
   background-color: var(--accent);
 }
-#site-header #toggle-menu {
-  display: none;
-}
-
 #toggle-move-checkbox:checked ~ #site-header #toggle-move,
 body[data-grid=true] #site-header #grid-switcher {
   background-color: var(--black);
@@ -368,6 +351,96 @@ body[data-grid=true] #site-header #grid-switcher:hover {
 #toggle-move-checkbox:checked ~ #site-header #toggle-move:hover svg,
 body[data-grid=true] #site-header #grid-switcher:hover svg {
   fill: var(--black);
+}
+
+#header-links {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  gap: 0.25ch;
+  position: relative;
+}
+#header-links button {
+  margin-left: var(--button-margin);
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header-links button > a {
+  color: currentColor;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+#header-links button {
+  --size: var(--icons-size);
+  border: 2px solid var(--black);
+  background-color: var(--black);
+  height: var(--size);
+  width: var(--size);
+  border-radius: var(--icons-radius);
+  margin-bottom: 3px;
+  color: var(--color-bg);
+  position: relative;
+}
+#header-links button svg {
+  width: calc(var(--button-size) * 0.55);
+  fill: var(--color-bg);
+}
+#header-links button label {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#header-links button label:hover {
+  cursor: pointer;
+}
+#header-links button:hover {
+  cursor: pointer;
+  background-color: var(--accent);
+  color: var(--black) !important;
+}
+#header-links button:hover svg {
+  fill: var(--black);
+}
+#header-links button.disable {
+  opacity: 0.5;
+  cursor: auto !important;
+}
+#header-links button.disable label {
+  cursor: auto !important;
+}
+#header-links button.disable a {
+  cursor: auto !important;
+}
+#header-links button.disable:hover {
+  background-color: var(--black);
+}
+#header-links button.disable:hover a {
+  color: var(--color-bg);
+}
+#header-links #contact-mail {
+  border: 2px solid var(--black);
+  height: calc(var(--button-size) * 1.5);
+  border-radius: var(--icons-radius);
+  padding: 0px 1ch;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-bg);
+  position: absolute;
+  right: 0px;
+  margin-top: calc(var(--baseline) * 1.5);
+  display: none;
+}
+#header-links #mail-checkbox:checked ~ #contact-mail {
+  display: flex;
 }
 
 @media screen and (max-width: 960px) {
@@ -446,41 +519,99 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   text-indent: 0px;
 }
 
-@media screen and (max-width: 960px) {
-  #menu-phone {
-    top: -100vh;
+#menu-panel {
+  transition: top 0.5s ease-in-out;
+  background-color: var(--color-bg);
+  z-index: 160;
+}
+@media screen and (min-width: 960px) {
+  #menu-panel {
+    top: -100%;
+    display: block;
+    position: fixed;
+    left: 0px;
+    width: 100vw;
+    height: auto;
+    border-bottom: 2px solid currentColor;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-left: var(--top);
+    padding-right: var(--top);
+    padding-top: calc(var(--baseline) * 6);
+    padding-bottom: calc(var(--baseline) * 1.5);
   }
-  #menu-phone ul {
+  #menu-panel .ul-contact li {
+    margin-bottom: calc(var(--baseline) * 0.5);
+  }
+}
+@media screen and (max-width: 960px) {
+  #menu-panel {
+    top: -100vh;
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #menu-panel .ul-nav {
+    margin-top: calc(var(--baseline) * -1.5);
+    background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
-    list-style-type: none;
-    margin-top: calc(var(--baseline) * -1.5);
   }
-  #menu-phone ul li {
-    font-size: var(--font-size-big);
-    line-height: calc(var(--baseline) * 2);
-    transition: text-indent 0.2s linear 0s;
-    text-indent: 0px !important;
-    margin-bottom: calc(var(--baseline) * 0.5);
+  #menu-panel .ul-contact {
+    text-align: center;
+    margin-top: calc(var(--baseline) * 3);
+  }
+  #menu-panel .ul-contact li {
+    font-size: 1.25em;
+    margin-bottom: calc(var(--baseline) * 1);
+  }
+  #menu-panel .ul-contact li span {
+    font-size: 0.8em;
   }
 }
-@media screen and (max-width: 960px) and (max-width: 640px) {
-  #menu-phone ul li {
+#menu-panel ul {
+  list-style-type: none;
+}
+#menu-panel ul a:hover {
+  color: var(--accent);
+}
+#menu-panel .ul-contact span {
+  display: block;
+}
+#menu-panel .ul-nav li {
+  font-size: var(--font-size-big);
+  line-height: calc(var(--baseline) * 2);
+  transition: text-indent 0.2s linear 0s;
+}
+@media screen and (max-width: 640px) {
+  #menu-panel .ul-nav li {
     line-height: calc(var(--baseline) * 1.5);
   }
 }
-@media screen and (max-width: 960px) {
-  #menu-phone ul li:hover {
-    color: var(--accent);
-  }
-  #toggle-menu-checkbox:checked ~ #menu-phone {
-    top: 0vh;
-  }
+#menu-panel .ul-nav li {
+  text-indent: 0px !important;
 }
+#menu-panel .ul-nav li:not(:last-of-type) {
+  margin-bottom: calc(var(--baseline) * 0.5);
+}
+#menu-panel .ul-nav li:hover {
+  color: var(--accent);
+}
+
+#toggle-menu-checkbox:checked ~ #menu-panel {
+  top: 0vh;
+}
+
 #toggle-menu {
   margin-left: 1.5ch !important;
   background-color: var(--black) !important;
@@ -529,90 +660,7 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   transform: rotate(-45deg) translate(var(--left), calc(var(--left) * -1));
 }
 
-#aside-buttons button {
-  margin-left: var(--button-margin);
-  font-weight: 600;
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#aside-buttons button > a {
-  color: currentColor;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
-}
-#aside-buttons button {
-  --size: var(--icons-size);
-  border: 2px solid var(--black);
-  background-color: var(--black);
-  height: var(--size);
-  width: var(--size);
-  border-radius: var(--icons-radius);
-  margin-bottom: 3px;
-  color: var(--color-bg);
-}
-#aside-buttons button svg {
-  width: calc(var(--button-size) * 0.55);
-  fill: var(--color-bg);
-}
-#aside-buttons button label {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#aside-buttons button label:hover {
-  cursor: pointer;
-}
-#aside-buttons button:hover {
-  cursor: pointer;
-  background-color: var(--accent);
-  color: var(--black) !important;
-}
-#aside-buttons button:hover svg {
-  fill: var(--black);
-}
-#aside-buttons button.disable {
-  opacity: 0.5;
-  cursor: auto !important;
-}
-#aside-buttons button.disable label {
-  cursor: auto !important;
-}
-#aside-buttons button.disable a {
-  cursor: auto !important;
-}
-#aside-buttons button.disable:hover {
-  background-color: var(--black);
-}
-#aside-buttons button.disable:hover a {
-  color: var(--color-bg);
-}
-#aside-buttons #contact-mail {
-  border: 2px solid var(--black);
-  height: calc(var(--button-size) * 1.5);
-  border-radius: var(--icons-radius);
-  padding: 2px 2ch;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--color-bg);
-  position: absolute;
-  margin-top: calc(var(--button-size) * -1);
-  left: -24ch;
-  bottom: 3px;
-  display: none;
-}
-#aside-buttons #mail-checkbox:checked ~ #contact-mail {
-  display: flex;
-}
-
-#buttons-color {
+#palette-list {
   --margin: 6px;
   list-style-type: none;
   margin-right: calc(var(--icons-size) * -1);
@@ -621,7 +669,7 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   top: calc(var(--icons-size) * 3.5 + var(--margin));
   z-index: 10;
 }
-#buttons-color li {
+#palette-list li {
   border: 2px solid var(--black);
   width: var(--icons-size);
   height: var(--icons-size);
@@ -633,22 +681,22 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   display: flex;
   opacity: 0;
 }
-#buttons-color li:nth-of-type(1) {
+#palette-list li:nth-of-type(1) {
   top: calc((var(--icons-size) + var(--margin)) * -1);
 }
-#buttons-color li:nth-of-type(2) {
+#palette-list li:nth-of-type(2) {
   top: calc((var(--icons-size) + var(--margin)) * -2);
 }
-#buttons-color li:nth-of-type(3) {
+#palette-list li:nth-of-type(3) {
   top: calc((var(--icons-size) + var(--margin)) * -3);
 }
-#buttons-color li:nth-of-type(4) {
+#palette-list li:nth-of-type(4) {
   top: calc((var(--icons-size) + var(--margin)) * -4);
 }
-#buttons-color li:nth-of-type(5) {
+#palette-list li:nth-of-type(5) {
   top: calc((var(--icons-size) + var(--margin)) * -5);
 }
-#buttons-color button {
+#palette-list button {
   width: 100%;
   height: 100%;
   background: none;
@@ -657,7 +705,7 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   cursor: pointer;
 }
 
-#toggle-palette-checkbox:checked ~ #site-header #buttons-color li {
+#toggle-palette-checkbox:checked ~ #site-header #palette-list li {
   top: 0px !important;
   opacity: 1;
 }
@@ -681,23 +729,23 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   height: 0;
 }
 
-#buttons-color #color-1 {
+#palette-list #color-1 {
   background-color: var(--color-bg-1);
 }
 
-#buttons-color #color-2 {
+#palette-list #color-2 {
   background-color: var(--color-bg-2);
 }
 
-#buttons-color #color-3 {
+#palette-list #color-3 {
   background-color: var(--color-bg-3);
 }
 
-#buttons-color #color-4 {
+#palette-list #color-4 {
   background-color: var(--color-bg-4);
 }
 
-#buttons-color #color-5 {
+#palette-list #color-5 {
   background-color: var(--color-bg-5);
 }
 

@@ -1,10 +1,13 @@
 ---
 title: Publication de deux articles dans la revue italienne AIS/Design
 date: 2025-10-24T07:00:00.000+02:00
+event: 2025-10-24T07:00:00.000+02:00
 imgcover: /uploads/capture-d’écran-2026-02-05-à-09.11.18.png
 language: fr
+place: "Italie"
 translation: https://wysiwyg.ch/journal/2025-10-24-two-articles-published-in-the-italian-academic-journal-ais-design/
 ---
+
 Deux de nos articles ont été publiés dans la revue académique italienne *AIS/Design*.
 
 **Of Pencils and Pixels.** \

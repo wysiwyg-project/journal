@@ -1,8 +1,10 @@
 ---
 title: Two articles published in the Italian academic journal AIS/Design
 date: 2025-10-24T07:00:00.000+02:00
+event: 2025-10-24T07:00:00.000+02:00
 imgcover: /uploads/cover_issue_25_it_it.jpg
 language: en
+place: "Italia"
 translation: https://wysiwyg.ch/fr/journal/2025-10-24-publication-de-deux-articles-dans-la-revue-italienne-ais-design/
 ---
 Two of our articles have been published in the Italian academic journal *AIS/Design.* \

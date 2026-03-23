@@ -2,8 +2,11 @@
 title: Interviews with Philippe Gerbaud and Christophe Jacquet known as Toffe —
   Paris / Octon, Nov. 2024—Nov 2025
 date: 2025-11-07T10:00:00.000+01:00
+event: 2025-11-07T10:00:00.000+01:00
 imgcover: /uploads/toffe-gerbaud.jpg
 language: en
+place: "Paris, France"
+
 ---
 Between November 2024 and November 2025, Léonore Conte and Caroll Maréchal conducted several interviews with Christophe Jacquet, known as Toffe, and Philippe Gerbaud in their respective studios.
 

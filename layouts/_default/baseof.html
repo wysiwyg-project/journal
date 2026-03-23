@@ -43,15 +43,14 @@
 
 	{{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
 
-	<nav role="navigation" id="menu-phone">{{ partial "menu.html" . }}</nav>
+	<nav role="navigation" id="menu-panel">{{ partial "menu.html" . }}</nav>
 	
 	<main role="main">
 		{{ block "main" . }}{{ end }}
 	</main>
 
-	<nav role="navigation" id="menu" class="draggable">{{ partial "menu.html" . }}</nav>
+	<nav role="navigation" id="menu-home" class="draggable">{{ partial "menu.html" . }}</nav>
 
-	{{ partial "aside-buttons.html" . }}
 	
 	<div id="grid-paper" aria-hidden="true"><div id="grid-paper-inside"></div></div>
 	<div id="baseline-grid" aria-hidden="true"></div>

@@ -2,7 +2,7 @@
 
 
 
-#buttons-color{
+#palette-list{
     --margin: 6px;
     list-style-type: none;
     margin-right: calc(var(--icons-size)*-1);
@@ -56,7 +56,7 @@
 
 
 
-#toggle-palette-checkbox:checked ~ #site-header #buttons-color li{
+#toggle-palette-checkbox:checked ~ #site-header #palette-list li{
     top: 0px!important;
     opacity: 1;
 
@@ -82,18 +82,18 @@
     height: 0;
 }
 
-#buttons-color #color-1{
+#palette-list #color-1{
     background-color: var(--color-bg-1);
 }
-#buttons-color #color-2{
+#palette-list #color-2{
     background-color: var(--color-bg-2);
 }
-#buttons-color #color-3{
+#palette-list #color-3{
     background-color: var(--color-bg-3);
 }
-#buttons-color #color-4{
+#palette-list #color-4{
     background-color: var(--color-bg-4);
 }
-#buttons-color #color-5{
+#palette-list #color-5{
     background-color: var(--color-bg-5);
 }

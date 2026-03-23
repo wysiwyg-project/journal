@@ -2,21 +2,24 @@
 @use "../base/generic" as *;
 
 .back{
-    @include button-text();
 
-    a::before{
-        content: "←";
-        padding-right: 0.5ch;
-    }
+    display: none;
+    // @include button-text();
+
+    // a::before{
+    //     content: "←";
+    //     padding-right: 0.5ch;
+    // }
 
 
-    &:hover{
-        color: var(--accent);
-    }
+    // &:hover{
+    //     color: var(--accent);
+    // }
 
-    margin-top: calc(var(--baseline) - 8px);
-    margin-bottom: calc(var(--baseline) + 6px);
+    // position: fixed;
+    // left: var(--padding);
+    // bottom: var(--padding);
 
-    @media #{$phone}{ display: none; } 
+    // @media screen and (max-width: 640px){ display: none; }
 
 }

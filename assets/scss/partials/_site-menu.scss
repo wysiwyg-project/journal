@@ -1,6 +1,6 @@
 @use "../base/variables" as *;
 
-#menu {
+#menu-home {
   ul {
     height: 100%;
     width: 100%;
@@ -11,34 +11,34 @@
   }
 
   li {
-    font-size: var(--font-size-big);
-    line-height: calc(var(--baseline)*2);
+    font-size: var(--font-size-medium);
+    line-height: calc(var(--baseline)*1.5);
     transition: text-indent 0.2s linear 0s;
 
 
     &:hover {
-      text-indent: 1.5ch;
+      // text-indent: 1.5ch;
       color: var(--accent);
 
-      &::before {
-        position: absolute;
-        left: -34px;
-        content: var(--arrow) " ";
-        font-size: var(--font-size-arrow);
-      }
+      // &::before {
+      //   position: absolute;
+      //   left: -34px;
+      //   content: var(--arrow) " ";
+      //   font-size: var(--font-size-arrow);
+      // }
     }
 
-    &.active {
-      text-indent: 34px;
+    // &.active {
+    //   text-indent: 34px;
 
-      &::before {
-        position: absolute;
-        left: -34px;
-        content: var(--arrow) " ";
-        font-size: var(--font-size-arrow);
-      }
+    //   &::before {
+    //     position: absolute;
+    //     left: -34px;
+    //     content: var(--arrow) " ";
+    //     font-size: var(--font-size-arrow);
+    //   }
 
-    }
+    // }
   }
 
   li span {
@@ -75,48 +75,149 @@
 
 
 
-@media #{$medium} {
 
-  #menu-phone {
 
+#menu-panel {
+
+
+  transition: top .5s ease-in-out;
+  background-color: var(--color-bg);
+  z-index: 160;
+
+
+  @media screen and (min-width: $desktop) {
+
+
+    top: -100%;
+    display: block;
+    position: fixed;
+    left: 0px;
+    width: 100vw;
+    height: auto;
+
+    border-bottom: 2px solid currentColor;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+
+    padding-left: var(--top);
+    padding-right: var(--top);
+    padding-top: calc(var(--baseline)*6);
+    padding-bottom: calc(var(--baseline)*1.5);
+
+    .ul-contact {
+
+      li {
+        margin-bottom: calc(var(--baseline)*0.5);
+      }
+    }
+
+  }
+
+
+
+  @media screen and (max-width: $medium) {
     top: -100vh;
+    display: block;
+    position: fixed;
+    // top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
 
-    // padding-right: calc(var(--padding)*2);
-    ul {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+    .ul-nav {
+      margin-top: calc(var(--baseline)*3);
+
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 100%;
-      height: 100%;
-      list-style-type: none;
+    }
 
-      margin-top: calc(var(--baseline)*-1.5);
-
+    .ul-contact {
+      text-align: center;
+      margin-top: calc(var(--baseline)*3);
 
       li {
-        font-size: var(--font-size-big);
-        line-height: calc(var(--baseline)*2);
-        transition: text-indent 0.2s linear 0s;
-        @media #{$phone} {
-          line-height: calc(var(--baseline)*1.5);
+        font-size: 1.2em;
+        margin-bottom: calc(var(--baseline)*1);
+
+        span {
+          font-size: 0.7em;
         }
-        text-indent: 0px !important;
-        margin-bottom: calc(var(--baseline)*0.5);
-        &:hover{ color: var(--accent)}
       }
+    }
+
+  }
+
+
+  ul {
+    list-style-type: none;
+
+    a:hover {
+      color: var(--accent);
     }
   }
 
-  #toggle-menu-checkbox:checked~#menu-phone {
-    top: 0vh;
+  .ul-contact {
+
+
+    span {
+      display: block;
+    }
   }
 
+  // padding-right: calc(var(--padding)*2);
+  .ul-nav {
 
-  
+    // width: 100%;
+    // height: 100%;
 
 
+
+    li {
+      font-size: var(--font-size-big);
+      line-height: calc(var(--baseline)*2);
+      transition: text-indent 0.2s linear 0s;
+
+      @media screen and (max-width: $phone) {
+        line-height: calc(var(--baseline)*1.5);
+      }
+
+      text-indent: 0px !important;
+
+      &:not(:last-of-type) {
+        margin-bottom: calc(var(--baseline)*0.5);
+      }
+
+      &:hover {
+        color: var(--accent)
+      }
+    }
+  }
 }
+
+
+
+#toggle-menu-checkbox:checked~#menu-panel {
+  top: 0vh;
+}
+
+
+
+
+
+
 
 
 

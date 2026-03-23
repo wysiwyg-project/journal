@@ -1,6 +1,8 @@
 ---
 title: Entretien avec M/M (Paris) – Paris, 30 juin 2025
 date: 2025-07-01T10:00:00.000+02:00
+event: 2025-06-20T10:00:00.000+02:00
+place: "Paris, France"
 imgcover: /uploads/m-m.jpg
 language: fr
 ---
