@@ -60,19 +60,6 @@ body:not(.page-home){
 
 }
 
-#menu-home{
-    position: fixed; 
-    width: calc(var(--grid-unit)*5 + var(--gap)*4);
-    height: calc(var(--baseline)*10);
-    top: calc(100vh - var(--top) - var(--baseline)*10);
-    z-index: 100;
-    #ul-contact{ display: none; }
-    @media screen and (min-width: $big){ 
-        left:  calc(var(--grid-unit)*1 + var(--gap) + var(--padding)); 
-        padding-bottom: var(--baseline);
-        width: calc(var(--grid-unit)*3 + var(--gap)*2);
-    }
-}
 
 
 main{
@@ -92,6 +79,23 @@ main{
     bottom: calc(var(--padding) + 6px);
     right: var(--padding);
     z-index: 90;
+}
+
+
+@media screen and (min-width: $medium){
+#menu-home{
+    position: fixed; 
+    width: calc(var(--grid-unit)*5 + var(--gap)*4);
+    height: calc(var(--baseline)*10);
+    top: calc(100vh - var(--top) - var(--baseline)*10);
+    z-index: 100;
+    #ul-contact{ display: none; }
+    @media screen and (min-width: $big){ 
+        left:  calc(var(--grid-unit)*1 + var(--gap) + var(--padding)); 
+        padding-bottom: var(--baseline);
+        width: calc(var(--grid-unit)*3 + var(--gap)*2);
+    }
+}
 }
 
 
@@ -124,8 +128,17 @@ main{
 
 
     #menu-home{
-        margin-left: calc(var(--padding) + var(--grid-unit) - var(--gap));
-        display: none;
+        .ul-contact{
+            display: none;
+        }
+
+        text-align: center;
+        margin-top: calc(var(--baseline)*2);
+        margin-bottom: calc(var(--baseline)*2);
+        
+        li{
+            padding: 5px 0;
+        }
     }
 
 

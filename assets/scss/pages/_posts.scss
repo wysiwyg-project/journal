@@ -50,22 +50,22 @@
     }
 
 
-    .details {
-        // display: flex;
-       position: absolute;
-        left: -12ch;
-        // top: 5px;
-        margin-top: calc(var(--baseline)*0.5);
-        font-size: var(--font-size-medium);
 
-         position: absolute;
-        left: -23ch;
-        width: 18ch;
-        line-height: calc(var(--baseline)*1.25);
-        // padding-top: 5px;
-        font-weight: var(--weight); 
-        text-align: right;
-    }
+         @media screen and (min-width: $desktop){ 
+
+            .details {
+            position: absolute;
+                left: -12ch;
+                margin-top: calc(var(--baseline)*0.5);
+                font-size: var(--font-size-medium);
+                position: absolute;
+                left: -23ch;
+                width: 18ch;
+                line-height: calc(var(--baseline)*1.25);
+                font-weight: var(--weight); 
+                text-align: right;
+            }
+        }
 
     .lang {
         @include lang();

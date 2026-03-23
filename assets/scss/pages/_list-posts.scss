@@ -6,7 +6,6 @@
     max-width: 52ch;
     .lang{ 
         @include lang();
-        // padding-left: var(--indent);
     }
   
 
@@ -22,10 +21,7 @@
         position: relative;
         left: 1px;
 
-        @media screen and (max-width: $phone){
-            // width: 100vw;
-            // left: calc(var(--padding)*-1);
-        }
+      
 
         img{
             width: 100%;
@@ -45,7 +41,6 @@
     button{
       @include button-text();
       margin-top: calc(var(--baseline)*1);
-    //   margin-left: var(--indent);
       &:hover{
         color: var(--accent);
       }
@@ -68,12 +63,21 @@
     }
 
     .details{
-        position: absolute;
-        left: -23ch;
-        width: 18ch;
-        padding-top: 5px;
-        font-weight: var(--weight); 
-        text-align: right;
+        margin-bottom: calc(var(--baseline)*0.5);
     }
+
+     @media screen and (min-width: $desktop){ 
+         .details{
+            position: absolute;
+            left: -23ch;
+            width: 18ch;
+            padding-top: 5px;
+            font-weight: var(--weight); 
+            text-align: right;
+        
+        }
+    }
+
+   
 }
 
