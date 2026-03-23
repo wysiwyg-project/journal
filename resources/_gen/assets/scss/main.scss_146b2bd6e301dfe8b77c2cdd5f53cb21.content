@@ -1200,12 +1200,6 @@ body[data-name*=bibliography] .content h1, body[data-name*=bibliography] .conten
 
 body[data-name*=publications] .content p {
   margin-top: calc(var(--baseline) * 1.5);
-  margin-left: 2ch;
-}
-body[data-name*=publications] .content p::before {
-  content: var(--arrow);
-  position: absolute;
-  left: 0ch;
 }
 body[data-name*=publications] .content ul {
   margin-left: var(--indent);

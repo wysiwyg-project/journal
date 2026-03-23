@@ -23,12 +23,12 @@ body[data-name*="publications"] {
     .content {
         p {
             margin-top: calc(var(--baseline)*1.5);
-            margin-left: 2ch;
-            &::before{
-                content: var(--arrow);
-                position: absolute;
-                left: 0ch;
-            }
+            // margin-left: 2ch;
+            // &::before{
+            //     content: var(--arrow);
+            //     position: absolute;
+            //     left: 0ch;
+            // }
         }
 
         ul{
