@@ -7,6 +7,7 @@ imgcover: /uploads/lapalette.jpg
 place: "Paris, France"
 language: en
 ---
+
 On September 22, 2025, Caroll Maréchal visited the French National Archives to consult part of the archives of the École nationale supérieure des arts décoratifs (Ensad).
 
 —

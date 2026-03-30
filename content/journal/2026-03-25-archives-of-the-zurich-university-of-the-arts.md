@@ -1,6 +1,7 @@
 ---
 title: Archives of the Zurich University of the Arts
 event: 2026-03-23T16:30:00.000+01:00
+date: 2026-03-23T16:30:00.000+01:00
 place: Zurich, Switzerland
 imgcover: /uploads/bildschirmfoto-2026-03-25-um-13.28.47.png
 language: en
