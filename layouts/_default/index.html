@@ -1,5 +1,6 @@
 {{ define "main" }}
 
+<nav role="navigation" id="menu-home" class="draggable">{{ partial "menu.html" . }}</nav>
 
 <!-- {{/* Create a variable with both sections to use in multiple places. */}} -->
 {{ $posts := where .Site.RegularPages "Section" "journal" }}
