@@ -26,4 +26,4 @@ de chaque projet. En préparation : la présentation de ces œuvres à un plus
 large public sous la forme d’une installation « Forum » dans les
 espaces de la collection permanente en 2027. Nous remercions l’équipe de conservation
 du Museum für Gestaltung Barbara Junod, Sara Zeller et Meret Ernst pour leur
-accueil et leur intérêt pour le projet !
+accueil et leur soutien au projet !
