@@ -2,6 +2,7 @@
 title: Interview with Stéphane Landry (P-Ingénierie)
 event: 2026-02-23T10:00:00.000+01:00
 imgcover: /uploads/img_4284.jpeg
+caption: Various issues of EDIT
 language: en
 ---
 On February 23, 2026, Clémence Imbert conducted an interview with Stéphane Landry. From 1985 to 1997, Stéphane Landry was the director of P-Ingénierie, the company that distributed Adobe Illustrator and QuarkXPress software in France. His testimony sheds light on the key role of resellers and the marketing tools available to them.
