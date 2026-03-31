@@ -1,5 +1,5 @@
 ---
-title: Graphic Design Collection of the Museum für Gestaltung Zurich
+title: Study of the graphic design collection of the Museum für Gestaltung Zurich
 event: 2026-03-02T10:00:00.000+01:00
 imgcover: /uploads/img_4619.jpeg
 language: en
