@@ -1,5 +1,5 @@
 ---
-title: Interview with Stéphane Landry
+title: Interview with Stéphane Landry (P-Ingénierie)
 event: 2026-02-23T10:00:00.000+01:00
 imgcover: /uploads/img_4284.jpeg
 language: en
