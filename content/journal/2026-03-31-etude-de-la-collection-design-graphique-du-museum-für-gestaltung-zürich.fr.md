@@ -5,7 +5,6 @@ place: Zurich
 imgcover: /uploads/img_4827.jpeg
 language: fr
 ---
-
 Début mars 2026, Sandra Bischler-Hartmann, Léonore Conte et Clémence
 Imbert ont effectué un séjour de recherche dans les collections de design
 graphique du Museum für Gestaltung Zürich, partenaire du projet WYSIWYG. 
@@ -21,7 +20,7 @@ quelques jours plus tard. Le Museum für Gestaltung conserve également des
 travaux réalisés par des étudiants de l’école de Bâle qui ont investi très tôt
 le Macintosh : Brad Clemmons, Mara Jerman, Lisa Pomeroy, Lorraine Ferguson and Rachel
 Mahler. Il s’agit pour l’essentiel de dessins MacPaint imprimés et de maquettes
-pour la revue *Typografische Monatsblätter*. L’ensemble est dans un
+pour la revue *Typographische Monatsblätter*. L’ensemble est dans un
 parfait état de conservation et permet de suivre pas à pas le processus créatif
 de chaque projet. En préparation : la présentation de ces œuvres à un plus
 large public sous la forme d’une installation « Forum » dans les
