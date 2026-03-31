@@ -2,6 +2,7 @@
 title: Entretien avec Stéphane Landry (P-Ingénierie)
 event: 2026-02-23T10:00:00.000+01:00
 imgcover: /uploads/img_4284.jpeg
+caption: Différents numéros d'EDIT
 language: fr
 ---
 Le 23 février 2026, Clémence Imbert a mené un entretien avec
