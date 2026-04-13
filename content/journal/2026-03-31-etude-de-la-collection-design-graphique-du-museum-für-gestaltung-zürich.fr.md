@@ -1,6 +1,7 @@
 ---
 title: Etude de la collection design graphique du Museum für Gestaltung Zürich
 event: 2026-03-02T10:00:00.000+01:00
+date: 2026-03-02T10:00:00.000+01:00
 place: Zurich
 imgcover: /uploads/img_4827-copie.jpeg
 language: fr

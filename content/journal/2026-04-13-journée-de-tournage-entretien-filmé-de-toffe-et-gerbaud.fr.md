@@ -1,6 +1,7 @@
 ---
 title: Journée de tournage - entretien filmé de Toffe et Gerbaud
 event: 2026-04-09T10:00:00.000+02:00
+date: 2026-04-09T10:00:00.000+02:00
 place: Paris, France
 imgcover: /uploads/img_6082.jpg
 language: fr

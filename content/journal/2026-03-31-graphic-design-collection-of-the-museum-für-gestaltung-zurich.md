@@ -1,6 +1,7 @@
 ---
 title: Study of the graphic design collection of the Museum für Gestaltung Zurich
 event: 2026-03-02T10:00:00.000+01:00
+date: 2026-03-02T10:00:00.000+01:00
 imgcover: /uploads/img_4827-copie.jpeg
 language: en
 ---

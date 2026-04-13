@@ -1,6 +1,7 @@
 ---
 title: Interview with François Blanc (Créapress)
 event: 2025-11-26T10:00:00.000+01:00
+date: 2025-11-26T10:00:00.000+01:00
 place: Paris, France
 imgcover: /uploads/img_3872.jpeg
 caption: "Covers of two issues of Apple Utilisateur, 1989. Art Direction :

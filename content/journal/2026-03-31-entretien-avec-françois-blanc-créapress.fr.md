@@ -1,6 +1,7 @@
 ---
 title: Entretien avec François Blanc (Créapress)
 event: 2025-11-26T10:00:00.000+01:00
+date: 2025-11-26T10:00:00.000+01:00
 imgcover: /uploads/img_3872.jpeg
 caption: Apple Utilisateur, couvertures de deux numéros de 1989
 language: fr
