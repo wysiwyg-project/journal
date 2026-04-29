@@ -1,5 +1,5 @@
 ---
-title: Entretien avec Käti Robert Durrer
+title: Entretien avec Käti Robert Durrer — 4 mars 2026, Zürich
 event: 2026-03-04T16:00:00.000+01:00
 date: "{{now}}"
 place: Zurich
