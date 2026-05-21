@@ -1,7 +1,7 @@
 ---
-title: Conférence, Séminaire SEMPER – Estienne, Paris, 7 novembre 2025
+title: Conférence, Séminaire SEMPER – Estienne, Paris, 7&nbsp;novembre 2025
 event: 2025-11-07T09:00:00.000+01:00
-date: 2026-04-29
+date: 2025-11-07
 caption: "Le 7 novembre 2025, Léonore Conte a donné une conférence dans le cadre
   du séminaire SEMPER (Séminaire des Pratiques et Expérimentations de Recherche)
   à Estienne. "
