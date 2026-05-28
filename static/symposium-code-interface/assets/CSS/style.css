@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Fairfax;
+    src: url(/symposium-code-interface/assets/fonts/Fairfax.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Fairfax;
+    src: url(/symposium-code-interface/assets/fonts/FairfaxBold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Fairfax;
+    src: url(/symposium-code-interface/assets/fonts/FairfaxItalic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+* {
+    --border-style: 0.085em solid var(--bright-color);
+    --text-color: blue;
+    --bright-color: var(--text-color);
+    --line-height: var(--font-size);
+    --indent: 1em;
+    --main-font: Fairfax;
+    --body-margin: 13mm;
+    --bg-color: #ffffff;
+    --scroll-bgcolor: black;
+    --font-size: 1.5rem;
+}
+
+body {
+    font-family: var(--main-font);
+    font-size: var(--font-size);
+    color: var(--bright-color);
+    line-height: var(--line-height);
+    font-size: var(--font-size);
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+}
+
+#logos {
+    height: calc(var(--line-height) * 4);
+    display: flex;
+    z-index: 2;
+    top: 90%;
+    right: 4%;
+    background-color: transparent;
+    padding: calc(var(--line-height) / 2) 0.4em;
+    gap: 5mm;
+}
+
+#logos .head-geneve {
+    width: 26mm;
+}
+
+#logos .unistra {
+    width: 40mm;
+}
+
+details > summary {
+    font-weight: normal;
+    cursor: pointer;
+    list-style: none;
+    color: var(--text-color);
+    text-indent: -1em;
+    margin-left: 1em;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+details > summary::before {
+    content: "▶ ";
+}
+details[open] > summary::before {
+    content: "▼ ";
+}
+
+details {
+    position: relative;
+}
+
+details > :not(summary) {
+    margin-left: var(--indent);
+}
+
+details[open]::before {
+    content: "";
+    position: absolute;
+    top: var(--line-height);
+    bottom: 0;
+    left: 0.175em;
+    border: 0.065em solid var(--text-color);
+}
+
+.box {
+    border-width: 0.26em;
+    /*! padding: 1em 1em 1em calc(1em + var(--indent)); */
+    /*! border-style: double solid solid double; */
+}
+
+#ornament {
+    right: 4%;
+    bottom: 110mm;
+    color: var(--text-color);
+}
+
+pre {
+    font-family: var(--main-font);
+    line-height: calc(var(--line-height) / 1.3);
+    z-index: 1;
+    margin: var(--line-height) 0 0 1rem;
+    font-size: calc(var(--font-size) / 1.3);
+}
+
+summary:empty {
+    display: none;
+}
+
+sup {
+    line-height: 0;
+}
+
+b {
+    font-weight: normal;
+    color: var(--text-color);
+}

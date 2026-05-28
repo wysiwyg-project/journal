@@ -1,0 +1,67 @@
+* {
+    --object-frames: 2px solid var(--object-frames-color);
+    --box-width: 60rem;
+    --font-size: 23px;
+    --line-height: 26px;
+}
+
+body {
+    margin: 0;
+    background-size: 1em calc(var(--line-height) * 2);
+}
+
+.programme {
+}
+
+address {
+    font-style: normal;
+}
+
+.box.programme {
+    position: relative;
+    padding: var(--line-height) 0 0 1em;
+    z-index: 2;
+    color: var(--bright-color);
+    line-height: var(--line-height);
+    width: var(--box-width);
+    top: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    display:;
+}
+
+.colophon {
+    position: absolute;
+    transform: rotate(-90deg);
+    right: 2%;
+    top: 48%;
+    font-size: 0.5em;
+    width: 0;
+    white-space: nowrap;
+    display: none;
+}
+
+pre {
+    max-width: calc(100% + 1rem);
+}
+
+#logos {
+}
+
+[contenteditable]:focus {
+    outline: 0px solid transparent;
+}
+
+@media (max-width: 850px) {
+    * {
+        --font-size: 17px;
+        --line-height: 20px;
+    }
+
+    pre {
+        font-size: calc(var(--font-size) / 2.3);
+        line-height: calc(var(--line-height) / 2.3);
+        margin-left: 2em !important;
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,71 @@
+* {
+    --object-frames: 1mm solid var(--object-frames-color);
+    --font-size: 15.2pt;
+    --line-height: 17.2pt;
+    --body-margin: 7mm;
+    --bright-color: var(--text-color);
+}
+
+html {
+    background-color: rgb(98, 98, 98);
+    overflow: scroll;
+    position: absolute;
+}
+
+body {
+    width: 297mm;
+    height: 420mm;
+    position: absolute;
+    overflow: hidden;
+    margin: 6%;
+}
+
+address {
+    font-style: normal;
+}
+
+.box.poster {
+    position: absolute;
+    top: var(--body-margin);
+    left: var(--body-margin);
+    z-index: 2;
+    line-height: var(--line-height);
+    width: 50em;
+    mix-blend-mode: revert-rule;
+}
+
+.colophon {
+    position: absolute;
+    transform: rotate(-90deg);
+    right: var(--body-margin);
+    bottom: calc(var(--body-margin) * 8);
+    font-size: 0.5em;
+    width: 0;
+    white-space: nowrap;
+}
+
+pre {
+    font-family: var(--main-font);
+    z-index: 1;
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    margin-bottom: -5em;
+}
+
+#logos {
+    height: 15mm;
+    position: absolute;
+    bottom: var(--body-margin);
+    right: var(--body-margin);
+    top: auto;
+}
+
+@media print {
+    body {
+        margin: 0;
+    }
+
+    html {
+        background-color: transparent;
+    }
+}

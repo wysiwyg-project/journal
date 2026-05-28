@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/CSS/style.css" />
+        <!-- <link rel="stylesheet" href="assets/CSS/web.css" /> -->
+        <link rel="stylesheet" href="assets/CSS/programme.css" />
+        <title>Quand le code rencontre l'interface – WYSIWYG.ch</title>
+    </head>
+    <body>
+
+            <div class="page p1">
+                <details class="level1" open>
+                    <summary>Journée d'études</summary><br>
+                    <details class="level2" open>
+                        <summary><b
+                                >Quand le code rencontre l’interface:<br>
+                                hybrider les outils du design graphique</b
+                            >
+                        </summary>
+
+                        <pre id="ornament" class="box" contenteditable="true">
+    ▀▀▀▀▀▀▀                                          ▀                                                                   
+  ▀▀       ▀                                         ▀                                                                   
+ ▀▀         ▀   ▀     ▀    ▀▀▀▀▀▀   ▀▀▀▀▀▀▀    ▀▀▀▀▀▀▀                                                                   
+ ▀▀         ▀   ▀     ▀         ▀   ▀▀    ▀▀  ▀▀     ▀                                                                   
+ ▀▀         ▀   ▀     ▀    ▀▀▀▀▀▀   ▀▀    ▀▀  ▀▀     ▀                                                                   
+  ▀▀    ▀  ▀▀   ▀     ▀  █▀     ▀   ▀▀    ▀▀  ▀▀     ▀                                                                   
+   ▀▀▀▀▀▀▀▀▀    ▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀   ▀▀    ▀▀   ▀▀▀▀▀▀▀                                                                   
+            ▀                                                                                                            
+                                          ▀▀▀▀▀▀▀▀▀▀                                                                     
+                                     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                                                               
+                                  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀   -----------------------------                             
+                                ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                               \                           
+ █▀                            ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀           ▀                  \                          
+ █▀                          ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀         ▀                   \                         
+ █▀    ▒▀▀▀▒           ▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀ ▀    ▀▀▀▀            \                        
+ █▀   ▀     ▒▒      ▀     ▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀     ▀   ▀▀    ▀▀           \                         
+ █▀  ▀▀▒▒▒▒▒▀▄     ▀▀       ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▒▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀      ▀   ▀▒▒▒▒▒▌▀            \                        
+ █▀  ▀             ▀▀       ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀     ▀   ▀                    \                     
+ █▀   ▀    ▀▀       ▀█   ▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀ ▒  ▀▀    ▀    ▄▄              \                    
+ ▒▒     ▒▒▀            ▀▀    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    ▀▀        ▀▀▀                 \                   
+                             ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█                   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                              ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                    ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                                ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                      ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                                  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                        ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                                     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄                          ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                                         ▀▀▀▀▀▀▀▀▀▀▀▀     ▀▀                        ▒▒▒▒▒█▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                                                          ▀▀                        ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+ █▀▀▄    ▀▀▀▀▒    ▀ ▀▀▀▀     ▀▀ ▀▀     ▀▀ ▀▀   ▀▀▓▒▒▒▀  ▀▀▀▀▀▀ █▀▀▄   ▀▀▀▀▀▀        ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+ █▀    ▀▀     ▒   ▀▀    ▀  ▀▀        ▀▀     ▀▀  ▀     ▀▀  ▀▀   █▀    ▀▀     ▀-      ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+ █▀    ▀▒▒▒▒▒▒▒   ▀▀    ▀  ▀▀        ▀▓     ▀▀  ▀     ▀▀  ▀▀   █▀    ▀▀▀▀▀▀▀▀       ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+ █▀    ▄▀         ▀▀    ▀   ▀     ▀  ▀▀     ▀▀  ▀     ▀▀  ▀▀   █▀    ▀▀             ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+ █▀      ▀▀▀▀▀    ▀▀    ▀    ▀▀▀▀▀     ▀▀▀▀▀    ▀     ▀▀   ▀▀▀ █▀      ▀▀▀▀▀        ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                                                              ▓                     ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                                                            ▒▓▓▓▓                   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                                                           ▓▓▓▓▓▓▓                  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                                                          ▓▓▓▓▓▓▓▓▓  〰〰〰〰〰〰〰 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                                                         ▓▓▓▓▓▓▓▓▓▓▓▄               ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+ █▀   ▀   ▀              ▒                     ▀▀▀     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                                                    
+ █▀   ▀                  ▀                     ▀      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                                                   
+ █▀   ▀   ▀   ▀ ▀▀▀▀▀  ▀▀▀▀▀   ▀▀▀▀▀    ▀ ▀▀ ▀▀▀▀▀   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓      ▀▀▀▀▀▒    ▀▀▀▀▀                             
+ █▀       ▀   ▀▀    ▀▀   ▀   ▀▀     ▀   ▀      ▀    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   ▀     ▀▐ ▀▀     ▀▒                           
+ █▀       ▀   ▀▀    ▀▀   ▀   ▀▀▀▀▀▀▀▀▀  ▀      ▀  ▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ ▀▀        ▀▀▀▀▀▀▀▀▀                           
+ █▀       ▀   ▀▀    ▀▀   ▀   ▀▀         ▀      ▀ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ ▀     ▀▀ ▀▀                                  
+ █▀       ▀   ▀▀    ▀▀   ▀▀▀  ▀▀▒▒▐▀▀   ▀      ▀▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ ▀▀  ▀▀   ▀▀▒▒▐▀▀                            
+                                               ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                                           
+                                             █▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                                          
+                                            ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                                         
+                                           ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                                        
+                                          ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+                                          
+                        </pre>
+                        <br><br><br><br><br><br>
+                        <p>   
+                            Jeudi 25 et vendredi 26 juin 2026
+                            <br>Amphithéâtre de la MISHA — Strasbourg
+                        </p>
+                    </details>
+                </details>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="page p2">
+                <details class="level1" open>
+                    <summary></summary>
+                    <details open>
+                        <summary><b
+                                >Quand le code rencontre l’interface:<br>
+                                hybrider les outils du design graphique</b
+                            >
+                        </summary>
+                        <br>
+                        <p>
+                            Le paradigme des interfaces WYSIWYG (What You See Is What You Get) a profondément marqué les pratiques du design graphique et de la publication depuis quarante ans. En parallèle, le paradigme du document structuré, fondé sur la programmation, a façonné des domaines comme la publication scientifique ou le Web.<br>
+                            Ces deux approches, souvent pensées séparément, connaissent aujourd’hui des formes d’hybridation inédites, portées par des designers graphiques qui articulent code, interface graphique WYSIWYG et documents structurés. Ces journées d’étude souhaite explorer ces zones d’intersection: comment et où se déploient-elles? Que puisent-elles dans chaque paradigme? Que laissent-elles de côté ou qu’inventent-elles de nouveau?<br>
+                            Cette évolution nous invite également à réinterroger l’histoire de ces paradigmes, généralement étudiés séparément, afin de comprendre comment ceux-ci ont déjà pu dialoguer ou, au contraire, comment ils se sont construits en opposition.
+                        </p>
+                         <pre id="ornament" class="box" contenteditable="true">
+               ▀▀▀▀▀▀▀▀▀▀                                                                     
+         ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                                                               
+       ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀   -----------------------------                             
+     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                               \                           
+    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                              \                          
+  ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                              \                         
+  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                              \                        
+ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                               \                         
+ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▒▀▀▀▀▀▀▀▀▀▀▀▀▀▀                                \                        
+ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                                 \                     
+ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                                  \                    
+  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                                    \                   
+  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                    ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                    ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                      ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+       ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                        ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+          ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                           ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+              ▀▀▀▀▀▀▀▀▀▀▀▀                               ▒▒▒▒▒█▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                                                         ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                                                         ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                                                         ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                                                         ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                                                         ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                                   ▓                     ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                                 ▒▓▓▓▓                   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                                ▓▓▓▓▓▓▓                  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                               ▓▓▓▓▓▓▓▓▓  〰〰〰〰〰〰〰 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                              ▓▓▓▓▓▓▓▓▓▓▓▄               ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+                            ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                                                    
+                           ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                                                   
+                          ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                                
+                         ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                             
+                       ▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                         
+                      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                             
+                     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                      
+                    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                                           
+                  █▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                                          
+                 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                                         
+                ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                                                        
+               ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                                                        
+                        </pre>
+                    </details>
+                </details>
+            </div>
+
+
+
+
+
+
+
+            
+            <div class="page p3">
+                <details class="level1" open>
+                    <summary></summary>
+                    <details class="level2" id="programme" open>
+                    <summary>programme</summary>
+                    <br>
+                    <details open>
+                        <summary>Jeudi</summary><br>
+                        <p>
+                            ◼ 14h-14h30: Introduction par Julie Blanc et Nolwenn Maudet
+                        </p>
+                        <details open>
+                            <summary>
+                                Panel 1 <br>
+                                Antagonisme ou synergie: retours critiques sur l’histoire du WYSIWYG et du code (modération: Nolwenn Maudet)
+                            </summary>
+                            <p>       
+                                ◼ 14h30-15h: Clémence Imbert<br>
+                                <i>Apprendre à cliquer. Était-il si facile de débuter sur un logiciel de PAO dans les années 1980 ?</i> <b>→&nbsp;français</b><br />
+                                ◼ 15h00-15h30: Eric Schrijver <br>
+                                <i>No longer afraid: the surprising love story of WYSIWYG and code</i> <b>→&nbsp;anglais</b><br>
+                                ◼ 15h30-16h: Pause <br />
+                                ◼ 16h00-16h30: Timothée Goguely & Arthur Pons<br>
+                                <i>GUI | CGI | CLI : Interfacer le web et la ligne de commande</i> <b>→&nbsp;français</b><br />
+                                ◼ 16h30-17h: Camille Gobert <br>
+                                <i>«Code» ou «Interface»: une histoire de formats</i> <b>→&nbsp;français</b><br />
+                                ◼ 17h-17h30: Session Q&A →&nbsp;français<br />
+                            </p>
+                        </details> 
+                    </details>
+                    <br />
+                    <details open>
+                        <summary>Vendredi</summary><br>
+                        <p>
+                            ◼ 9h00: Ouverture et acceuil
+                        </p>
+                        <details open>
+                            <summary>
+                                Panel 2<br>
+                                Hors des logiciels, hybrider les chaînes de publication (modération: Lucile Haute)
+                            </summary>
+                            <p>
+                                ◼ 9h30-10h: Yann Trividic<br>
+                                <i>OutDesign, ou comment libérer les fichiers InDesign du giron d'Adobe</i> <b>→&nbsp;français</b><br />
+                                ◼ 10h-10h30: Adrien Payet & Sarah Garcin<br>
+                                <i>Autonomiser la création graphique avec des outils web</i> <b>→&nbsp;français</b><br />
+                                ◼ 10h30-11h: Pause<br />
+                                ◼ 11h-11h30: Kevin Donnot<br />
+                                <i>Du Web-to-print aux approches hybrides — exemples de publications et de leurs chaines d'outils</i> <b>→&nbsp;français</b><br>
+                                ◼ 11h30-12h: Session Q&A <b>→&nbsp;français</b><br />
+                                ◼ 12h-14h: Pause repas
+                            </p>
+                        </details>
+                        <details open>
+                            <summary>
+                                Panel 3<br>
+                                Fabriquer les interfaces. Web et outils-sur-mesure (modération: Julie Blanc)
+                            </summary>
+                            <p>
+                                ◼ 14h-14h30: Olivia Jack & Paula Haertel<br>
+                                <i>Wobble Web</i> <b>→&nbsp;anglais</b><br />
+                                ◼ 14h30-15h: Arnaud Juracek & Stéphane Buellet<br>
+                                <i>Concevoir des générateurs graphiques</i> <b>→&nbsp;français</b><br />
+                                ◼ 15h-15h30: Session Q&A <b>→&nbsp;français&nbsp;+&nbsp;anglais</b><br />
+                                ◼ 15h30-16h00: Pause<br />
+                                ◼ 11h30-12h: Session Q&A
+                            </p>
+                        </details>
+                        <details open>
+                            <summary>
+                                Keynote
+                            </summary>
+                            <p>
+                                ◼ 16h00-17h30: Bert Bos & César Fernández Acebal<br>
+                                <i>When Layout Meets the Web: The Long Road to CSS Grid</i> <b>→&nbsp;anglais</b>
+                            </p>
+                        </details>
+                    </details>
+                </details>
+                </details>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="page p4">
+                <details class="level1" open>
+                    <summary></summary>
+                    <p>
+                        Entrée libre<br>
+                        Retransmission en direct, lien disponible <br>sur <a href="https://wysiwyg.ch/symposium-code-interface" target="_blank">wysiwyg.ch/symposium-code-interface</a>
+                    </p>
+                    <br>
+                    <details class="level2" open>
+                        <summary>organisé par</summary>
+                        <details class="level3">
+                            <summary>Julie Blanc</summary>
+                            <p>
+                                  <b>Chercheuse post-doctorant HEAD-Genève</b>
+                                <br />
+                                Julie Blanc fait du design, du développement web et de la recherche. Docteure en ergonomie et en design (Université Paris 8 / EnsadLab), elle a consacré sa thèse aux transformations des pratiques des designers graphiques liées à l'introduction des technologies du web. Elle est co-fondatrice du Studio Variable, et poursuit actuellement un projet de recherche sur les interfaces WYSIWYG à la HEAD Genève.
+                            </p>
+                        </details>
+                        <details class="level3">
+                            <summary>Nolwenn Maudet</summary>
+                            <p>
+                                <b
+                                    >Maîtresse de conférences en design numérique à
+                                    l'université de Strasbourg</b
+                                >
+                                <br />Nolwenn Maudet est enseignante-chercheuse en
+                                design numérique à l’université de Strasbourg,
+                                directrice du département design au sein de la
+                                faculté des arts. Ses recherches portent sur les
+                                multiples relations qui existent entre le design et
+                                le numérique, notamment les manières dont les outils
+                                numériques ont façonné et façonnent encore les
+                                pratiques de design. Elle co-dirige le programme de
+                                recherche "Milieux graphiques et numériques" au sein
+                                du laboratoire ACCRA et elle est co-fondatrice du
+                                collectif de chercheur·euses "Limites Numériques"
+                                qui étudie les impacts environnementaux des
+                                pratiques actuelles du design numérique.
+                            </p>
+                            <br />
+                        </details>
+                        <details class="level3">
+                            <summary>Clémence Imbert</summary>
+                            <p>
+                                <b>Chargée de cours HEAD-Genève</b>
+                                <br />
+                                Clémence Imbert est enseignante à la HEAD-Genève et
+                                historienne du design graphique. Ses recherches ont
+                                porté sur les expositions de design graphique et sur
+                                les couvertures de livre. Elle dirige actuellement
+                                le projet de recherche "WYSIWYG. Une enquête sur
+                                l’adoption des logiciels de création graphique,
+                                France-Suisse, 1980-aujourd’hui" (wysiwyg.ch)
+                            </p>
+                            <br />
+                        </details>
+                        <p>
+                            dans le cadre du projet
+                            <a href="https://wysiwyg.ch">wysiwyg.ch</a>
+                        </p>
+                    </details>
+                    <br>
+                    <details class="level2" open>
+                        <summary>avec</summary>
+                        <details class="level3">
+                            <summary>Yann Trividic</summary>
+                            <p>
+                                <b
+                                    >Doctorant LISN (UPSaclay, CNRS, Inria),
+                                    éditions Burn~Août</b
+                                ><br />Yann Trividic est doctorant au
+                                Laboratoire Interdisciplinaire des Sciences du
+                                Numériques (LISN), où il s’intéresse aux formes de
+                                collaboration dans l’édition de livres. Il est
+                                également membre des éditions Burn~Août, pour
+                                lesquelles il conçoit des publications ainsi que des
+                                logiciels libres destinés aux acteurices de
+                                l’édition indépendante, dans une démarche alliant
+                                réflexivité sur les pratiques éditoriales, technique
+                                et collectif. <br /><br />Titre de la présentation:
+                                <i>OutDesign, ou comment libérer les fichiers InDesign
+                                du giron d'Adobe</i>
+                            </p>
+                            <br>
+                        </details>
+                        <details class="level3">
+                            <summary>Timothée Goguely & Arthur Pons</summary>
+                            <p><br>
+                                <b
+                                    >Arthur Pons — Doctorant en sciences informatiques
+                                    Université Claude-Bernard Lyon 1 Doctorant à
+                                    Lyon 1</b
+                                >
+                                <br />
+                                Arthur s'intéresse aux impacts
+                                socio-environnementaux du numérique depuis 2019.
+                                Pratiquant la culture Unix, il tente de la mobiliser
+                                pour limiter l'obsolescence logicielle. Attaché à
+                                l'idée de rendre les terminaux plus abordables pour
+                                tout le monde il expérimente des services numériques
+                                durables à Commown et sur le serveur communautaire
+                                bebou.
+
+                                <br /><br />
+                                <b
+                                    >Timothée Goguely — Maître de conférences associé
+                                    à mi-temps Université de Strasbourg Designer et
+                                    développeur web spécialisé en écoconception et
+                                    accessibilité numérique</b
+                                >
+                                <br />Timothée s’intéresse aux pratiques et
+                                aux formes d’un numérique émancipateur et
+                                soutenable. Il enseigne à la Faculté des arts de
+                                l’Université de Strasbourg l’UI/UX design et les
+                                bases de l’HTML et du CSS, au sein de la Licence
+                                Design graphique et numérique et du Master Design
+                                Environnements numériques.
+
+                                <br /><br />Titre de la présentation: <i>GUI | CGI |
+                                CLI: interfacer le web et la ligne de commande</i>
+                            </p><br>
+                        </details>
+                        <details class="level3">
+                            <summary>Eric Schrijver</summary>
+                            <p>
+                                <b>Author, designer</b>
+                                <br />
+                                Eric Schrijver (Amsterdam, 1984) is a designer,
+                                performer, and author. He lives and works in
+                                Brussels and edits the blog ‘I like tight pants and
+                                mathematics’. A former member of the Open Source
+                                Publishing collective, he has led numerous workshops
+                                and taught design and coding at the Graphic Design
+                                department of KABK in The Hague. His first book
+                                <i
+                                    >Copy This Book: an artist’s guide to
+                                    copyright</i
+                                >
+                                was published in 2018, followed by its collaborative
+                                French adaptation, <i>Copiez ce livre</i>, in 2023.
+
+                                <br /><br />Title of the presentation: <i>No longer
+                                afraid: the surprising love story of WYSIWYG and
+                                code.</i>
+                            </p><br>
+                        </details>
+                        <details class="level3">
+                            <summary>Camille Gobert</summary>
+                            <p>
+                                <b
+                                    >Postdoctorant en interaction humain-machine
+                                    Équipe ex)situ du LISN, Université
+                                    Paris-Saclay/Inria</b
+                                >
+                                <br />
+                                Camille Gobert est chercheur postdoctoral en
+                                interaction homme-machine à l'Université
+                                Paris-Saclay. Il travaille actuellement sur la
+                                conception d'une chaîne éditoriale collaborative et
+                                multi-formats. Avant cela, il a obtenu un doctorat
+                                en informatique de l'Université Paris-Saclay pour
+                                ses travaux sur l'interaction avec les langages
+                                informatiques, notamment concernant le fait de
+                                complémenter la représentation textuelle d'un
+                                fragment de langage avec d'autres représentations
+                                interactives.
+                                <br /><br />
+                                Titre de la présentation: <i>«Code» ou «Interface»: une histoire de formats</i>
+                            </p><br>
+                        </details>
+                        <details class="level3">
+                            <summary>Adrien Payet & Sarah Garcin</summary>
+                            <p><br>
+                                <b>Adrien Payet — Philosophie, design, code — Studio Variable (président co-fondateur)</b>
+                                <br>
+                                
+                                Adrien Payet fait de la philosophie, du
+                                design et du développement web. Ancien membre du
+                                collectif Bam et du studio Praticable, il cofonde en
+                                2025 le studio Variable avec la designer et
+                                chercheuse Julie Blanc, dédié au design d’interface
+                                et aux outils numériques, de la conception à la
+                                réalisation. Il coédite actuel-inactuel.fr, forme
+                                éditoriale web consacrée aux approches critiques des
+                                arts et des techniques. Après être passé par
+                                plusieurs établissements, il enseigne aujourd’hui la
+                                théorie du design à l’École Nationale Supérieure de
+                                Création Industrielle (ENSCI) et à l’École des Arts
+                                de la Sorbonne (Université Paris 1). 
+
+                                <br>
+                                <b>Sarah Garcin — Designer graphique et développeuse — L’Atelier des Chercheurs</b>
+                                <br>
+                                
+                                Sarah Garcin est designer graphique, designer
+                                d’interaction et développeuse indépendante. Elle
+                                s’intéresse à la conception d’outils au service du
+                                design graphique, aux systèmes alternatifs de
+                                publication — notamment en web-to-print —, aux
+                                pratiques collaboratives d’écriture et aux approches
+                                de web frugal. Elle travaille au sein de plusieurs
+                                collectifs, dont l’Atelier des Chercheurs, g-u-i et
+                                p-node, et est à l’initiative de PrePostPrint avec
+                                Raphaël Bastide. À travers ces différentes
+                                collaborations, elle développe une recherche située
+                                à la croisée du design graphique, de la
+                                programmation et de l’édition, attentive aux
+                                conditions techniques, sociales et écologiques de
+                                production. Son travail s’attache à concevoir des
+                                outils ouverts favorisant l’autonomie des usagers et
+                                la mutualisation des savoir-faire. Il s’inscrit dans
+                                une réflexion plus large sur les pratiques
+                                collaboratives et les formes contemporaines de
+                                publication, entre expérimentation graphique,
+                                recherche collective et création numérique.
+                            
+                            </br></br>Titre de la
+                                présentation: <i>Autonomiser la création graphique avec
+                                des outils web2print</i>
+                            </p>
+                            <br>
+                        </details>
+                        <details class="level3">
+                            <summary>Kévin Donnot</summary>
+                            <p>
+                                <b>Designer graphique — E+K — Élise Gay
+                                & Kevin Donnot</b>
+                                <br>
+                                Kévin Donnot est designer
+                                graphique et développeur. Il est cofondateur d’E+K –
+                                Élise Gay et Kévin Donnot, un atelier de design
+                                graphique spécialisé dans les projets éditoriaux
+                                imprimés et/ou numériques depuis 2011. Enseignant à
+                                la HEAR Strasbourg, il est associé à plusieurs
+                                projets de recherche en cours (DESIGRAPH, DESIGNSHS,
+                                CPJ Fashion Heritage) et a cofondé Back Office, une
+                                revue éditée par les Éditions B42 qui interroge les
+                                relations qu’entretiennent design graphique et
+                                pratiques numériques. <br><br>
+                                Titre de la présentation: <i>Du
+                                Web-to-print aux approches hybrides — exemples de
+                                publications et de leurs chaines d'outils</i>
+                            </p><br>
+                        </details>
+                        <details class="level3">
+                            <summary>Machines — Arnaud Juracek & Stéphane Buellet</summary>
+                            <p><b>Designers, artistes et
+                                développeurs — Machines</b>
+                                <br>
+                                Machines est un studio de création à l’intersection
+                                de l’art, du design et des technologies. Nous
+                                fabriquons des systèmes visuels interactifs et
+                                narratifs. Nous inventons nos propres outils afin
+                                d’explorer de nouveaux paradigmes de création. Nous
+                                sommes spécialisés en direction artistique, création
+                                numérique, et en développement de systèmes
+                                génératifs.
+                                <br><br>
+                                Titre de la présentation: <i>Concevoir des
+                                générateurs graphiques</i>
+                            </p><br>
+                        </details>
+                        <details class="level3">
+                            <summary>Olivia Jack & Paula Haertel</summary>
+                            <p>
+                                Olivia Jack is a programmer and artist who works
+                                frequently with open-source software, cartography,
+                                live coding, and experimental interfaces. She is the
+                                creator of browser-based art tools including Hydra
+                                video synthesizer, Wobble Web, PIXELSYNTH, and
+                                LiveLab (peer2peer media router). Her live
+                                audiovisual sets explore algorithmic representations
+                                of unpredictable and chaotic systems, and writing
+                                software as a messy and ephemeral process.
+                                https://ojack.xyz/ 
+                                <br><br>
+                                Presentation title: <i>Wobble Web</i>
+                            </p><br>
+                        </details>
+                        <details class="level3">
+                            <summary>César Fernández Acebal</summary>
+                            <p>
+                                <b>Lecturer Affiliation: University of
+                                Oviedo</b>
+                                <br>
+                                Lecturer and researcher in
+                                software design and web standards, he was a member
+                                of the W3C CSS Working Group and a visiting
+                                researcher at ERCIM–W3C, collaborating with Bert Bos
+                                on extending CSS with advanced layout capabilities.
+                                He is co-editor of the Template Layout Module, a
+                                precursor to modern CSS Grid Layout. This work
+                                formed the basis of his PhD thesis and was presented
+                                at the World Wide Web Conference (Edinburgh, 2006)
+                                and later at the ACM Symposium on Document
+                                Engineering (Paris, 2012).
+                                <br><br>
+                                Titre de la présentation: <i>When Layout Meets the Web: The Long Road to CSS
+                                Grid</i>
+                            </p>
+                            <br>
+                        </details>
+                        <details class="level3">
+                            <summary>Bert Bos</summary>
+                            <p>
+                                <b>
+                                Team Contact & Graphic Designer — W3C / ERCIM</b>
+                                
+                                <br>
+                                Bert Bos a obtenu son doctorat à Groningue
+                                (Pays-Bas) sur un langage de prototypage destiné aux
+                                interfaces utilisateur graphiques. Il a ensuite
+                                développé un navigateur web destiné aux chercheurs
+                                en sciences humaines, avant de rejoindre le W3C en
+                                1995. Il est co-inventeur du CSS et a créé et dirigé
+                                les travaux du W3C sur l'internationalisation
+                                (i18n). Après avoir travaillé sur le HTML et le XML,
+                                il a dirigé pendant de nombreuses années les travaux
+                                sur le CSS. Actuellement, il travaille notamment sur
+                                MathML at l'i18n, et il fait partie de l'équipe de
+                                communication du W3C.
+                                <br><br>
+                                Presentation title: <i>When Layout Meets the Web: The Long Road to CSS Grid</i>
+                            </p><br>
+                        </details>
+                    </details>
+                    <pre>
+                                   ▒▒▒▒▒                              
+                             ▒░▌█▄▄▄▄▄▄▄▐                             
+                        ▒░▌▄▄▄▄█▌▐░▒▒▌▄█▒                             
+                     ▒▐▄▄▄█▌░▒     ▒█▄▌                               
+                   ░█▄▄▌▒         ▐▄▄░                                
+                 ░█▄█░          ▒▌▄█▒                                 
+               ▒█▄█░           ▒▄▄▐                                   
+             ▒█▄▄░            ▐▄▄░                                    
+           ▒▌▄▄▐            ▒█▄█▒                                     
+          ▐▄▄▌▒            ▒▄▄▐                                       
+        ▒█▄█▒             ▐▄▄░                                        
+       ▐▄▄░             ▒█▄█▒                ▒▒░▒                     
+     ░▄▄▌▒             ░▄▄▐               ▒▌▄▄▄▄▄▌                    
+    ▌▄▄░              ▐▄▄▒              ▒█▄▄▌▒ ▐▄▌                    
+  ▒█▄▌▒             ▒▌▄█▒             ░█▄▄░   ▒▄▄▒                    
+ ▒█▄▐              ▒▄▄▐             ░█▄█░    ▒█▄▐                     
+ ▐█░              ▐▄▄░           ▒▐▄▄█▒      ▌▄▌                      
+                ▒█▄▌▒          ▒█▄▄▌▒       ▐▄█▒                      
+               ▒▄▄▐         ▒▐▄▄█▐         ▌▄█▒                       
+              ░▄▄░       ▒▐▄▄▄▌▒         ▒█▄▌                         
+             ▐▄█▒     ▒▌▄▄▄▌▒           ▒█▄▌                          
+            ▒▄█▒  ▒▐█▄▄▄▌▒              █▄▐   ▒▒▒▒▒▒                  
+            ▐▄▄▄▄▄▄▄█▐▒                ▒█▄▄▄▄▄▄▄▄▄▄▄░                 
+             ▒▐▐░▒▒                      ▒▒▒▒▒▒▒▒▒░▄█                 
+                                                  ▒█▄▐                
+                                                   ▒█▄█░              
+                                                     ░█▄▄▌░▒          
+                                                       ▒▐█▄▄█░▒       
+                                                          ▒░█▄▄▌▒     
+                                                             ▒▐▄▄▌▒   
+                                                               ▒▌▄█▒  
+                                                                 ▐▄▄░ 
+                    </pre>
+                            
+                    <details class="level2" open>
+                        <summary>institutions partenaires</summary>
+                        <div id="logos">
+                            <object class="head-geneve"
+                                data="assets/images/head-geneve.svg"
+                                type="image/svg+xml"></object>
+                            <object class="unistra"
+                                data="assets/images/Universite_de_Strasbourg.svg"
+                                type="image/svg+xml"></object>
+                        </div>
+                    </details>                    
+                </details>
+                <div class="colophon">
+                    design: Camille de Noray et Julie Blanc&emsp;&emsp;Composé en HTML
+                    et CSS
+                </div>
+            </div>
+
+            </details>
+    </body>
+</html>
