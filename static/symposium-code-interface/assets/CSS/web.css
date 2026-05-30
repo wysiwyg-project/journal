@@ -3,6 +3,7 @@
     --box-width: 60rem;
     --font-size: 23px;
     --line-height: 26px;
+    --body-margin: var(--line-height);
 }
 
 body {
@@ -19,7 +20,7 @@ address {
 
 .box.programme {
     position: relative;
-    padding: var(--line-height) 0 0 1em;
+    padding: var(--body-margin) 0 var(--body-margin) var(--body-margin);
     z-index: 2;
     color: var(--bright-color);
     line-height: var(--line-height);
@@ -27,7 +28,6 @@ address {
     top: 0;
     max-width: 100%;
     box-sizing: border-box;
-    display:;
 }
 
 .colophon {
@@ -50,6 +50,10 @@ pre {
 
 [contenteditable]:focus {
     outline: 0px solid transparent;
+}
+
+p {
+    padding-right: var(--body-margin);
 }
 
 @media (max-width: 850px) {

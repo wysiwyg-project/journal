@@ -30,6 +30,7 @@
     --bg-color: #ffffff;
     --scroll-bgcolor: black;
     --font-size: 1.5rem;
+    --logos-height: 5em;
 }
 
 body {
@@ -50,23 +51,35 @@ a {
     color: inherit;
 }
 
+date {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    padding: 0.1em 0.52em 0em 0.52em;
+}
+
 #logos {
-    height: calc(var(--line-height) * 4);
     display: flex;
     z-index: 2;
     top: 90%;
     right: 4%;
     background-color: transparent;
-    padding: calc(var(--line-height) / 2) 0.4em;
     gap: 5mm;
 }
 
 #logos .head-geneve {
-    width: 26mm;
+    width: 5em;
+    height: var(--logos-height);
+    background-color: currentColor;
+    mask: url('/symposium-code-interface/assets/images/head-geneve.svg') no-repeat center;
+    mask-size: contain;
 }
 
-#logos .unistra {
-    width: 40mm;
+#logos .accra {
+    width: 17em;
+    height: var(--logos-height);
+    background-color: currentColor;
+    mask: url('/symposium-code-interface/assets/images/Logo-ACCRA.svg') no-repeat center;
+    mask-size: contain;
 }
 
 details > summary {
@@ -103,7 +116,7 @@ details[open]::before {
     top: var(--line-height);
     bottom: 0;
     left: 0.175em;
-    border: 0.065em solid var(--text-color);
+    border: 0.045em solid var(--text-color);
 }
 
 .box {

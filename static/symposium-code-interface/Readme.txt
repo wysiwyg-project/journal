@@ -1,10 +1,6 @@
 
 
+Questions générales à partir du projet:
 
-- Manque la présentation:
-. Paula Haertel
-
-- À traduire en fr:
-. Eric Schrijver
-. Olivia Jack & Paula Haertel
-. César Fernández Acebal
+- Pour faire des sortes de snippets html afin de répéter les mêmes infos dans tous les supports, faut-il passer en php?
+- Comment Julie aurait organisé le projet?
