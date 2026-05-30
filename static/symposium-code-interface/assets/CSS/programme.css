@@ -5,6 +5,8 @@
     --bright-color: var(--text-color);
 }
 
+
+
 body {
     overflow: auto;
     width: auto;
@@ -56,6 +58,11 @@ details[open]:has(summary:empty)::before {
 }
 
 @media print {
+
+      @page{
+        size: 148mm 210mm
+    }
+    
     .page {
         border: none;
         margin: 0;

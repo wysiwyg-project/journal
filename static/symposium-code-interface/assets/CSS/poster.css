@@ -4,7 +4,7 @@
     --line-height: 17.2pt;
     --body-margin: 7mm;
     --bright-color: var(--text-color);
-    --logos-height: 40mm;
+    --logos-height: 30mm;
 }
 
 html {
@@ -56,7 +56,7 @@ pre {
 #logos {
     height: var(--logos-height);
     position: absolute;
-    bottom: var(--body-margin);
+    bottom: 20mm;
     right: var(--body-margin);
     top: auto;
     flex-direction: column;
@@ -65,12 +65,16 @@ pre {
 }
 
 .with {
-    width: 190mm;
+    width: 198mm;
 }
 
 #logos .accra {
-    width: 14em;
+    width: 12em;
 }
+
+#logos .head-geneve {
+    width: 4em;
+    }
 
 @media print {
     body {
