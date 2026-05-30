@@ -25,7 +25,7 @@
     --bright-color: var(--text-color);
     --line-height: var(--font-size);
     --indent: 1em;
-    --main-font: Fairfax;
+    --main-font: Fairfax, monospace;
     --body-margin: 13mm;
     --bg-color: #ffffff;
     --scroll-bgcolor: black;
