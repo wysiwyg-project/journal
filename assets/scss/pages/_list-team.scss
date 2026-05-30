@@ -1,4 +1,5 @@
 @use "../base/generic" as *;
+@use "../base/variables" as *;
 
 #list-team .list-team__item {
     margin-top: calc(var(--baseline)*3);
@@ -9,30 +10,19 @@
 
 
     h1{
-        // padding-left: var(--indent);
         padding-right: calc(var(--grid-unit)/2);
         margin-top: calc(var(--baseline)*2);
-         margin-bottom: calc(var(--baseline)*0.25);
-        // margin-bottom: calc(var(--baseline)*1);
+        margin-bottom: calc(var(--baseline)*0.25);
 
-            font-size: var(--font-size-medium);
+        font-size: var(--font-size-medium);
         line-height: calc(var(--baseline) * 1.25);
         
         font-weight: var(--weight);
 
-        // @include link();
-
-        // &::before{
-        //     content: var(--arrow) " ";
-        //     font-size: var(--font-size-arrow);
-        //     position: absolute;
-        //     left: 0;
-        // }
+     
     }
 
-    // .role{
-    //     padding-left: var(--indent);
-    // }
+
 
     .content{
         margin-top: var(--baseline);
@@ -40,7 +30,6 @@
 
     .website{
         margin-top: calc(var(--baseline)*0.5);
-        // padding-left: var(--indent);
 
         a{
             @include link();
@@ -50,6 +39,13 @@
     ul {
         list-style: var(--list);
         margin-left: 1.5ch;
+    }
+
+ 
+      @media screen and (max-width: $phone){
+        border-bottom: 1px solid black;
+          padding-bottom: calc(var(--baseline)*2);
+            margin-bottom: calc(var(--baseline) * 2);
     }
 
  

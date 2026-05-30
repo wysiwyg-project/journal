@@ -957,7 +957,6 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
 @media screen and (max-width: 960px) {
   .page-home main {
     display: block;
-    min-height: 0px !important;
     padding-bottom: 0px;
   }
   .page-home .details {
@@ -995,10 +994,50 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   }
 }
 @media screen and (max-width: 640px) {
+  .page-home main {
+    min-height: calc(100vh - var(--baseline) * 4.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .page-home .baseline {
+    order: 1;
+    margin-bottom: calc(var(--baseline) * 0.5);
+  }
+  .page-home .details {
+    order: 2;
+  }
+  .page-home #container-fig-logo {
+    order: 4;
+  }
+  .page-home #menu-home {
+    order: 3;
+    width: 100%;
+    text-align: left;
+    border-top: 1px solid black;
+    margin-top: calc(var(--baseline) * 2);
+    margin-bottom: 0;
+  }
+  .page-home #menu-home li {
+    border-bottom: 1px solid black;
+  }
+  .page-home #menu-home li::after {
+    content: "→";
+    float: right;
+  }
   .page-home figure {
     margin-top: var(--baseline);
-    width: calc(100% + var(--padding) * 2 + 2px);
-    margin-left: calc(var(--padding) * -1);
+  }
+  .page-home #logos {
+    margin-top: calc(var(--baseline) * 4);
+    margin-bototm: calc(var(--baseline) * 1);
+    justify-content: flex-start;
+  }
+  .page-home #logo-head img {
+    width: 60px;
+  }
+  .page-home #logo-fns {
+    width: 160px;
   }
 }
 .list-posts__item {
@@ -1084,6 +1123,13 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
     padding-top: 5px;
     font-weight: var(--weight);
     text-align: right;
+  }
+}
+@media screen and (max-width: 640px) {
+  .list-posts__item {
+    border-bottom: 1px solid black !important;
+    padding-bottom: calc(var(--baseline) * 2);
+    margin-bottom: calc(var(--baseline) * 2);
   }
 }
 
@@ -1266,6 +1312,13 @@ body[data-name*=publications] .content ul {
 #list-team .list-team__item ul {
   list-style: var(--list);
   margin-left: 1.5ch;
+}
+@media screen and (max-width: 640px) {
+  #list-team .list-team__item {
+    border-bottom: 1px solid black;
+    padding-bottom: calc(var(--baseline) * 2);
+    margin-bottom: calc(var(--baseline) * 2);
+  }
 }
 
 .page-member__container h1 {

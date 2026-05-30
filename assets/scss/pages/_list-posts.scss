@@ -78,6 +78,13 @@
         }
     }
 
+
+    @media screen and (max-width: $phone){
+        border-bottom: 1px solid black!important;
+        padding-bottom: calc(var(--baseline)*2);
+            margin-bottom: calc(var(--baseline) * 2);
+    }
+
    
 }
 
