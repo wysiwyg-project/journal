@@ -1,10 +1,10 @@
 * {
     --object-frames: 1mm solid var(--object-frames-color);
-    --font-size: 15.2pt;
-    --line-height: 17.2pt;
+    --font-size: 16pt;
+    /*! --line-height: 17.2pt; */
     --body-margin: 7mm;
     --bright-color: var(--text-color);
-    --logos-height: 30mm;
+    --logos-height: 40mm;
 }
 
 html {
@@ -39,7 +39,7 @@ address {
     position: absolute;
     transform: rotate(-90deg);
     right: var(--body-margin);
-    bottom: calc(var(--body-margin) * 8);
+    bottom: calc(var(--body-margin) * 5.2);
     font-size: 0.5em;
     width: 0;
     white-space: nowrap;
@@ -50,31 +50,27 @@ pre {
     z-index: 1;
     font-size: var(--font-size);
     line-height: var(--line-height);
-    margin-bottom: -5em;
+    margin-bottom: -0.5em;
 }
 
 #logos {
     height: var(--logos-height);
     position: absolute;
-    bottom: 20mm;
+    bottom: var(--body-margin);
     right: var(--body-margin);
     top: auto;
     flex-direction: column;
     justify-content: center;
-    padding: 5mm 2mm;
+    padding: 0mm 1mm;
 }
 
 .with {
-    width: 198mm;
+    width: 213mm;
 }
 
 #logos .accra {
-    width: 12em;
+    width: 10.5em;
 }
-
-#logos .head-geneve {
-    width: 4em;
-    }
 
 @media print {
     body {
