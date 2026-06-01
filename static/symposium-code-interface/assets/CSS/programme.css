@@ -14,7 +14,13 @@ body {
     font-size: 10pt;
     margin: 0;
     padding: 0;
+    /* background-color: red; */
+
+
+    
 }
+
+
 
 .page {
     width: 148.5mm;
@@ -48,10 +54,7 @@ details[open]::before {
     display: block;
 }
 
-.p2 {
-    float: left;
-    border-right: 0;
-}
+
 
 details[open]:has(summary:empty)::before {
     top: 0;
@@ -59,8 +62,20 @@ details[open]:has(summary:empty)::before {
 
 @media print {
 
+    body{
+            display: flex;
+    flex-wrap: wrap;
+    max-width: 300mm;
+    }
+
+    .p4{ order: 1 }
+.p1{ order: 2 }
+.p2{ order: 3 }
+.p3{ order: 4 }
+
+
       @page{
-        size: 148mm 210mm
+        size: 297mm 210mm
     }
     
     .page {
