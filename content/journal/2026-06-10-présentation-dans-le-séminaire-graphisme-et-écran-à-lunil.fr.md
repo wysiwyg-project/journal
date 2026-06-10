@@ -1,5 +1,5 @@
 ---
-title: Présentation dans le séminaire "Graphisme et écran" à l'UNIL
+title: Présentation à l'UNIL
 event: 2026-05-06T10:00:00.000+02:00
 date: "{{year}}-{{month}}-{{day}}"
 language: fr
