@@ -13,3 +13,11 @@ Au Computer History Museum, l’archiviste Pennington Ahlstrand a mis à ma disp
 Les Special Collections de l’université de Stanford conservent un fonds significatif d’archives léguées par Apple, dont des documents relatifs à l’essor du « desktop publishing » dans les préoccupations de la marque ; ainsi que des documents produits en France comme les newsletter internes Apparis et Appropos – produites par les équipes européennes d’Apple en France au tout début des années 1980. Les archivistes de Stanford ont gracieusement numérisé plusieurs VHS contenant des présentations du concept de "desktop publishing", avec des exemples pionniers d'utilisations aux Etats-Unis, sans doute destinées aux revendeurs et commerciaux. 
 
 Enfin, un détour par les collections de Letterform Archive s’imposait pour voir une partie du fonds de la revue *Emigré*, dont des maquettes originales témoignant de la nature hybride de la fabrication des premiers numéros (texte composé sur Mac mais monté de manière traditionnelle). Des documents de travail sur les fontes de Zuzana Licko portent la trace des allers-retours entre l’ordinateur et le papier dans le processus de création  typographique. Letterform Archive possède aussi de très beaux documents d’archives légués par April Greiman. Un grand merci à Stephen Coles qui m’a accueillie chaleureusement et mise en contact avec Rudy VanderLans.
+
+![](/uploads/img_5655.jpeg "Computer History Museum")
+
+![](/uploads/img_5808.jpeg "From Applelore collection, CHM")
+
+![](/uploads/img_6118.jpeg "Letterform Archive")
+
+![](/uploads/img_6162.jpeg "Detail from Emigre's original paste-up. Letterform archive")
