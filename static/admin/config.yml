@@ -14,8 +14,7 @@ collections:
       value: en
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "date de l'évènement", name: "event", widget: "datetime" }
-      - { label: "date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "date de l'évènement", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
       - { label: "Place", name: "place", widget: "string", required: false }
       - { label: "Cover image", name: "imgcover", widget: "image", required: false }
       - { label: "Caption", name: "caption", widget: "string", required: false }
@@ -32,8 +31,7 @@ collections:
       value: fr
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "date de l'évènement", name: "event", widget: "datetime" }
-      - { label: "date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "date de l'évènement", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
       - { label: "Place", name: "place", widget: "string", required: false }
       - { label: "Cover image", name: "imgcover", widget: "image", required: false }
       - { label: "Caption", name: "caption", widget: "string", required: false }

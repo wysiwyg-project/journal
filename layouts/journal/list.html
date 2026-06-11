@@ -15,11 +15,11 @@
 		<div class="list-posts__container">
 			{{ range $sortedPosts }}
 			<article class="list-posts__item draggable" data-lang="{{ .Lang }}">
-				{{ $event := .Params.event }}
-
+				{{ $date := .Date }}
+				{{ if .Date.IsZero }}{{ $date = .Params.event }}{{ end }}
 				<div class="details draggable">
-					<time class="date-event" datetime="{{ $event }}">
-						{{ dateFormat "02.01.2006" $event }}
+					<time class="date-event" datetime="{{ $date }}">
+						{{ dateFormat "02.01.2006" $date }}
 					</time>
 					{{ with .Params.place }}<p class="place">{{ . }}</p>{{ end }}
 				</div>

@@ -1,7 +1,7 @@
 ---
 title: Entretien avec Käti Robert Durrer — Zürich, 4 mars 2026
 event: 2026-03-04T16:00:00.000+01:00
-date: 2026-04-29
+date: 2026-03-04
 place: Zurich
 imgcover: /uploads/img_2191.jpg
 caption: "Le 4 mars 2026, Léonore Conte et Clémence Imbert on mené un entretien

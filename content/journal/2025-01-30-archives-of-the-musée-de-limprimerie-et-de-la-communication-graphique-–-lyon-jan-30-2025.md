@@ -1,7 +1,7 @@
 ---
 title: Archives of the Musée de l'Imprimerie et de la Communication graphique –
   Lyon
-date: 2025-02-02T10:00:00.000+01:00
+date: 2025-01-30T10:00:00.000+01:00
 event: 2025-01-30T10:00:00.000+01:00
 place: "Lyon, France"
 imgcover: /uploads/lyon.jpg

@@ -2,7 +2,7 @@
 title: "Archives of the École nationale supérieure des arts décoratifs, National
   Archives "
 event: 2025-09-22T10:00:00.000+02:00
-date: 2025-09-25T10:00:00.000+02:00
+date: 2025-09-22T10:00:00.000+02:00
 place: Paris, France
 imgcover: /uploads/lapalette.jpg
 language: en
