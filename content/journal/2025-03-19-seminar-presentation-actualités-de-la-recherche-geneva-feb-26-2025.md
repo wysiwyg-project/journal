@@ -1,7 +1,7 @@
 ---
 title: 'Seminar presentation "Actualités de la recherche" '
 event: 2025-02-26T12:00:00.000+01:00
-date: 2025-02-26T15:00:00.000Z
+date: 2025-02-26T12:00:00.000+01:00
 place: Geneva, Switzerland
 language: en
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Lecture as part of the Jeudis de Lure "
 event: 2025-12-04T19:00:00.000+01:00
-date: 2025-12-04T16:38:00.000+01:00
+date: 2025-12-04T19:00:00.000+01:00
 place: Césure, Paris, France
 imgcover: /uploads/capture-d’écran-2025-11-24-à-10.52.39.png
 caption: Workspace of Philippe Gerbaud and Christophe Jacquet known as Toffe, ca. 1987.

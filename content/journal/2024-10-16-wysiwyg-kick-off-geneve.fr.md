@@ -1,6 +1,6 @@
 ---
 title: Lancement du projet WYSIWYG - Genève, 6 octobre 2024
-date: 2024-10-17T14:54:00.000Z
+date: 2024-10-16T14:54:00.000Z
 event: 2024-10-16T14:54:00.000Z
 place: "Genève, Suisse"
 language: fr

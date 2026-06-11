@@ -1,7 +1,7 @@
 ---
 title: Séjour d'archives à San Francisco, aux origines de la PAO
 event: 2026-04-20T10:00:00.000+02:00
-date: 2026-04-20
+date: 2026-04-20T10:00:00.000+02:00
 place: "San Francisco"
 imgcover: /uploads/img_5558.jpeg
 language: fr
