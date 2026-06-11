@@ -1,7 +1,8 @@
 ---
 title: Tracing the origins of desktop publishing in San Francisco
 event: 2026-04-20T10:00:00.000+02:00
-date: "{{year}}-{{month}}-{{day}}"
+date: 2026-04-20
+place: "San Francisco"
 imgcover: /uploads/img_5558.jpeg
 language: en
 ---

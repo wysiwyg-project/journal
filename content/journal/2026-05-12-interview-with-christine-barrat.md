@@ -1,7 +1,7 @@
 ---
 title: Interview with Christine Barrat
 event: 2026-05-12T10:00:00.000+02:00
-date: "{{year}}-{{month}}-{{day}}"
+date: 2026-06-10
 imgcover: /uploads/img_6674.jpeg
 language: en
 ---
