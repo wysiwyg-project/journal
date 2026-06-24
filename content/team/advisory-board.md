@@ -7,7 +7,7 @@ language: en
 * Joost Grootens
 * Thomas Huot-Marchand
 * Anthony Masure
-* Nowenn Maudet
+* Nolwenn Maudet
 * Sarah Owens
 * Michael Renner
 * Alice Savoie
