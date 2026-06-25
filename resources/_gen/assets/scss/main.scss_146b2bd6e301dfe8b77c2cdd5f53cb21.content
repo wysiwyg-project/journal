@@ -1040,6 +1040,22 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
     width: 160px;
   }
 }
+#popup-home {
+  position: fixed;
+  border: var(--border-layout);
+  border-width: 2px;
+  background-color: var(--color-bg);
+  padding: 8px 2ch;
+  top: 100px;
+  right: 40px;
+  width: 40ch;
+  z-index: 100;
+}
+
+#popup-home a {
+  text-decoration: underline 2px;
+}
+
 .list-posts__item {
   margin-bottom: calc(var(--baseline) * 4);
   max-width: 52ch;

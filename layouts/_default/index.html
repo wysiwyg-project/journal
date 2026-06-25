@@ -1,5 +1,12 @@
 {{ define "main" }}
 
+<div id="popup-home">
+
+  <div class="contain">
+    <p>Journées d’études «Quand le code rencontre l’interface: hybrider les outils du design graphique» → <a href="https://wysiwyg.ch/symposium-code-interface/" target="_blank">site</a></p>
+  </div>
+</div>
+
 <nav role="navigation" id="menu-home" class="draggable">{{ partial "menu.html" . }}</nav>
 
 <!-- {{/* Create a variable with both sections to use in multiple places. */}} -->
@@ -7,7 +14,6 @@
 
 <!-- {{/* Check to see if the sections are defined for ranging through them */}} -->
 {{ $post_count := len $posts }}
-
 
  
 

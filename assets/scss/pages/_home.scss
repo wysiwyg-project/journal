@@ -262,3 +262,21 @@
 }
 }
 
+
+
+
+#popup-home{
+    position: fixed;
+    border: var(--border-layout);
+    border-width: 2px;
+    background-color: var(--color-bg);
+    padding: 8px 2ch;
+    top: 100px;
+    right: 40px;
+    width: 40ch;
+    z-index: 100;
+}
+
+#popup-home a {
+    text-decoration: underline 2px;
+}
