@@ -32,7 +32,7 @@ Bravo à tou·tes les étudiant·tes pour leur travail! Alix, Yuri, Salomé, Sim
 
 ![](/uploads/12afe9c0d524dc45.jpeg)
 
-![](/uploads/9b07d7dc8aacfd08.jpeg)
+![](/uploads/3126f8429e735530.jpeg)
 
 ```
 
