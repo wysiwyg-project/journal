@@ -4,6 +4,7 @@ date: 2026-06-01
 place: HEAD Geneva
 imgcover: /uploads/19aa6a41c215471a.jpeg
 language: en
+translation: https://wysiwyg.ch/fr/journal/2026-06-01-workshop-back-to-the-future-arch%C3%A9ologie-pratique-de-la-pao/
 ---
 From June 1 to 5, 2026, Julie Blanc led a week-long workshop at HEAD Geneva with a group of graphic design students. Titled "Back to the Future. A Practical Archaeology of DTP" (Desktop Publishing), the workshop combines a concrete production goal with an investigation into the history of desktop publishing tools.
 
