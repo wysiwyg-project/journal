@@ -4,6 +4,7 @@ date: 2026-06-01
 place: HEAD Genève
 imgcover: /uploads/19aa6a41c215471a.jpeg
 language: fr
+translation: https://wysiwyg.ch/journal/2026-06-01-back-to-the-future-a-practical-archaeology-of-dtp/
 ---
 Du 1er au 5 juin 2026, Julie Blanc a mené un workshop d'une semaine à la HEAD Genève avec un groupe d'étudiant·es en design graphique. Intitulé « Back to the future. Archéologie pratique de la PAO », ce workshop articule un objectif de production concret avec une démarche d'investigation sur l'histoire des outils de la Publication Assistée par Ordinateur.
 
