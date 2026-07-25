@@ -1050,6 +1050,7 @@ body[data-grid=true] #site-header #grid-switcher:hover svg {
   right: 40px;
   width: 40ch;
   z-index: 100;
+  display: none;
 }
 
 #popup-home a {
