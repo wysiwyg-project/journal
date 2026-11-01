@@ -16,10 +16,11 @@ Cette évolution nous invite également à réinterroger l’histoire de ces par
 
 En entrée libre et retransmises en direct, ces journées ont fait se croiser des historien·nes du design, des chercheur·euses en informatique, des designers graphiques ou encore des développeur·euses. Une publication des actes est prévue pour 2027.
 
-Télécharger le programme 
+[Télécharger le programme](/uploads/quand-le-code-rencontre-l-interface_programme.pdf)
 
 
-### Jeudi 25 juin
+## **Jeudi 25 juin**
+
 
 14h-14h30 Introduction par **Julie Blanc** et **Nolwenn Maudet**
 
@@ -32,7 +33,8 @@ Télécharger le programme
 
 18h Clôture de la journée
 
-### Vendredi 26 juin
+## **Vendredi 26 juin**
+
 
 9h Ouverture et accueil
 
@@ -52,5 +54,40 @@ Télécharger le programme
 * 16h-17h30 **Bert Bos & César Fernández Acebal**, *When Layout Meets the Web: The Long Road to CSS Grid*
 
 18h Clôture de la journée
+
+
+
+
+ ![](/uploads/DSC09560.JPG)
+
+![](/uploads/DSC09527.JPG)
+
+![](/uploads/DSC09869.JPG)
+
+![](/uploads/DSC09774.JPG)
+
+
+![](/uploads/DSC09701.JPG)
+
+![](/uploads/DSC09708.JPG)
+
+
+
+
+
+![](/uploads/DSC09715.JPG)
+
+![](/uploads/DSC09761.JPG)
+
+
+
+
+
+
+
+![](/uploads/DSC09820.JPG)
+
+![](/uploads/DSC09833.JPG)
+
 
 
