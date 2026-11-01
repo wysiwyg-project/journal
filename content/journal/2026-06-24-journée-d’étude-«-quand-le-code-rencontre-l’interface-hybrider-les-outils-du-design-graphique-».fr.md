@@ -6,6 +6,7 @@ place: MISHA, Strasbourg (France)
 imgcover: /uploads/dsc09800.jpg
 language: fr
 ---
+
 Les journées d’étude « Quand le code rencontre l’interface : hybrider les outils du design graphique » ont eu lieu les 25 et 26 juin 2026 à Strasbourg (Amphithéâtre de la MISHA). Organisées par Julie Blanc, Nolwenn Maudet et Clémence Imbert, elles s’inscrivent dans le projet de recherche [WYSIWYG](https://wysiwyg.ch/) porté par la HEAD Genève, en collaboration avec le programme « Milieux graphiques et numériques » du laboratoire [ACCRA](https://accra-recherche.unistra.fr/) de l’université de Strasbourg.
 
 Le paradigme des interfaces WYSIWYG (What You See Is What You Get) a profondément marqué les pratiques du design graphique et de la publication depuis quarante ans. En parallèle, le paradigme du document structuré, fondé sur la programmation, a façonné des domaines comme la publication scientifique ou le Web.
@@ -73,14 +74,9 @@ En entrée libre et retransmises en direct, ces journées ont fait se croiser de
 
 
 
-
-
 ![](/uploads/DSC09715.JPG)
 
 ![](/uploads/DSC09761.JPG)
-
-
-
 
 
 
