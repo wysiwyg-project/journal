@@ -9,19 +9,15 @@ language: fr
 ---
 Les 5 et 6 novembre 2026, se tiendront à l'UNIL à Lausanne deux journées d'études sur le thème "Graphisme et écrans. Mutations du design graphique dans la seconde moitié du XXe siècle". Ces journées ont été organisées par l’UNIL et la HEAD – Genève, dans le cadre des deux projets de recherche « Le graphisme pour l'écran. Diapositive, film fixe, cinéma, télévision, 1945-1980 » (dir. Olivier Lugon, UNIL) et « WYSIWYG Une enquête sur l’adoption des logiciels de création graphique sur ordinateur, France-Suisse, 1980-aujourd’hui » (dir. Clémence Imbert, HEAD).
 
-
 Université de Lausanne, \
 Ferme deDorigny/Fondation Jean Monnet, \
 salle de l’écurie.
 
-
-
 Programme :
 
-## **Jeudi 5 novembre** 
+## **Jeudi 5 novembre**
 
 **14h00-17h15 Transformation des métiers**
-
 
 14h00   Introduction
 
@@ -33,50 +29,32 @@ Programme :
 
 16h30   Léonore Conte et Caroll Maréchal, « “La fin des gommes et descrayons”. Informatisation des espaces de travail et nouvelle transformation dumétier de graphiste »
 
- 
-
-## **Vendredi 6 novembre** 
-
+## **Vendredi 6 novembre**
 
 **9h00-12h30 Diversification des supports**
 
 9h00      Catherine Guiral,« *Ceci n’est pas un frisbee*. Pierre Faucheux,du Cyclotone aux voix mouvantes, jeux d’écarts entre espaces animéset animations d’espace »
 
-
 9h45      Sabine Egli, « Graphic Design inMotion. Film and TV Graphics Courses at the Allgemeine Gewerbeschule Basel(1968-1983) »
 
 *10h30   Pause*
-
 
 11h00   Baptiste Husi,« Les écoles d’art en crise »
 
 11h45   Gilles Rouffineau,« La décennie oubliée, celle du “multimédia interactif” »
 
-
 **14h00-16h30 Hybridation des outils**
-
 
 14h00   Sandra Bischler-Hartmann et Caroll Maréchal, « Pixel Pedagogy. The Introduction of Computers into French and Swiss GraphicDesign Schools since 1984 »
 
-
 14h45   Julie Blanc, « Backto the future. Archéologie pratique de la PAO : présentation d’un workshop à la HEAD – Genève »
 
- 
 *15h00   Pause*
 
 15h30   Peter Vetter, « Behind the Screen. A Practitioner’s View of theDigital Revolution in Graphic Design (1960s–1990s) »
 
 16h15   Conclusion
 
-
-
-
-
-
-
 ![](/uploads/graphisme-et-ecran_Affiche_light.png)
 
-
-
-
-L’affiche de ces journées d'études a été réalisé par Justine Gaag et Mariama Danso, étudiantes en deuxième année de Communication visuelle à la HEAD-Genève, en utilisant des logiciels graphiques des années 1980, dans le cadre du workshop « Back to the future. Archéologie de la PAO » organisé par Julie Blanc à la HEAD-Genève en juin 2026.
+L’affiche de ces journées d'études a été réalisé par Justine Gaag et Mariama Danso, étudiantes en deuxième année de Communication visuelle à la HEAD-Genève, en utilisant des logiciels graphiques des années 1980, dans le cadre du workshop « Back to the future. Archéologie pratique de la PAO » organisé par Julie Blanc à la HEAD-Genève en juin 2026.
