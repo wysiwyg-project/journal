@@ -23,7 +23,7 @@ Programme :
 
 14h30   Juanma Gomez, « La lettre à l’écran. Discours et débats dans les revues consacrées aux industries graphiques en France (1965-1979) »
 
-15h15   Laura Truxa, «“La possibilité d’une ‘machine à créer’”. La revue *Print* et la promotionde la création assistée par ordinateur auprès des graphistes états-uniens dans les années 1960 »
+15h15   Laura Truxa, «“La possibilité d’une ‘machine à créer’”. La revue *Print* et la promotion de la création assistée par ordinateur auprès des graphistes états-uniens dans les années 1960 »
 
 *16h00   Pause*
 
@@ -33,15 +33,15 @@ Programme :
 
 **9h00-12h30 Diversification des supports**
 
-9h00      Catherine Guiral,« *Ceci n’est pas un frisbee*. Pierre Faucheux,du Cyclotone aux voix mouvantes, jeux d’écarts entre espaces animés et animations d’espace »
+9h00      Catherine Guiral, « *Ceci n’est pas un frisbee*. Pierre Faucheux, du Cyclotone aux voix mouvantes, jeux d’écarts entre espaces animés et animations d’espace »
 
 9h45      Sabine Egli, « Graphic Design inMotion. Film and TV Graphics Courses at the Allgemeine Gewerbeschule Basel(1968-1983) »
 
 *10h30   Pause*
 
-11h00   Baptiste Husi,« Les écoles d’art en crise »
+11h00   Baptiste Husi, « Les écoles d’art en crise »
 
-11h45   Gilles Rouffineau,« La décennie oubliée, celle du “multimédia interactif” »
+11h45   Gilles Rouffineau, « La décennie oubliée, celle du “multimédia interactif” »
 
 **14h00-16h30 Hybridation des outils**
 
